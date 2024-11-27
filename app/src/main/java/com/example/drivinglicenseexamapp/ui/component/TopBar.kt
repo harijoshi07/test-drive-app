@@ -31,27 +31,27 @@ fun TopBar(modifier: Modifier = Modifier) {
     CenterAlignedTopAppBar(
         title = {
             Text(
-                text = "Driving License Exam Nepal",
+                text = "Exam Mode",//Driving License Exam Nepal
                 //text = "सवारी सञ्चालन सम्बन्धी ज्ञान",
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 maxLines = 1,
-                color = Color.Black
+                color = Color.White
             )
         },
-       /* navigationIcon = {
+        navigationIcon = {
             IconButton(onClick = { /*TODO*/ }) {
                 Icon(
                     imageVector = Icons.Default.ArrowBack,
                     contentDescription = null,
-                    tint = Color.Black
+                    tint = Color.White
                 )
             }
-        },*/
+        },
         scrollBehavior = scrollBehavior,
 
         colors = TopAppBarDefaults.topAppBarColors(
-            containerColor = Color(0xFFEAF3FF)
+            containerColor = Color(0xFF617AD3)
         )
     )
 }

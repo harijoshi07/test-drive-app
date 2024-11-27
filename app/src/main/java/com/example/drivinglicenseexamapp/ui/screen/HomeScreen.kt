@@ -38,12 +38,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
+import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.SegmentedButton
 
 @Composable
-fun HomeScreen(modifier: Modifier) {
+fun HomeScreen(
+    navigateToStudy:()->Unit,
+    navigateToQuiz:()->Unit,
+) {
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .background(color = Color(0xFFEAF3FF)) // Use the background color from the theme
     ) {
@@ -136,17 +140,15 @@ fun HomeScreenComponent(
             modifier = Modifier.fillMaxWidth()
         ) {
 
-            // Background Image
             Image(
                 painter = painterResource(id = painter),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(200.dp) // Adjust height as needed
+                    .height(200.dp)
                     .clip(RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp))
             )
 
-            // Buttons below the image
             Row(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically,
@@ -191,6 +193,6 @@ fun HomeScreenComponent(
 @Preview
 @Composable
 private fun HomeScreenPreview() {
-    HomeScreen(Modifier)
+    HomeScreen({}, {})
 
 }

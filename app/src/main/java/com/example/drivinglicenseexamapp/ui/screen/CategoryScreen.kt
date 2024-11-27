@@ -36,10 +36,12 @@ import com.example.drivinglicenseexamapp.data.itemCategory
 
 
 @Composable
-fun CategoryScreen(modifier: Modifier = Modifier) {
+fun CategoryScreen(
+    navigateToStudy:()->Unit
+) {
 
     Surface(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .padding(top = 10.dp),
         shape = RoundedCornerShape(topStartPercent = 8, topEndPercent = 8),
@@ -119,5 +121,5 @@ fun CategoryCardItem(items: Category) {
 @Preview
 @Composable
 private fun CategoryScreenPreview() {
-    CategoryScreen()
+    CategoryScreen({})
 }

@@ -4,6 +4,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -16,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.drivinglicenseexamapp.data.Mode
 
 @Composable
 fun QuestionComponent(
@@ -24,24 +26,19 @@ fun QuestionComponent(
     options: List<String>,
     selectedAnswer: Int?,
     correctAnswer: Int,
-    onAnswerSelected: (Int) -> Unit
+    onAnswerSelected: (Int) -> Unit,
+    mode: Mode
 ) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Row {
+
             Text(
-                text = "$questionNumber. ",
-                fontSize = 16.sp,
+                text = "$questionNumber. $questionText",
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Medium
             )
-            Text(
-                text = questionText,
-                fontSize = 18.sp,
-                fontWeight = FontWeight.Medium
-            )
-        }
 
         options.forEachIndexed { index, option ->
             val isCorrect = index == correctAnswer
@@ -51,9 +48,12 @@ fun QuestionComponent(
                 isSelected = isSelected,
                 isCorrect = isCorrect,
                 showCorrectAnswer = selectedAnswer != null,
+                mode = mode,
                 onClick = { onAnswerSelected(index) }
             )
         }
+        Spacer(modifier = Modifier.height(12.dp))
+
     }
 }
 
@@ -63,14 +63,26 @@ fun AnswerComponent(
     isSelected: Boolean,
     isCorrect: Boolean,
     showCorrectAnswer: Boolean,
+    mode: Mode,
     onClick: () -> Unit
 ) {
-    val backgroundColor = when {
-        showCorrectAnswer && isSelected && isCorrect -> Color(0xFFC7E9A7) // Green for correct selection
-        showCorrectAnswer && isSelected && !isCorrect -> Color(0xFFEB8080) // Red for incorrect selection
-        showCorrectAnswer && isCorrect -> Color(0xFFC7E9A7) // Green for the correct answer
-        else -> Color(0xFFEAF3FF) // Transparent gray for unselected answers
-    }
+
+    val backgroundColor =
+        if (mode == Mode.QUIZ_MODE) {
+            when {
+                isSelected -> Color(0xFF617AD3)
+                else -> Color(0xFFEAF3FF)
+            }
+        } else {
+            when {
+                showCorrectAnswer && isSelected && isCorrect -> Color(0xFFC7E9A7) // Green for correct selection
+                showCorrectAnswer && isSelected && !isCorrect -> Color(0xFFEB8080) // Red for incorrect selection
+                showCorrectAnswer && isCorrect -> Color(0xFFC7E9A7) // Green for correct answer
+                else -> Color(0xFFEAF3FF) // Transparent gray for unselected answers
+            }
+        }
+
+
 
     OutlinedButton(
         onClick = onClick,
@@ -85,7 +97,7 @@ fun AnswerComponent(
         Text(
             text = text,
             color = Color.Black,
-            fontSize = 16.sp
+            fontSize = 18.sp
         )
     }
 }

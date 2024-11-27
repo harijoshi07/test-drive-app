@@ -8,11 +8,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -23,30 +25,33 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.drivinglicenseexamapp.data.Question
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color.Companion.Black
 import androidx.compose.ui.graphics.Color.Companion.Blue
+import androidx.compose.ui.graphics.Color.Companion.White
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 import com.example.drivinglicenseexamapp.ui.screen.ResultScreen
 
 @Composable
-fun QuizModeScreen(questions: List<Question>, modifier: Modifier) {
+fun QuizModeScreen(
+    questions: List<Question>,
+) {
     val randomQuestions = remember { questions.shuffled().take(5) }
-    var currentQuestionIndex by remember { mutableStateOf(0) }
+    var currentQuestionIndex by remember { mutableIntStateOf(0) }
     val selectedAnswers =
         remember { mutableStateListOf<Int?>().apply { addAll(List(5) { null }) } }
 
     var isQuizFinished by remember { mutableStateOf(false) }
     if (isQuizFinished) {
-        // Show Result Screen when quiz is finished
         ResultScreen(
-            questions = questions,
-            selectedAnswers = selectedAnswers,
-            modifier = Modifier.fillMaxSize()
+            questions = randomQuestions,
+            selectedAnswers = selectedAnswers
         )
-    }
-     else {
-        // Show quiz screen
+    } else {
         Box(
-            modifier = modifier
+            modifier = Modifier
                 .fillMaxSize()
                 .background(color = Color(0xFFEAF3FF))
         ) {
@@ -56,7 +61,6 @@ fun QuizModeScreen(questions: List<Question>, modifier: Modifier) {
                     .padding(24.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Display the current question
                 QuestionComponent(
                     questionNumber = currentQuestionIndex + 1,
                     questionText = randomQuestions[currentQuestionIndex].questionText,
@@ -70,33 +74,43 @@ fun QuizModeScreen(questions: List<Question>, modifier: Modifier) {
                     correctAnswer = randomQuestions[currentQuestionIndex].correctOptionIndex,
                     onAnswerSelected = { answer ->
                         selectedAnswers[currentQuestionIndex] = answer
-                    }
+                    },
+                    mode = Mode.QUIZ_MODE
                 )
 
                 Spacer(modifier = Modifier.weight(1f))
 
-                // Navigation Buttons
                 if (currentQuestionIndex == randomQuestions.size - 1) {
                     Button(
                         onClick = { isQuizFinished = true }, // Navigate to result screen
-                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF4CAF50)),
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF617AD3)),
+                        shape = RoundedCornerShape(16.dp),
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(24.dp)
                             .height(56.dp),
                     ) {
-                        Text(text = "Submit")
+                        Text(
+                            text = "Submit",
+                            color = White,
+                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold
+                        )
                     }
                 } else {
                     Button(
                         onClick = { if (currentQuestionIndex < randomQuestions.size - 1) currentQuestionIndex++ },
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(24.dp)
                             .height(56.dp),
-                        colors = ButtonDefaults.buttonColors(containerColor = Blue),
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF617AD3)),
+                        shape = RoundedCornerShape(16.dp),
                     ) {
-                        Text(text = "Next")
+                        Text(
+                            text = "Next",
+                            color = White,
+                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold
+                        )
                     }
                 }
             }
@@ -127,6 +141,5 @@ fun QuizModeScreenPreview() {
                 correctOptionIndex = 0
             )
         ),
-        modifier = Modifier,
     )
 }

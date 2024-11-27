@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 
@@ -21,10 +22,9 @@ import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 fun ResultScreen(
     questions: List<Question>,
     selectedAnswers: List<Int?>,
-    modifier: Modifier,
 ) {
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .background(color = Color(0xFFEAF3FF))
     ) {
@@ -34,31 +34,36 @@ fun ResultScreen(
                 .padding(24.dp)
         ) {
 
-            // Display all questions
             LazyColumn(
                 modifier = Modifier.weight(1f),
                 verticalArrangement = Arrangement.spacedBy(24.dp)
             ) {
                 items(questions.size) { index ->
-                    val question = questions[index]
-                    val selectedAnswer = selectedAnswers[index]
-                    val isCorrect = selectedAnswer == question.correctOptionIndex
 
-                    QuestionComponent(
-                        questionNumber = index + 1,
-                        questionText = question.questionText,
-                        options = listOf(
-                            question.optionA,
-                            question.optionB,
-                            question.optionC,
-                            question.optionD
-                        ),
-                        selectedAnswer = selectedAnswer,
-                        correctAnswer = question.correctOptionIndex,
-                        onAnswerSelected = {} // No selection allowed in results
-                    )
+                    val question = questions.getOrNull(index)
+                    val selectedAnswer = selectedAnswers.getOrNull(index)
+
+                    if (question != null && selectedAnswer != null) {
+                        val isCorrect = selectedAnswer == question.correctOptionIndex
+
+                        QuestionComponent(
+                            questionNumber = index + 1,
+                            questionText = question.questionText,
+                            options = listOf(
+                                question.optionA,
+                                question.optionB,
+                                question.optionC,
+                                question.optionD
+                            ),
+                            selectedAnswer = selectedAnswer,
+                            correctAnswer = question.correctOptionIndex,
+                            onAnswerSelected = {}, // No selection allowed in results
+                            mode = Mode.RESULT_MODE
+                        )
+                    }
                 }
             }
+
         }
     }
 }
@@ -86,6 +91,5 @@ fun ResultScreenPreview() {
             )
         ),
         selectedAnswers = listOf(1, 2),
-        modifier = Modifier.fillMaxSize(),
     )
 }

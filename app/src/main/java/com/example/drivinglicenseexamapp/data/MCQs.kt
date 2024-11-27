@@ -1,5 +1,10 @@
 package com.example.drivinglicenseexamapp.data
 
+fun getAllQuestions(): List<List<Question>>{
+    val allQuestions = listOf(getSampleQuestions(), getSampleQuestions2(), getSampleQuestions3(), getSampleQuestions4(), getSampleQuestions5(), getSampleQuestions6())
+return allQuestions
+}
+
 fun getSampleQuestions(): List<Question> {
 
     val quizQuestions1 = listOf(
@@ -1054,7 +1059,7 @@ fun getSampleQuestions(): List<Question> {
     return quizQuestions1
 }
 
-fun getSampleQuestions2() {
+fun getSampleQuestions2(): List<Question> {
 
     val quizQuestions2 = listOf(
         Question(
@@ -1779,4 +1784,1572 @@ fun getSampleQuestions2() {
         )
     )
 
+    return quizQuestions2
+
 }
+
+fun getSampleQuestions3(): List<Question>{
+
+    val quizQuestions3 = listOf(
+        Question(
+            questionText = "सवारी साधनको धुवाँ कहाँबाट बाहिर निस्कन्छ?",
+            optionA = "साइलेंसर",
+            optionB = "इन्जिन",
+            optionC = "गियर",
+            optionD = "एक्सल",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "बाटोमा गुडिरहेको सवारीको गति पत्ता लगाउन प्रयोग गरिने साधन कुन हो?",
+            optionA = "राडार गन",
+            optionB = "रेस गन",
+            optionC = "थर्मल गन",
+            optionD = "एक्सल",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "मोटरसाइकलमा फुट ब्रेक कुन चक्कामा लाग्छ?",
+            optionA = "अगाडिको चक्कामा",
+            optionB = "पछाडिको चक्कामा",
+            optionC = "सबै चक्कामा",
+            optionD = "फुट ब्रेक हुँदैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी साधनको ब्रेकमा हालिने इन्धनलाई के भनिन्छ?",
+            optionA = "इन्जिन आयल",
+            optionB = "ब्रेक आयल",
+            optionC = "गियर आयल",
+            optionD = "आर-टी आयल",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तलकामध्ये कुन सवारीको एउटा मात्र हेड लाइट हुन्छ?",
+            optionA = "ट्रक",
+            optionB = "मोटरसाइकल",
+            optionC = "दुईवटै हुन्छ",
+            optionD = "दुईवटा होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "ब्याट्रीको घनत्व (Density) नाप्ने मिटरको नाम के हो?",
+            optionA = "ल्याक्टोमिटर",
+            optionB = "स्पिडोमिटर",
+            optionC = "हाइड्रोमीटर",
+            optionD = "नानोमीटर",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "पार्किङ लाइट कहिले बालिन्छ?",
+            optionA = "सिर्फमा कुर्दा",
+            optionB = "यु टर्नमा",
+            optionC = "पार्किङ गर्दा",
+            optionD = "दायाँ वा बायाँ मोड्दा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधनको कुन चक्कामा तुलनात्मक रूपमा बढी हावा राख्नु पर्छ?",
+            optionA = "अगाडिकोमा",
+            optionB = "पछाडिकोमा",
+            optionC = "सबैमा",
+            optionD = "दायाँ वा बायाँकोमा",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "जाडो मौसममा मोटरसाइकलको इन्जिन स्टार्ट नभए स्टार्ट गर्न के गर्नुपर्दछ?",
+            optionA = "स्टार्ट स्विच थिच्नु पर्दछ",
+            optionB = "मोबिलमा पानी थप गर्नुपर्दछ",
+            optionC = "इन्धन थप गर्नु पर्दछ",
+            optionD = "चोक प्रयोग गर्नु पर्दछ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "स्पिडोमिटरको काम के हो?",
+            optionA = "गति नाप्ने",
+            optionB = "तापक्रम नाप्ने",
+            optionC = "फ्यूल नाप्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "मोटरसाइकल कुन गियरमा स्टार्ट गर्नु पर्दछ?",
+            optionA = "१ नम्बर",
+            optionB = "२ नम्बर",
+            optionC = "न्यूट्रल",
+            optionD = "जुनसुकै गियरमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "विद्युतीय स्कूटरमा कतिवटा गियर हुन्छ?",
+            optionA = "३ वटा",
+            optionB = "२ वटा",
+            optionC = "४ वटा",
+            optionD = "गियर नै हुँदैन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "इन्जिनको लागि सबैभन्दा महत्वपूर्ण के हुन्छ?",
+            optionA = "ग्रीज मोबिल",
+            optionB = "इन्जिन आयल",
+            optionC = "इन्धन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मोटरसाइकल नियन्त्रण गर्ने पुर्जाहरु कुन कुन हुन्?",
+            optionA = "गियर",
+            optionB = "क्लच र ब्रेक",
+            optionC = "एक्सिलेरेटर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "बीच बाटोमा सवारी विघ्नमा के गर्नुपर्छ?",
+            optionA = "सवारीलाई साइड लगाई संकेत दिई छोड्ने",
+            optionB = "कुशका राख्ने",
+            optionC = "मर्मत गर्न आवश्यक पहल गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गाडीको गति बढाउने मुख्य दुई यन्त्रहरु के के हुन्?",
+            optionA = "ब्रेक र एक्सिलेरेटर",
+            optionB = "एक्सिलेरेटर र ह्यान्डिल",
+            optionC = "गियर र एक्सिलेरेटर",
+            optionD = "फ्यान बेल्ट र एक्सिलेरेटर",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "मोटरसाइकलको ब्याट्री कति भोल्टको हुन्छ?",
+            optionA = "८ भोल्ट",
+            optionB = "१२ भोल्ट",
+            optionC = "१५ भोल्ट",
+            optionD = "१८ भोल्ट",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "ट्युबलेस टायरमा के हुन्छ?",
+            optionA = "हावा",
+            optionB = "ट्युब",
+            optionC = "खर",
+            optionD = "हावा मात्र भरिने भल्व",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "हर्न तलकामध्ये कुन शक्तिले बज्दछ ?",
+            optionA = "विद्युत",
+            optionB = "हावाको प्रेस",
+            optionC = "क र ख दुवै हुन्",
+            optionD = "क र ख दुवै होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्रेकको काम के हो ?",
+            optionA = "गाडीलाई रोक्ने",
+            optionB = "गति बढाउने",
+            optionC = "गाडीलाई ब्याक गर्ने",
+            optionD = "गाडीलाई मोड्ने",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "डाइनामोको काम के हो ?",
+            optionA = "इन्जिनलाई करेन्ट सप्लाई गर्ने",
+            optionB = "ब्याट्री चार्ज गर्ने",
+            optionC = "रेडियेटरको पानी चिसो पार्ने",
+            optionD = "डाइनामोको काम नै छैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "कार्बुरेटरमा इन्धनको मात्रा बढाउने यन्त्रलाई के भनिन्छ ?",
+            optionA = "स्पाक प्लग",
+            optionB = "एक्सिलेटर",
+            optionC = "चोक",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "इन्जिनको पार्ट पुर्नलगि चिल्लो बनाउने काम के ले गर्दछ ?",
+            optionA = "पेट्रोल",
+            optionB = "डिजल",
+            optionC = "मोबिल",
+            optionD = "पानी",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एक्सिलेटरले सवारी साधनको कुन भागमा काम गर्दछ ?",
+            optionA = "चेसिसमा",
+            optionB = "स्टेरिङमा",
+            optionC = "ब्रेकमा",
+            optionD = "इन्जिनमा",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी साधनको इन्जिनको तान सक्ने क्षमता कुन गियरमा सबैभन्दा बढी हुन्छ ?",
+            optionA = "पहिलो",
+            optionB = "दोश्रो",
+            optionC = "तेश्रो",
+            optionD = "चौथो",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "ब्याट्रीमा प्रयोग गरिने पानीलाई के भनिन्छ ?",
+            optionA = "मिनरल वाटर",
+            optionB = "डिस्टिल्ड वाटर",
+            optionC = "ड्रिंकिङ वाटर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "स्पार्क प्लगले सवारीको इन्जिनमा के काम गर्दछ ?",
+            optionA = "इन्जिनलाई तताउँछ",
+            optionB = "झिल्का दिने काम गर्दछ",
+            optionC = "इन्जिनलाई मजबूत पार्छ",
+            optionD = "इन्धन खपत कम गर्दछ",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "स्पिडोमिटरले तलकामध्ये के काम गर्छ ?",
+            optionA = "इन्धनको मात्रा नाप्ने",
+            optionB = "इन्जिनको तापक्रम नाप्ने",
+            optionC = "गाडीको वजन नाप्ने",
+            optionD = "माथिका कुनै पनि गर्दैन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "क्लचको काम के हो ?",
+            optionA = "स्पीड बढाउने",
+            optionB = "स्पीड घटाउने",
+            optionC = "गियरबाट इन्जिनलाई फ्री बनाउने",
+            optionD = "गाडी रोक्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्रेक आयल राख्ने भाँडोलाई के भनिन्छ ?",
+            optionA = "मास्टर सिलिन्डर",
+            optionB = "आयल सिलिन्डर",
+            optionC = "सेकेन्डरी सिलिन्डर",
+            optionD = "फ्यूल ट्यांक",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "डिप स्टिकको काम के हो ?",
+            optionA = "मोटरतेलको मात्रा चेक गर्ने",
+            optionB = "पानीको मात्रा चेक गर्ने",
+            optionC = "तेलकै मात्रा ठीक गर्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी साधनमा बिजुलीको मुख्य स्रोत कुन हो ?",
+            optionA = "एक्सिलेटर",
+            optionB = "इन्धन",
+            optionC = "ब्याट्री",
+            optionD = "इन्जिन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "तलकामध्ये कुन इन्धनबाच सवारी चल्दैन ?",
+            optionA = "डिजल",
+            optionB = "पेट्रोल",
+            optionC = "डिस्टिल वाटर",
+            optionD = "ग्यास",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "मोटरसाइकलको हेन्डब्रेक कुन चक्कामा लाग्छ ?",
+            optionA = "अगाडिको",
+            optionB = "पछाडिको",
+            optionC = "दुवैमा",
+            optionD = "कुनैमा पनि लाग्दैन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "फ्यूल मिटरले के देखाउँछ ?",
+            optionA = "इन्धनको मात्रा",
+            optionB = "पानीको मात्रा",
+            optionC = "मोटरतेलको मात्रा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "आयल प्रेसरले सवारीमा के को अवस्थालाई देखाउँछ ?",
+            optionA = "पेट्रोल डिजलको अवस्था",
+            optionB = "मोटरतेलको अवस्था",
+            optionC = "पानीको अवस्था",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मोटरसाइकल पछाडि बढाउँदा कुन गियर प्रयोग गर्नु पर्छ?",
+            optionA = "ब्याक गियर",
+            optionB = "फस्ट गियर",
+            optionC = "सेकेन्ड गियर",
+            optionD = "न्यूट्रल",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "इन्जिनको आयु बढाउन के गर्नु पर्छ?",
+            optionA = "सवारी नचलाइ राख्नु पर्छ",
+            optionB = "इन्जिन प्रशस्त राख्नु पर्छ",
+            optionC = "तीव्र गतिमा सवारी चलाउनु पर्छ",
+            optionD = "नियमित सर्भिसिङ गर्नु पर्छ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "एक्सिलेटर धेरै थिचे के हुन्छ?",
+            optionA = "गति रोकिन्छ",
+            optionB = "गति बढ्छ",
+            optionC = "तुरुन्त ब्रेक लाग्छ",
+            optionD = "गति मन्द हुन्छ",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "बाटोमा टायर पन्चर भएमा के गर्नु हुन्छ?",
+            optionA = "वार्ता नगरी कुदाउने",
+            optionB = "गाडी छेउ लगाई छोड्ने",
+            optionC = "पन्चर टाल्ने मात्र अगाडि जाने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मोटरसाइकलको इन्जिन ब्लक फुट्यो भने तपाईं के गर्नु हुन्छ?",
+            optionA = "आफैँ फेर्न लगाउने",
+            optionB = "यातायात कार्यालयबाट पूर्व स्वीकृत लिएर फेर्न लगाउने",
+            optionC = "पुरानो इन्जिन ब्लक लगाउने",
+            optionD = "ब्याप्री बिटिके बजारमा गएर फेर्न लगाउने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "गाडीको इन्जिन स्टार्ट गर्दा कालो धुवाँ आएमा के गर्नु पर्छ?",
+            optionA = "साइलेंसर पाइप बन्द गर्ने",
+            optionB = "साइलेंसर पाइप झिकेर फाल्ने",
+            optionC = "इन्जिन मर्मतको लागि वर्कसपमा लाने",
+            optionD = "इन्धन थप्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ड्यास बोर्ड मिटरमा रहेको आयल प्रेसर मिटरसँग रातो बत्ती बल्दा के गर्नु पर्छ?",
+            optionA = "इन्जिन बन्द गर्नु पर्छ",
+            optionB = "इन्जिन स्टार्ट गर्नु पर्छ",
+            optionC = "ब्रेक लगाउनु पर्छ",
+            optionD = "हर्न बजाउनु पर्छ",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारीको यान्त्रिक स्थिति ठीक नभएमा सवारी चालकले सर्वप्रथम के गर्नु पर्छ?",
+            optionA = "मर्मत गर्ने",
+            optionB = "नजिकको प्रहरी कार्यालयमा सम्पर्क गर्ने",
+            optionC = "सवारी धनी वा व्यवस्थापकलाई खबर गर्ने",
+            optionD = "जिल्ला प्रशासन कार्यालयमा सम्पर्क गर्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारीमा मोबिलको प्रयोग किन गरिन्छ?",
+            optionA = "इन्धन खपत कम गर्न",
+            optionB = "इन्जिन सञ्चालनलाई सजिलो पार्न",
+            optionC = "सवारीबाट निस्कने धुँवा कम पार्न",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो अवस्थामा ब्रेक लाइट बल्छ?",
+            optionA = "गियर चेन्ज गर्दा",
+            optionB = "एक्सिलेटर दबाउँदा",
+            optionC = "ब्रेक लगाउँदा",
+            optionD = "हर्न बजाउँदा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "इन्जिनमा कुन आयलको प्रयोग गरिन्छ?",
+            optionA = "माईल्डेट",
+            optionB = "डिजेल आयल",
+            optionC = "ब्रेक आयल",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "कार्बोरेटर इन्जिनका लागि के काम गर्दछ?",
+            optionA = "इन्जिनमा इन्धन र हावाको मिश्रण सप्लाई गर्छ",
+            optionB = "इन्जिन चिसो पार्छ",
+            optionC = "स्पीड बढाउँछ",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "इन्जिनको पार्टपुर्जालाई चिल्लो बनाउने काम के ले गर्छ?",
+            optionA = "पेट्रोल",
+            optionB = "डिजेल",
+            optionC = "मोबिल",
+            optionD = "पानी",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "गियर बक्सबाट गियर आयल थोरै थोरै चुहिन थालेपछि के गर्नु पर्छ?",
+            optionA = "बेलाबेलामा आयल थप्दै चलाउँदै जाने",
+            optionB = "मर्मत गर्ने",
+            optionC = "आवाज नआउञ्जेलसम्म चलाइ रहने",
+            optionD = "तातो नहुँञ्जेलसम्म चलाइ रहने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "जाडो मौसममा इन्जिन स्टार्ट नभए स्टार्ट गर्ने के गर्नुपर्छ?",
+            optionA = "स्टार्ट स्वीच थिच्नु पर्छ",
+            optionB = "मोबिलमा पानी थप गर्नुपर्छ",
+            optionC = "इन्धन थप गर्नुपर्छ",
+            optionD = "चोक ताने",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "इन्जिनको क्षमतालाई केले जनाउँछ?",
+            optionA = "सि.सि.",
+            optionB = "ए.सि.",
+            optionC = "बि.सि.",
+            optionD = "डि.सि.",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "रिभर्स लाइट कति बेला बल्छ?",
+            optionA = "ब्रेक लगाउँदा",
+            optionB = "क्लच लिंदै",
+            optionC = "गियर चेन्ज गर्दा",
+            optionD = "गाडी ब्याक गर्दा",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "रेडिएटरमा के राखिन्छ?",
+            optionA = "पानी",
+            optionB = "एसिड",
+            optionC = "पेट्रोल",
+            optionD = "डिजेल",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "गियर बक्सको मुख्य काम के हो?",
+            optionA = "छिटो गुडाउन",
+            optionB = "गाडी रोक्ने",
+            optionC = "चाहिएको स्पिडमा गुडाउन",
+            optionD = "खाल्डा पार गर्न सहयोग गर्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "फ्युल ट्यांकीमा रहेको इन्धन तानेर कार्बोरेटरलाई दिने काम के ले गर्छ?",
+            optionA = "ए.सी पम्पले",
+            optionB = "चोकले",
+            optionC = "सप्लाई पम्पले",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी साधनमा सि.सि. ले केलाई जनाउँदैन?",
+            optionA = "मास्टर सिलिण्डरको क्षमता",
+            optionB = "ब्रेकको क्षमता",
+            optionC = "गियर बक्सको क्षमता",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "बाटोमा टायर पञ्चर भएमा के गर्नु पर्छ?",
+            optionA = "वास्ता नगरी गुडाउनु",
+            optionB = "गाडी छेउ लगाई छोडेर जाने",
+            optionC = "स्पेयर टायर प्रयोग गरी पञ्चर टाल्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "मोटरसाइकलको गति बढाउन के गर्नुपर्छ?",
+            optionA = "एक्सिलेटर बढाउनु पर्छ",
+            optionB = "तेल धेरै हाल्ने गर्नु पर्छ",
+            optionC = "क्लच सम्हाल्नुपर्छ",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारीमा भएको ब्याट्री कसरी चार्ज हुन्छ?",
+            optionA = "गाडीको इन्जिनबाट",
+            optionB = "गाडीको इन्धनबाट",
+            optionC = "गाडीको डायनामोबाट",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एक्कासी फुट ब्रेक लाग्न कम भएमा के चेक गर्नुपर्छ?",
+            optionA = "चक्माको प्रेसर चेक गर्ने",
+            optionB = "ब्रेक आयल लेभल चेक गर्ने",
+            optionC = "मास्टर सिलिण्डर चेक गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "तलका मध्ये कुन सवारीले धुँवा फाल्दैन?",
+            optionA = "बस",
+            optionB = "मिनिबस",
+            optionC = "ट्रक",
+            optionD = "ट्रोलि बस",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गियर किन परिवर्तन गरिरहनुपर्छ?",
+            optionA = "स्पिड घटाउन",
+            optionB = "स्पिड बढाउन",
+            optionC = "हर्न बजाउन",
+            optionD = "स्पिड घटाउन र बढाउन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ब्रेकले कहाँ काम गर्छ?",
+            optionA = "इन्जिनमा",
+            optionB = "स्टेरिङमा",
+            optionC = "चक्मामा",
+            optionD = "गियरमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "चलेको इन्जिन एक्कासी बन्द हुने कारण के हो?",
+            optionA = "पेट्रोल ओभरफ्लो हुनु",
+            optionB = "फायरिङ नहुनु",
+            optionC = "इन्जिनको कुनै पुर्जा टुट्नु",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "४-स्ट्रोक इन्जिनमा कति वटा इन्जिन हुन्छ?",
+            optionA = "१",
+            optionB = "२",
+            optionC = "३",
+            optionD = "४",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "पिस्टन के भित्र रहन्छ?",
+            optionA = "ब्याट्रीभित्र",
+            optionB = "सिलिन्डरभित्र",
+            optionC = "चक्माभित्र",
+            optionD = "इन्धनभित्र",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "मोटरसाइकलको एक्सिलेटर फर्स्यो भने के गर्नुपर्छ?",
+            optionA = "क्लच थिचेर गियर डाउन गर्दै बिस्तारै ब्रेक लगाउने",
+            optionB = "तुरुन्त अगाडिको ब्रेक लगाउने",
+            optionC = "तुरुन्त पछाडिको ब्रेक लगाउने",
+            optionD = "तुरुन्त दुबै ब्रेक एकैपटक लगाउने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "स्कूटरमा अगाडिको ब्रेक केले नियन्त्रण गर्छ?",
+            optionA = "दायाँ हातले",
+            optionB = "बायाँ हातले",
+            optionC = "दायाँ खुट्टाले",
+            optionD = "बायाँ खुट्टाले",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मोटरसाइकलको ब्रेक सिस्टम कुन हो?",
+            optionA = "मेकानिकल",
+            optionB = "हाइड्रोलिक",
+            optionC = "मिश्रित",
+            optionD = "कुनै पनि होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText="ब्याट्री कसरी बचाउन सकिन्छ?",
+            optionA="तेल तथा मोबाइल लामवद्ध बचाउने",
+            optionB="सेल्फस्टार्ट स्विच घरीघरी नगर्ने",
+            optionC="अनावश्यक रूपमा हर्न नबजाउने",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="डाइनामोले कुन विद्युत उत्पादन गर्छ?",
+            optionA="ए.सि.",
+            optionB="डि.सि.",
+            optionC="क र ख दुवै ठीक",
+            optionD="विद्युत उत्पादन नै हुँदैन",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="मोटरसाइकलको ब्रेक लाइट कहाँ हुन्छ?",
+            optionA="अगाडि",
+            optionB="पछाडि",
+            optionC="दायाँ",
+            optionD="बायाँ",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="मोटरसाइकलमा इन्धन खपत कम गर्न केले सहायता गर्छ?",
+            optionA="मोबिल",
+            optionB="डाइनामो",
+            optionC="ब्याट्री",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="इन्जिन स्टार्ट गर्दा एक्सलेटरलाई धेरै पटक बटार्यो भने के हुन्छ?",
+            optionA="चाँडै स्टार्ट हुन्छ",
+            optionB="ओभरफ्लो हुन सक्छ",
+            optionC="पेट्रोल रोकिन्छ",
+            optionD="माथिका सबै",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="ब्याट्रीभित्रको तेजाबलाई केले तताएको हुन्छ?",
+            optionA="इलेक्ट्रोड लाइट",
+            optionB="मोबिल",
+            optionC="पेट्रोल",
+            optionD="प्रिज आयल",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="हाइड्रोमिटरले के मापन गर्छ?",
+            optionA="इन्धनको मात्रा",
+            optionB="ब्याट्रीको घनत्व",
+            optionC="दूरी",
+            optionD="मोबिलको मात्रा",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="वार्निंग लाइट कतिबेला बालिन्छ?",
+            optionA="इमरजेन्सीमा",
+            optionB="मन लागेका बेला मात्र",
+            optionC="हत्तार भएमा",
+            optionD="माथिका सबै अवस्थामा",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="इमरजेन्सी लाइटले कसलाई सतर्क रहने संकेत दिन्छ?",
+            optionA="पैदल यात्री",
+            optionB="सवारी चालक",
+            optionC="प्रहरी",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="डाइनामोबाट बढी बिजुली उत्पादन भयो भने केले नियन्त्रण गर्छ?",
+            optionA="भोल्ट रेगुलेटरले",
+            optionB="पिस्टनले",
+            optionC="हेडलाइटले",
+            optionD="एक्सलेटरले",
+            correctOptionIndex=0
+        )
+
+    )
+
+    return quizQuestions3
+}
+
+fun getSampleQuestions4(): List<Question>{
+
+    val quizQuestions4 = listOf(
+        Question(
+            questionText="तल दिएकामध्ये प्रदूषण जाँच गराउन नपर्ने सवारी साधन कुन हो?",
+            optionA="माइक्रो बस",
+            optionB="निजी कार",
+            optionC="गियरवाला साइकल",
+            optionD="सरकारी मोटरसाइकल",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="सवारी प्रदूषण नियन्त्रण गर्ने निकाय कुन हो?",
+            optionA="यातायात व्यवस्था कार्यालय",
+            optionB="ट्राफिक प्रहरी",
+            optionC="यातायात व्यवस्था विभाग",
+            optionD="माथिका सबै",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="टु–स्ट्रोक र फोर–स्ट्रोक इन्जिनका सवारी साधनमध्ये कुनले वातावरण बढी प्रदूषण गराउँछ?",
+            optionA="टु–स्ट्रोकले",
+            optionB="फोर–स्ट्रोकले",
+            optionC="क र ख दुबै",
+            optionD="कुनै पनि होइनन्",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="सवारी प्रदूषण भन्नाले के बुझिन्छ?",
+            optionA="इन्जिनमा राखिने मोबिल",
+            optionB="सवारीमा राखिने इन्धन",
+            optionC="सवारीबाट निस्कने धुवाँ",
+            optionD="सवारी भित्रको फोहर",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="सबैभन्दा कम प्रदूषण गर्ने इन्जिन कुन हो?",
+            optionA="डिजल इन्जिन",
+            optionB="पेट्रोल इन्जिन",
+            optionC="विद्युत इन्जिन",
+            optionD="ख र ग मात्र ठीक",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन चीजले प्रभाव पार्दछ?",
+            optionA="ब्रेकले",
+            optionB="गियर बक्सले",
+            optionC="इन्धनले",
+            optionD="इन्जिनको अवस्थाले",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="नेपालमा हाल कुन सवारी प्रदूषण मापदण्ड लागू भएको छ?",
+            optionA="नेपाल सवारी प्रदूषण मापदण्ड, २०६५",
+            optionB="नेपाल सवारी प्रदूषण मापदण्ड, २०६०",
+            optionC="नेपाल सवारी प्रदूषण मापदण्ड, २०६५",
+            optionD="नेपाल प्रदूषण मापदण्ड, २०६९",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="कण्डिसनमा नरहेको मोटरसाइकलले कस्तो धुवाँ फाल्छ?",
+            optionA="निलो",
+            optionB="कालो",
+            optionC="सेतो",
+            optionD="हरियो",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="कण्डिसनको मोटर इन्जिनको धुवाँ कस्तो हुन्छ?",
+            optionA="कालो",
+            optionB="रातो",
+            optionC="हरियो",
+            optionD="आकाशे निलो",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="सवारी परीक्षण कार्यालयबाट प्रदूषण पास स्टिकर लिँदा कति शुल्क लाग्छ?",
+            optionA="रु. १००",
+            optionB="रु. २००",
+            optionC="रु. ३००",
+            optionD="रु. ३२५",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन चीजले प्रभाव पार्दैन?",
+            optionA="टायर",
+            optionB="गियर",
+            optionC="ब्रेक",
+            optionD="माथिका सबै",
+            correctOptionIndex=4
+        ),
+        Question(
+            questionText="सवारी प्रदूषण जाँच पास स्टिकरको रङ कस्तो हुँदैन?",
+            optionA="निलो",
+            optionB="सेतो",
+            optionC="पहेँलो",
+            optionD="माथिका सबै",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="सवारी साधनबाट निस्किने धुवाँले कुन प्रदूषण फैलाउँछ?",
+            optionA="जल प्रदूषण",
+            optionB="ध्वनि प्रदूषण",
+            optionC="वायु प्रदूषण",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="पेट्रोलियम पदार्थबाट चल्ने सवारी साधनले कस्तो प्रदूषण फैलाउँछ?",
+            optionA="वायु प्रदूषण",
+            optionB="ध्वनि प्रदूषण",
+            optionC="जल प्रदूषण",
+            optionD="क र ख दुवै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="वायु प्रदूषणका कारण कस्ता रोग फैलिरहेका छन्?",
+            optionA="श्वासप्रश्वाससम्बन्धी रोग",
+            optionB="दम, खोकी, धक्कीजस्ता रोग",
+            optionC="ब्रोंकाइटिस",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="वायु प्रदूषणका कारण तीव्ररूपमा फैलिरहेको रोग कुन हो?",
+            optionA="निमोनिया",
+            optionB="फोक्सोको क्यान्सर साथै",
+            optionC="हाइपर टेन्सन",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="वातावरण–मैत्री सवारी साधन कुन हो?",
+            optionA="साइकल",
+            optionB="इलेक्ट्रिक स्कूटर",
+            optionC="विद्युत् बस",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="प्रदूषकले हर्जना तिर्ने प्रणाली (Polluters Pay System) भन्नेको के हो?",
+            optionA="प्रदूषण सिर्जना गर्नेहरूलाई थप कर तिराउने",
+            optionB="जनतालाई प्रदूषण कर तिराउने",
+            optionC="क र ख दुवै हुन्",
+            optionD="क र ख दुवै होइनन्",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="आफ्नो सवारी साधनले प्रदूषण नगरोस् भन्नेर के गर्नुपर्छ?",
+            optionA="बेलाबेलामा सर्भिसिङ गर्नु पर्छ",
+            optionB="टायरमा हावा भरिरहनु पर्छ",
+            optionC="पेट्रोल फूल हालेर मात्र चलाउनु पर्छ",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="तपाईंले चलाउने सवारी साधनबाट कसरी वातावरण प्रदूषण भइहेको हुन्छ?",
+            optionA="बढी धूलो फालेर",
+            optionB="हर्न धेरै बजाएर",
+            optionC="धेरै स्पिडमा चलाएर",
+            optionD="धेरै भिडभाडमा गएर",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="सवारी साधनले सिर्जना गर्ने प्रदूषणका स्रोत कुन हो?",
+            optionA="आवाज",
+            optionB="धुवाँ",
+            optionC="कबाडी पार्टपुर्जा",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="तपाईं आफ्नो सवारी साधनको प्रदूषण जाँच गराउन कहाँ लैजानु पर्छ?",
+            optionA="सवारी परीक्षण कार्यालय",
+            optionB="यातायात व्यवसाय कार्यालय",
+            optionC="यातायात व्यवस्था सेवा कार्यालय",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="तलकामध्ये हरित सवारी (Green Vehicles) कुन हो?",
+            optionA="विद्युत्बाट चल्ने सवारी",
+            optionB="पेट्रोलबाट चल्ने सवारी",
+            optionC="डिजेलबाट चल्ने सवारी",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="डिजेल गाडीको प्रदूषण जाँच गर्ने मेसिन कुन हो?",
+            optionA="स्मोक मिटर",
+            optionB="फायर मिटर",
+            optionC="पोलुसन मिटर",
+            optionD="डिजेल मिटर",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="पेट्रोल गाडीको प्रदूषण जाँच गर्ने मेसिन कुन हो?",
+            optionA="स्मोक मिटर",
+            optionB="ग्यास एनालाइजर",
+            optionC="पोलुसन मिटर",
+            optionD="डिजेल मिटर",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText = "वातावरण प्रदूषण रोकथाम गर्न के गर्नुपर्छ?",
+            optionA = "रुख रोप्ने",
+            optionB = "विद्युतीय सवारी चलाउने",
+            optionC = "धेरै ध्वनी ननिकाल्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सहरी क्षेत्रमा ध्वनी प्रदूषणको मुख्य स्रोत के हो?",
+            optionA = "गाडीको आवाज",
+            optionB = "अनावश्यक रूपमा बजाउने हार्न",
+            optionC = "कलकारखाना",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ध्वनी प्रदूषणले स्वास्थ्यमा कस्तो असर पार्छ?",
+            optionA = "उच्च रक्तचाप बढाउँछ",
+            optionB = "सुन्ने शक्ति गुमाउँछ",
+            optionC = "मित्रता लाउँदैन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ध्वनी प्रदूषणले कसलाई बढी असर गर्छ?",
+            optionA = "असक्त",
+            optionB = "बालबालिका",
+            optionC = "बृद्धबृद्धा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "काठमाडौं उपत्यकामा कहिलेदेखि हरित क्षेत्र निषेधित क्षेत्र लागू गरिएको हो?",
+            optionA = "२०६५ बैशाख १",
+            optionB = "२०६७ बैशाख १",
+            optionC = "२०७६ बैशाख १",
+            optionD = "२०७७ बैशाख १",
+            correctOptionIndex = 2
+        )
+    )
+
+    return quizQuestions4
+}
+
+fun getSampleQuestions5(): List<Question>{
+
+    val quizQuestions5 = listOf(
+        Question(
+            questionText = "सुरक्षाका दृष्टिले कस्तो समयमा यात्रा गर्नु राम्रो मानिदैन?",
+            optionA = "मुसलधारे पानी परेको बेलामा",
+            optionB = "बाल्को हिँड्दै गरेको समयमा",
+            optionC = "बालुवा कुहिरो लागेको समयमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटना भएको देखेमा के गर्नुपर्छ?",
+            optionA = "घाइतेलाई अस्पताल लैजानु पर्छ",
+            optionB = "घाइतेको आफन्तलाई सूचना दिनुपर्छ",
+            optionC = "नजिकको ट्राफिक प्रहरीलाई सूचना दिनुपर्छ",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "एकतर्फी बाटोमा अचानक लेन बदल्दा कुन गाडीसँग दुर्घटना हुने सम्भावना हुन्छ?",
+            optionA = "अगाडि आइरहेको गाडीसँग",
+            optionB = "बायाँबाट आएको गाडीसँग",
+            optionC = "दायाँबाट आएको गाडीसँग",
+            optionD = "पछाडिबाट आएको गाडीसँग",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "तिब्र गतिमा सवारी चलाएमा के हुन्छ?",
+            optionA = "सीप बढ्छ",
+            optionB = "छिटो पुगिन्छ",
+            optionC = "दुर्घटना हुने सम्भावना हुन्छ",
+            optionD = "सवारी पुरानो हुँदैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "रातको समयमा दुर्घटना हुने मुख्य कारण कुन हो?",
+            optionA = "भिजिबिलिटी कम हुनाले",
+            optionB = "बढी सवारी गुड्ने हुनाले",
+            optionC = "यात्रुहरुले मादक पदार्थ सेवन गर्नेले",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुनुको कारण के हो?",
+            optionA = "मानवीय गल्ती",
+            optionB = "मेकानिकल गल्ती",
+            optionC = "यान्त्रिक खराबी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सडक मार्किङ्ग भन्नाले के बुझिन्छ?",
+            optionA = "ट्राफिक संकेत",
+            optionB = "लेन लाइन",
+            optionC = "जेब्रा क्रसिङ",
+            optionD = "माथिका ख र ग दुवै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटना हुँदा तेस्रो पक्ष बीमा अन्तर्गत केको क्षतिपूर्ति दिइन्छ?",
+            optionA = "तेस्रो पक्षको मृत्यु भएमा",
+            optionB = "तेस्रो पक्षको अंगभंग भएमा",
+            optionC = "तेस्रो पक्षको सम्पत्तिको नोक्सानी भएमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनाबाट ज्यान मरेकोमा सो मर्ने व्यक्तिको हकवालालाई कृत्य खर्च बापत कति रकम उपलब्ध गराइन्छ?",
+            optionA = "रु. २५ हजार",
+            optionB = "रु. ५० हजार",
+            optionC = "रु. ७५ हजार",
+            optionD = "रु. १ लाख",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "हेलमेट नलगाई मोटरसाइकल चलाएमा के हुन्छ?",
+            optionA = "दुर्घटना हुन सक्छ",
+            optionB = "दुर्घटना भएमा टाउकोमा चोट लाग्न सक्छ",
+            optionC = "केही पनि हुँदैन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुँदा पीडित पक्षलाई क्षतिपूर्ति भराई दिने कर्तव्य कसको हो ?",
+            optionA = "यातायात व्यवस्था विभाग",
+            optionB = "प्रमुख जिल्ला अधिकारी",
+            optionC = "ट्राफिक प्रहरी",
+            optionD = "यातायात कार्यालय",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "निर्धारित गतिभन्दा बढी गतिमा सवारी चलाएमा के हुन्छ ?",
+            optionA = "चाँडै पुगिन्छ",
+            optionB = "चर्चा चमत हुन्छ",
+            optionC = "कारवाहीमा पर्छ",
+            optionD = "दुर्घटनामा पर्न सक्छ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनाका दृष्टिकोणले सबैभन्दा असुरक्षित साधन कुन हो ?",
+            optionA = "जिप",
+            optionB = "ट्रक",
+            optionC = "बस",
+            optionD = "मोटरसाइकल",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनामा घाइते भएका व्यक्तिलाई सर्वप्रथम के गर्नुपर्छ ?",
+            optionA = "अस्पताल लैजानु पर्छ",
+            optionB = "प्राथमिक उपचार गर्नु पर्छ",
+            optionC = "भीडबाट अलग गर्नु पर्छ",
+            optionD = "केही गर्नुपर्दैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "दुर्घटनामा परेका कस्तो घाइतेलाई कृत्रिम अक्सिजन दिनु पर्छ ?",
+            optionA = "सामान्य घाइतेलाई",
+            optionB = "रगत बगिरहेको घाइतेलाई",
+            optionC = "बेहोस अवस्थामा रहेको घाइतेलाई",
+            optionD = "होसमा रहेको घाइतेलाई",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एकतर्फी बाटोमा लेन बदल्दा कुन कुरामा ध्यान दिनुपर्छ ?",
+            optionA = "बकलीको संकेत दिने",
+            optionB = "लुकिङ्ग ग्लासको प्रयोग गर्ने",
+            optionC = "अगाडिको सवारीको दूरी आंकलन गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुनुको कारण के हो ?",
+            optionA = "अनियन्त्रित गतिमा सवारी चलाउने",
+            optionB = "मादक पदार्थ सेवन गरी सवारी चलाउने",
+            optionC = "क्षमताभन्दा बढी भारु राखी सवारी चलाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी दुर्घटनाबाट बचाउने जिम्मेवारी कसको हो ?",
+            optionA = "सवारी चालकको",
+            optionB = "पैदल यात्रीको",
+            optionC = "ट्राफिक प्रहरीको",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनास्थलमा तत्कालै गरिने उपचार सेवालाई के भनिन्छ?",
+            optionA = "प्राथमिक उपचार",
+            optionB = "प्रारम्भिक उपचार",
+            optionC = "घरेलु उपचार",
+            optionD = "स्थानीय उपचार",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "चालकको साथमा रहने प्राथमिक उपचारको बाकसलाई के भनिन्छ?",
+            optionA = "फस्ट एड बाकस",
+            optionB = "प्राइमरी बाकस",
+            optionC = "हेल्थ केयर बाकस",
+            optionD = "सेकेन्डरी बाकस",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "प्राथमिक उपचार किन गरिन्छ?",
+            optionA = "घाइतेलाई तत्काल प्राण बचाउन",
+            optionB = "रोग निको हुने संभावना बढाउन",
+            optionC = "घाइतेको अवस्था खराब हुनबाट बचाउन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनास्थलमा घाइतेलाई गरिने ड्रेसिङ्ग भन्नाले के बुझिन्छ?",
+            optionA = "कपडा फेरिदिने कार्य",
+            optionB = "घाउमा मलमपट्टी लगाउने कार्य",
+            optionC = "औषधी खुवाउने कार्य",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText="दुर्घटनामा परेको कस्तो घाइतेलाई अक्सिजन दिइनु पर्दैन?",
+            optionA="होस अवस्थामा रहेकाे",
+            optionB="रगत बगेकोलाई",
+            optionC="सामान्य बिरामीलाई",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="दुर्घटना निम्त्याउने लापरवाही कुन हो?",
+            optionA="मादक पदार्थ सेवन",
+            optionB="अत्याधिक गतिमा सवारी चलाउनु",
+            optionC="अचानक लेन बदल्ने बानी",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="दुर्घटना निम्त्याउने भवितव्य कुन हो?",
+            optionA="ब्रेक फेल हुनु",
+            optionB="पहिरो जानु",
+            optionC="चालक मुर्छित हुनु",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="दुर्घटनास्थलमा प्रहरी आएपछि घटनास्थलका अरू मानिसको कर्तव्य के हुन्छ?",
+            optionA="प्रहरीलाई काम अराउने",
+            optionB="प्रहरीसँग क्षतिपूर्ति माग्ने",
+            optionC="प्रहरीको बाटो बन्द गर्ने",
+            optionD="प्रहरीले भनेको मान्ने",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="दुर्घटनामा बेहोस भई सास फेर्न छोड्यो भने के गर्नु पर्छ?",
+            optionA="शरीर हल्लाउने",
+            optionB="पानी खुवाउने",
+            optionC="कृतिम अक्सिजन दिने",
+            optionD="माथिका सबै",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="दुर्घटनाको जोखिम कस्तो अवस्थामा हुन्छ?",
+            optionA="हावाहुरी चलेको बखत",
+            optionB="हिँड्न पर्नेको बखत",
+            optionC="पानी परेकाे बखत",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="मोटरसाइकल चलाउँदा अचानक हावाहुरी आयो भने के गर्नु पर्छ?",
+            optionA="सुरक्षित ठाउँमा गएर रोक्ने",
+            optionB="स्पीड बढाउने",
+            optionC="बीचबाटोमै छोडेर हिँड्ने",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="बायाँ साइडबाट ओभरटेक गर्दा के हुन्छ?",
+            optionA="छिटो पुगिन्छ",
+            optionB="दुर्घटना हुने संभावना हुन्छ",
+            optionC="जिल्लामा पर्नेछ",
+            optionD="खासै केही हुँदैन",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="सवारी चलाउँदा भूलबस पैदलयात्रीलाई ठक्कर दिन पुग्यो भने के गर्नु पर्छ?",
+            optionA="वास्‍ते नगरी भाग्नु",
+            optionB="व्यक्तिको अवस्था बुझेर छोडिदिनु",
+            optionC="अवस्था हेरी उपचार गर्ने व्यवस्था मिलाउनु",
+            optionD="माथिका सबै",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="सवारी जाममा पर्नु भयो भने के गर्नुहुन्छ?",
+            optionA="धैर्यताका साथ कुर्नु",
+            optionB="हर्न बजाएर दबाब दिनु",
+            optionC="स्टार्ट बन्द गरेर कुर्नु",
+            optionD="सडक पेटीबाट हिँड्नु",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="ट्राफिक चिह्न कसका लागि हो?",
+            optionA="सवारी चालक",
+            optionB="पैदल यात्री",
+            optionC="ट्राफिक प्रहरी",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="स्पीड ब्रेकरमा कसरी सवारी चलायो भने दुर्घटना हुँदैन?",
+            optionA="तिब्र गतिमा चलाउने",
+            optionB="बिस्तारै चलाउने",
+            optionC="एक्सिलेटर जोडले थिचेर चलाउने",
+            optionD="माथिका सबै",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="हेलमेट लगाउने उद्देश्य के हो?",
+            optionA="राम्ररी देखिन",
+            optionB="ट्राफिक प्रहरीले गर्ने सजायबाट बच्न",
+            optionC="हावा रोक्न",
+            optionD="टाउकोमा चोट लाग्नबाट बच्न",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="सवारी दुर्घटनामा परे के गर्नु पर्छ?",
+            optionA="उद्धारको लागि पहल गर्ने",
+            optionB="काजगात चेक गर्ने",
+            optionC="रोइकराइ गर्ने",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="ब्याट्री सर्ट भई आगलागी हुन गएका सर्वप्रथम के गर्नुपर्छ?",
+            optionA="गाडीको स्पीड बढाउने",
+            optionB="इन्जिन स्वीच अफ गर्ने",
+            optionC="छोडेर भाग्ने",
+            optionD="आगलागी भएको ठाउँमा पानी हाल्ने",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="सडकमा गुडिरहेको मोटरसाइकल पल्टियो भने तपाईं पहिले के गर्नुहुन्छ?",
+            optionA="नजिकको ट्राफिक प्रहरीलाई बोलाउँछु",
+            optionB="मोटरसाइकल उठाउँछु",
+            optionC="अब के हुन्छ भनी हेरेर बस्छु",
+            optionD="प्रहरी बोलाउँछु",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="कसैले अनियन्त्रित तवरले सवारी हाँकिरहेको भेट्नु भयो भने के गर्नुहुन्छ?",
+            optionA="ट्राफिकलाई खबर गर्नु",
+            optionB="केस सोधपुछ गर्नु",
+            optionC="देखे नदेखेजस्तो गर्नु",
+            optionD="भिडियो खिचेर बस्नु",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="सवारी साधनको चक्का फिस्क हुनको कारण के हो?",
+            optionA="चिल्लो सतह",
+            optionB="बालुवा तथा धुलो सडक",
+            optionC="ज्यादा ओरालो",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="बीच बाटोमा चक्का पञ्चर भयो भने के गर्नुपर्छ?",
+            optionA="त्यहीं रोकेरै हेर्ने",
+            optionB="साइड लगाए हेर्ने",
+            optionC="बाटो आवागमन बन्द गर्नु",
+            optionD="सरोकी हिँडिरहने",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="दुर्घटनामा आपत्ति परे पनि कससँग सहयोग माग्नु हुँदैन?",
+            optionA="शंकास्पद व्यक्तिसँग",
+            optionB="महिलासँग",
+            optionC="गाउँलेसँग",
+            optionD="बुद्धबुद्धासँग",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="गाडी रोकिसकेपछि यात्रीले के गर्दा बढी दुर्घटना हुन्छ?",
+            optionA="चाँडोचाँडो ओराल्दा",
+            optionB="अचानक बाटो काट्दा",
+            optionC="गाडीमा बरिरहँदा",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="तँछाडमछाड गरी गाडी चलाए के हुन्छ?",
+            optionA="चाँडो पुगिन्छ",
+            optionB="अरूलाई जितिन्छ",
+            optionC="दुर्घटना हुन सक्छ",
+            optionD="माथिका सबै",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="गाडीमा खतराको बत्ती बलेर गुँडिरहेको भए के भएको हुन सक्छ?",
+            optionA="ट्राफिक जाम",
+            optionB="दुर्घटनामा परेको",
+            optionC="गन्तव्य आइपुगेको",
+            optionD="इन्धन सकिएको",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="नाकबाट बढी रात आयो भने घाइतेलाई कसरी राख्नु पर्छ?",
+            optionA="अगाडि निहुरिएर",
+            optionB="टाउको पछाडि धकेलेर",
+            optionC="उतानो पारेर",
+            optionD="जसरी राखे पनि हुन्छ",
+            correctOptionIndex=2
+        ),
+        Question(
+            questionText="दिनमा पनि हेडलाइट बालेर कुन अवस्थामा सवारी हाँक्नु पर्छ?",
+            optionA="कुहिरो लागेको समयमा",
+            optionB="हावा चल्ने समयमा",
+            optionC="मादक पदार्थ सेवन गरेको समयमा",
+            optionD="थकाइ लागेको समयमा",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="मोटरसाइकलहरू बढी पल्टिनुको कारण के हो?",
+            optionA="तीव्र गतिमा अगाडि ब्रेक लगाउँदा",
+            optionB="दाहिने मोडिँदा",
+            optionC="दुबै ब्रेक लगाउँदा",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="कुन अवस्थामा गाडीको सबै भार अगाडिको चक्कामा पर्छ?",
+            optionA="तीव्र गतिमा अचानक ब्रेक लगाउँदा",
+            optionB="ठूलो गियरमा चलाउँदा",
+            optionC="बाटो खराब भएको अवस्थामा",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="दुर्घटनामा परेको घाइतेलाई तुरुन्त खान पिउन दिनु हुन्छ कि हुँदैन?",
+            optionA="खान दिनु हुँदैन",
+            optionB="पानी पिउन दिनु पर्छ",
+            optionC="खान पिउन दिनु हुन्छ",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="गुँडिरहेको गाडी चालकले खतराको संकेत के गरी दिनु पर्छ?",
+            optionA="हात हल्लाएर",
+            optionB="साइडलाइट बालेर",
+            optionC="हेडलाइट बालेर",
+            optionD="हर्न बजाएर",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="दुर्घटना नहोस् भने रातमा पार्किङ गाडी के इशारा गर्नुपर्छ?",
+            optionA="रोकेर बस्ने",
+            optionB="पार्किङलाइट बाल्ने",
+            optionC="लगातार हर्न बजाउने",
+            optionD="माथिका सबै",
+            correctOptionIndex=1
+        ),
+        Question(
+            questionText="एकतर्फी सडकमा दुर्घटना हुने संभावना कहिले हुन्छ?",
+            optionA="अचानक लेन बदल्दा",
+            optionB="हेडलाइट बाल्दा",
+            optionC="हर्न बजाउँदा",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="सवारी चालकको मानसिक अवस्था कस्तो हुनु हुँदैन?",
+            optionA="निद्रा लागेको",
+            optionB="मादक पदार्थ सेवन गरेको",
+            optionC="मनमा तनाव लिएको",
+            optionD="माथिका सबै",
+            correctOptionIndex=3
+        ),
+        Question(
+            questionText="दुर्घटनाको घाइतेले नविर्सिने अवस्था रहेको भए कस्तो संकेत देखापर्छ?",
+            optionA="नाडी चल्दैन",
+            optionB="खाना खान्दैन",
+            optionC="शरीर चलाउन सक्दैन",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        ),
+        Question(
+            questionText="सडकमा मोटरसाइकल बाघको टट्टुजस्तो चलाउँदा के हुन्छ?",
+            optionA="दुर्घटनाको संभावना बढ्छ",
+            optionB="सिप बढ्छ",
+            optionC="चाँडै पुगिन्छ",
+            optionD="माथिका सबै",
+            correctOptionIndex=0
+        )
+    )
+
+    return quizQuestions5
+}
+
+fun getSampleQuestions6(): List<Question>{
+
+    val quizQuestions6 = listOf(
+        Question(
+            questionText = "जेब्रा क्रसमा गाडी पुछा हरियो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरसर्स अगाडि बढ्ने",
+            optionB = "सवारी रोक्ने",
+            optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "जेब्रा क्रसमा गाडी पुछा पहेंलो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरसर्स अघि बढ्ने",
+            optionB = "सवारी रोक्ने",
+            optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गति शून्य रेखाले के संकेत गर्छ?",
+            optionA = "गाडी रोक्ने",
+            optionB = "गाडीको गति कम गर्ने",
+            optionC = "गाडी फकाउने",
+            optionD = "गाडी तिब्र गतिमा चलाउने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "जेब्रा क्रसमा गाडी पुछा रातो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरसर्स अघि बढ्ने",
+            optionB = "सवारी रोक्ने",
+            optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधनको पछाडिको रातो बत्ती बलेमा के बुझिन्छ?",
+            optionA = "गियर परिवर्तन गरेको",
+            optionB = "साइड दिएको",
+            optionC = "ब्रेक लगाइएको",
+            optionD = "सिफ्ट बढाउन लागेको",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "तीनकुने (त्रिभुज) आकारको ट्राफिक चिन्हले के जनाउँछ?",
+            optionA = "सूचनामूलक",
+            optionB = "सचेतनामूलक",
+            optionC = "प्रतिबन्धात्मक",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "चौकुने (आयात वा वर्गाकार) आकारको ट्राफिक चिन्हले के जनाउँछ?",
+            optionA = "सूचनामूलक",
+            optionB = "सचेतनामूलक",
+            optionC = "प्रतिबन्धात्मक",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "वृताकार आकारको ट्राफिक चिन्हले के जनाउँछ?",
+            optionA = "सूचनामूलक",
+            optionB = "सचेतनामूलक",
+            optionC = "प्रतिबन्धात्मक",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सडकको रेखाङ्कन किन गरिन्छ?",
+            optionA = "सवारी सहज बनाउन",
+            optionB = "सडक रात्री पार्न",
+            optionC = "जरिवाना गर्न",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सडकको रेखाङ्कन गर्न तलकामध्ये कुन रङ्को प्रयोग गर्दैन?",
+            optionA = "सेतो",
+            optionB = "पहेंलो",
+            optionC = "रातो",
+            optionD = "कालो",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "जेब्र क्रसिङ्गको रेखाङ्कन गर्न कुन रङ्को प्रयोग गर्दैन?",
+            optionA = "पहेंलो",
+            optionB = "कालो",
+            optionC = "सेतो",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सडकको मध्य भागमा कोरिएको लगातार सेतो रेखाले के जनाउँछ?",
+            optionA = "रेखा क्रस गर्न नसकिने",
+            optionB = "रेखा क्रस गर्न सकिने",
+            optionC = "माथिका दुवै",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "ट्राफिक लाइटमा कति किसिमका रङ्गीन बत्तिहरू हुन्छन्?",
+            optionA = "२ किसिमका",
+            optionB = "३ किसिमका",
+            optionC = "४ किसिमका",
+            optionD = "५ किसिमका",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ट्राफिकले दिने इशारा कसका लागि हुन्छ?",
+            optionA = "सवारी चालकका लागि",
+            optionB = "पैदल यात्रुका लागि",
+            optionC = "पैदलयात्री र सवारी चालकका लागि",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ट्राफिक बत्तिको रङ्ग निम्नमध्ये कुन होइन?",
+            optionA = "पहेंलो",
+            optionB = "रातो",
+            optionC = "हरियो",
+            optionD = "कालो",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "अटोमेटिक ट्राफिक संकेत भनेको के हो?",
+            optionA = "सडक छेउमा राखिएको चिन्ह",
+            optionB = "सडकमा राखिएको विद्युतिय बत्ती",
+            optionC = "ट्राफिक प्रहरी गर्ने संकेत",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "ट्राफिक चिन्हको पालना गर्नु कसको कर्तव्य हो?",
+            optionA = "सवारी चालकको",
+            optionB = "पैदल यात्रीको",
+            optionC = "ठूला सवारीको",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ट्राफिक संकेत भनेको के हो?",
+            optionA = "सवारी चालकले दिने संकेत",
+            optionB = "प्रहरीले दिने संकेत",
+            optionC = "सडक नियम पालन गर्न राखिएको संकेत",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "अन्तराष्ट्रिय ट्राफिक चिन्ह कति प्रकारका हुन्छन्?",
+            optionA = "दुई प्रकारका",
+            optionB = "तीन प्रकारका",
+            optionC = "चार प्रकारका",
+            optionD = "निश्चित छैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "लेन छुट्याउने संकेत सडकको कुन भागमा कोरिएको हुन्छ?",
+            optionA = "दायाँतिरको छेउमा",
+            optionB = "बायाँतिरको छेउमा",
+            optionC = "सडकको बीचमा",
+            optionD = "जहाँ कोर्ने पनि हुन्छ",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "राजमार्गमा दिशा संकेत गर्न राखिएको बोर्डको रङ कस्तो हुन्छ?",
+            optionA = "हरियो",
+            optionB = "रातो",
+            optionC = "रातो",
+            optionD = "कालो",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "लेनलाइन र जेब्रा क्रसिङलाई के पनि भनिन्छ?",
+            optionA = "सडक मार्किङ",
+            optionB = "ट्राफिक मार्किङ",
+            optionC = "हटस्पोट",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "प्रतिबन्धात्मक ट्राफिक चिन्ह कस्तो आकारको हुन्छ?",
+            optionA = "गोलाकार",
+            optionB = "त्रिभुजाकार",
+            optionC = "वर्गाकार",
+            optionD = "आयताकार",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "चौबाटोमा ट्राफिक लाइट किन राखिन्छ?",
+            optionA = "चालकले रातो बाटो देखोस् भनेर",
+            optionB = "ट्राफिक कन्ट्रोल गर्न",
+            optionC = "सवारी मोड्न",
+            optionD = "सवारी पार्क गर्न",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तलकामध्ये सडकमा ट्राफिक कन्ट्रोलले के ले गर्दैन?",
+            optionA = "ट्राफिक प्रहरी",
+            optionB = "यातायात व्यवस्था विभाग",
+            optionC = "सडक रेखा",
+            optionD = "ट्राफिक संकेत",
+            correctOptionIndex = 2
+        ),
+        //images from here
+
+
+    )
+
+    return quizQuestions6
+}
+
+

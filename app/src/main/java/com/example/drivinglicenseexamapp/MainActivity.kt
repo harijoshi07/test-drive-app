@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.data.getSampleQuestions
+import com.example.drivinglicenseexamapp.navigation.AppNavigation
 import com.example.drivinglicenseexamapp.ui.screen.HomeScreen
 import com.example.drivinglicenseexamapp.ui.component.TopBar
 import com.example.drivinglicenseexamapp.ui.screen.CategoryScreen
@@ -30,17 +31,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DrivingLicenseExamAppTheme {
-                Scaffold(
-                    modifier = Modifier.fillMaxSize(),
-                    topBar = { TopBar() },
-                    containerColor = Color(0xFFEAF3FF)                ) { innerPadding ->
-
-                    //HomeScreen(modifier = Modifier.padding(innerPadding))
-                    //StudyScreen(questions = questions, modifier = Modifier.padding(innerPadding))
-                    QuizModeScreen(questions = questions, modifier = Modifier.padding(innerPadding))
-                    //CategoryScreen(modifier = Modifier.padding(innerPadding))
-
-                }
+                AppNavigation()
             }
         }
     }

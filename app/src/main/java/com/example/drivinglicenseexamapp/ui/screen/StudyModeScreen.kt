@@ -8,16 +8,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 
 
 @Composable
-fun StudyScreen(questions: List<Question>, modifier: Modifier) {
+fun StudyScreen(
+    questions: List<Question>
+) {
     var selectedAnswers by remember { mutableStateOf<List<Int?>>(List(questions.size) { null }) }
 
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .background(color = Color(0xFFEAF3FF))
     ) {
@@ -47,7 +50,8 @@ fun StudyScreen(questions: List<Question>, modifier: Modifier) {
                             selectedAnswers = selectedAnswers.mapIndexed { i, _ ->
                                 if (i == index) answer else selectedAnswers[i]
                             }
-                        }
+                        },
+                        mode = Mode.STUDY_MODE
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                 }
@@ -103,7 +107,5 @@ fun StudyModeScreenPreview() {
                 correctOptionIndex = 0
             )
         ),
-        modifier = Modifier.fillMaxSize()
     )
-
 }
