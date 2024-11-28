@@ -8,14 +8,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import com.example.drivinglicenseexamapp.QuestionViewModel
 import com.example.drivinglicenseexamapp.data.Question
-import com.example.drivinglicenseexamapp.data.getSampleQuestions
 import com.example.drivinglicenseexamapp.ui.component.TopBar
 import com.example.drivinglicenseexamapp.ui.screen.*
 
@@ -69,6 +66,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                 )
             }
 
+
             composable(Screen.Result.route) {
                 val questions = navController.previousBackStackEntry
                     ?.savedStateHandle
@@ -78,11 +76,46 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                     ?.savedStateHandle
                     ?.get<List<Int?>>("selectedAnswers") ?: emptyList()
 
+                val correctCount = questions.indices.count {
+                    selectedAnswers.getOrNull(it) == questions[it].correctOptionIndex
+                }
+
                 ResultScreen(
+                    correctAnswer = correctCount,
+                    size = questions.size,
+                    navigateToQuiz = {
+                        navController.navigate(Screen.Quiz.route)
+                    },
+                    navigateToHome = {
+                        navController.popBackStack(Screen.Home.route, inclusive = false)
+                    },
+                    navigateToAnswer = {
+                        navController.currentBackStackEntry?.savedStateHandle?.apply {
+                            set("questions", questions)
+                            set("selectedAnswers", selectedAnswers)
+                        }
+                        navController.navigate(Screen.Answer.route)
+
+                    }
+                )
+
+            }
+
+            composable(Screen.Answer.route) {
+                val questions = navController.previousBackStackEntry
+                    ?.savedStateHandle
+                    ?.get<List<Question>>("questions") ?: emptyList()
+
+                val selectedAnswers = navController.previousBackStackEntry
+                    ?.savedStateHandle
+                    ?.get<List<Int?>>("selectedAnswers") ?: emptyList()
+
+                AnswerScreen(
                     questions = questions,
                     selectedAnswers = selectedAnswers
                 )
             }
+
 
 
         }
