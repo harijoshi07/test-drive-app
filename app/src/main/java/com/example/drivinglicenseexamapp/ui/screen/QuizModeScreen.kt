@@ -14,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -32,7 +31,7 @@ fun QuizModeScreen(
     questions: List<Question>,
     navigateToResult: (List<Question>, List<Int?>) -> Unit
 ) {
-    val randomQuestions = remember { questions.shuffled().take(5) }
+    val randomQuestions = remember { questions.take(5) }
     var currentQuestionIndex by remember { mutableIntStateOf(0) }
     val selectedAnswers =
         remember { mutableStateListOf<Int?>().apply { addAll(List(5) { null }) } }
@@ -70,7 +69,7 @@ fun QuizModeScreen(
             if (currentQuestionIndex == randomQuestions.size - 1) {
                 Button(
                     onClick = {
-                        navigateToResult(randomQuestions, selectedAnswers)
+                        navigateToResult(randomQuestions, selectedAnswers.toList())
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF617AD3)),
                     shape = RoundedCornerShape(16.dp),

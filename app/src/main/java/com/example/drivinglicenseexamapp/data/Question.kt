@@ -1,5 +1,9 @@
 package com.example.drivinglicenseexamapp.data
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Question(
     val questionText: String, // The question text in Nepali
     val optionA: String, // Option A
@@ -7,4 +11,4 @@ data class Question(
     val optionC: String, // Option C
     val optionD: String, // Option D
     val correctOptionIndex: Int // The correct answer (could be A, B, C, or D)
-)
+):Parcelable

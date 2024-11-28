@@ -25,8 +25,23 @@ class QuestionViewModel: ViewModel(){
         return categoryQuestions[categoryTitle] ?: emptyList()
     }
 
-    // Get all questions for the quiz mode
-    fun getAllQuestions(): List<Question> {
-        return categoryQuestions.values.flatten()
+    fun getQuizQuestions(): List<Question> {
+        // Specify the number of questions from each category
+        val questionDistribution = mapOf(
+            "सवारी सञ्चालन" to 6,
+            "सवारी कानुन" to 5,
+            "प्राविधिक ज्ञान" to 3,
+            "वातावरण प्रदूषण" to 2,
+            "दुर्घटना सचेतना" to 3,
+            "ट्राफिक संकेत" to 6
+        )
+
+        // Collect and shuffle questions from each category
+        return questionDistribution.flatMap { (category, count) ->
+            categoryQuestions[category]
+                ?.shuffled()
+                ?.take(count)
+                ?: emptyList()
+        }
     }
 }

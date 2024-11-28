@@ -56,18 +56,14 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             }
 
             composable(Screen.Quiz.route) {
-                val allQuestions = viewModel.getAllQuestions()
+                val quizQuestions = viewModel.getQuizQuestions()
                 QuizModeScreen(
-                    questions = allQuestions,
+                    questions = quizQuestions,
                     navigateToResult = { questions, selectedAnswers ->
-                        navController.currentBackStackEntry?.savedStateHandle?.set(
-                            "questions",
-                            questions.toTypedArray()
-                        )
-                        navController.currentBackStackEntry?.savedStateHandle?.set(
-                            "selectedAnswers",
-                            selectedAnswers.toTypedArray()
-                        )
+                        navController.currentBackStackEntry?.savedStateHandle?.apply {
+                            set("questions", questions)
+                            set("selectedAnswers", selectedAnswers.toList())
+                        }
                         navController.navigate(Screen.Result.route)
                     }
                 )
@@ -76,11 +72,11 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             composable(Screen.Result.route) {
                 val questions = navController.previousBackStackEntry
                     ?.savedStateHandle
-                    ?.get<Array<Question>>("questions")?.toList() ?: emptyList()
+                    ?.get<List<Question>>("questions") ?: emptyList()
 
                 val selectedAnswers = navController.previousBackStackEntry
                     ?.savedStateHandle
-                    ?.get<Array<Int?>>("selectedAnswers")?.toList() ?: emptyList()
+                    ?.get<List<Int?>>("selectedAnswers") ?: emptyList()
 
                 ResultScreen(
                     questions = questions,
