@@ -12,17 +12,17 @@ import com.example.drivinglicenseexamapp.data.getSampleQuestions6
 class QuestionViewModel: ViewModel(){
 
     private val categoryQuestions = mapOf(
-        "Category1" to getSampleQuestions(),
-        "Category2" to getSampleQuestions2(),
-        "Category3" to getSampleQuestions3(),
-        "Category4" to getSampleQuestions4(),
-        "Category5" to getSampleQuestions5(),
-        "Category6" to getSampleQuestions6()
+        "सवारी सञ्चालन" to getSampleQuestions(),
+        "सवारी कानुन" to getSampleQuestions2(),
+        "प्राविधिक ज्ञान" to getSampleQuestions3(),
+        "वातावरण प्रदूषण" to getSampleQuestions4(),
+        "दुर्घटना सचेतना" to getSampleQuestions5(),
+        "ट्राफिक संकेत" to getSampleQuestions6()
     )
 
     // Get all questions by category
-    fun getQuestionsByCategory(category: String): List<Question> {
-        return categoryQuestions[category] ?: emptyList()
+    fun getQuestionsByCategory(categoryTitle: String): List<Question> {
+        return categoryQuestions[categoryTitle] ?: emptyList()
     }
 
     // Get all questions for the quiz mode

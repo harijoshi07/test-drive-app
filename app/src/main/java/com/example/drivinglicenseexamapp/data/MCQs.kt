@@ -1,10 +1,5 @@
 package com.example.drivinglicenseexamapp.data
 
-fun getAllQuestions(): List<List<Question>>{
-    val allQuestions = listOf(getSampleQuestions(), getSampleQuestions2(), getSampleQuestions3(), getSampleQuestions4(), getSampleQuestions5(), getSampleQuestions6())
-return allQuestions
-}
-
 fun getSampleQuestions(): List<Question> {
 
     val quizQuestions1 = listOf(
@@ -3351,5 +3346,7 @@ fun getSampleQuestions6(): List<Question>{
 
     return quizQuestions6
 }
+
+
 
 

@@ -37,7 +37,7 @@ import com.example.drivinglicenseexamapp.data.itemCategory
 
 @Composable
 fun CategoryScreen(
-    navigateToStudy:()->Unit
+    navigateToStudy:(String)->Unit
 ) {
 
     Surface(
@@ -55,14 +55,14 @@ fun CategoryScreen(
                 .fillMaxWidth(), columns = GridCells.Fixed(2)
         ) {
             items(itemCategory) { category ->
-                CategoryCardItem(items = category)
+                CategoryCardItem(items = category, navigateToStudy = { navigateToStudy(category.title) })
             }
         }
     }
 }
 
 @Composable
-fun CategoryCardItem(items: Category) {
+fun CategoryCardItem(items: Category,navigateToStudy:()->Unit) {
 
     Card(
         colors = CardDefaults.cardColors(
@@ -73,7 +73,7 @@ fun CategoryCardItem(items: Category) {
             .fillMaxWidth()
             .padding(8.dp)
             .size(164.dp)
-            .clickable { },
+            .clickable {navigateToStudy() },
         shape = RoundedCornerShape(12),
         border = BorderStroke(width = 1.dp, color = Color(0xFF617AD3))
     ) {

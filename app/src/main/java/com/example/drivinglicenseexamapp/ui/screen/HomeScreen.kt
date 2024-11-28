@@ -43,8 +43,8 @@ import com.example.drivinglicenseexamapp.ui.component.SegmentedButton
 
 @Composable
 fun HomeScreen(
-    navigateToStudy:()->Unit,
-    navigateToQuiz:()->Unit,
+    navigateToCategory: () -> Unit,
+    navigateToQuiz: () -> Unit,
 ) {
     Box(
         modifier = Modifier
@@ -54,7 +54,7 @@ fun HomeScreen(
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-            modifier = Modifier.padding( horizontal = 24.dp)
+            modifier = Modifier.padding(horizontal = 24.dp)
         ) {
 
             Card(
@@ -109,10 +109,18 @@ fun HomeScreen(
             HomeScreenComponent(
                 title = "Bike/Scooter",
                 category = "Category A/k",
-                painter = R.drawable.bike0
+                painter = R.drawable.bike0,
+                navigateToCategory = navigateToCategory,
+                navigateToQuiz = navigateToQuiz
             )
             Spacer(modifier = Modifier.height(20.dp))
-            HomeScreenComponent(title = "Car", category = "Category B", painter = R.drawable.car1)
+            HomeScreenComponent(
+                title = "Car",
+                category = "Category B",
+                painter = R.drawable.car1,
+                navigateToCategory = navigateToCategory,
+                navigateToQuiz = navigateToQuiz
+            )
         }
 
     }
@@ -124,6 +132,8 @@ fun HomeScreenComponent(
     title: String,
     category: String,
     painter: Int,
+    navigateToCategory: () -> Unit,
+    navigateToQuiz: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Card(
@@ -157,7 +167,7 @@ fun HomeScreenComponent(
                     .padding(start = 20.dp, end = 20.dp, bottom = 12.dp)
             ) {
                 Button(
-                    onClick = {},
+                    onClick = navigateToCategory,
                     colors = ButtonDefaults.buttonColors(
                         containerColor = Color(0xFF617AD3)
                     )
@@ -172,7 +182,7 @@ fun HomeScreenComponent(
                 }
 
                 Button(
-                    onClick = {},
+                    onClick = navigateToQuiz,
                     colors = ButtonDefaults.buttonColors(
                         containerColor = Color(0xFF617AD3)
                     )
