@@ -5,7 +5,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Question(
-    val questionText: String, // The question text in Nepali
+    val questionText: String? = null, // The question text in Nepali
+    val questionImageId: Int? = null, // The question text in Nepali
     val optionA: String, // Option A
     val optionB: String, // Option B
     val optionC: String, // Option C

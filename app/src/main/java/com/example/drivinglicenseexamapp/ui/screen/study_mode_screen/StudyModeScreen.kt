@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.drivinglicenseexamapp.R
 import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
@@ -38,6 +39,7 @@ fun StudyScreen(
                     QuestionComponent(
                         questionNumber = index + 1,
                         questionText = questions[index].questionText,
+                        questionImageId = questions[index].questionImageId,
                         options = listOf(
                             questions[index].optionA,
                             questions[index].optionB,
@@ -67,7 +69,7 @@ fun StudyModeScreenPreview() {
     StudyScreen(
         questions = listOf(
             Question(
-                questionText = "जेब्रा क्रसिङ केका लागि प्रयोग गरिन्छ?",
+                questionImageId = R.drawable.img,
                 optionA = "उभिन",
                 optionB = "पैदल यात्रीले बाटो काट्न",
                 optionC = "गाडी रोक्न",
