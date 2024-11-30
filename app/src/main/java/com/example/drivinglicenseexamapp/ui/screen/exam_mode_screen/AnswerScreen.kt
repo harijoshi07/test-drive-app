@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp.ui.screen
+package com.example.drivinglicenseexamapp.ui.screen.exam_mode_screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

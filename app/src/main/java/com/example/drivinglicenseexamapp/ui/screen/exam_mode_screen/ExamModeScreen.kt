@@ -27,7 +27,7 @@ import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 
 @Composable
-fun QuizModeScreen(
+fun ExamModeScreen(
     questions: List<Question>,
     navigateToResult: (List<Question>, List<Int?>) -> Unit
 ) {

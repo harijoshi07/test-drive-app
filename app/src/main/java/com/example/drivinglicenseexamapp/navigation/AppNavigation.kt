@@ -1,6 +1,6 @@
 package com.example.drivinglicenseexamapp.navigation
 
-import QuizModeScreen
+import ExamModeScreen
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -11,10 +11,14 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.drivinglicenseexamapp.QuestionViewModel
+import com.example.drivinglicenseexamapp.viewmodel.QuestionViewModel
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.TopBar
-import com.example.drivinglicenseexamapp.ui.screen.*
+import com.example.drivinglicenseexamapp.ui.screen.exam_mode_screen.AnswerScreen
+import com.example.drivinglicenseexamapp.ui.screen.exam_mode_screen.ResultScreen
+import com.example.drivinglicenseexamapp.ui.screen.home_screen.HomeScreen
+import com.example.drivinglicenseexamapp.ui.screen.study_mode_screen.CategoryScreen
+import com.example.drivinglicenseexamapp.ui.screen.study_mode_screen.StudyScreen
 
 @Composable
 fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
@@ -54,7 +58,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
 
             composable(Screen.Quiz.route) {
                 val quizQuestions = viewModel.getQuizQuestions()
-                QuizModeScreen(
+                ExamModeScreen(
                     questions = quizQuestions,
                     navigateToResult = { questions, selectedAnswers ->
                         navController.currentBackStackEntry?.savedStateHandle?.apply {

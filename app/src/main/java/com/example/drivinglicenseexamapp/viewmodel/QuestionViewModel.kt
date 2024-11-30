@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp
+package com.example.drivinglicenseexamapp.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.drivinglicenseexamapp.data.Question

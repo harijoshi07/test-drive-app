@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp.ui.screen
+package com.example.drivinglicenseexamapp.ui.screen.exam_mode_screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -43,7 +43,7 @@ fun ResultScreen(
     ) {
         Card(
             colors = CardDefaults.cardColors(
-                containerColor = colorResource(id = R.color.white)
+                containerColor =  Color(0xFFEAF3FF)
             ),
             modifier = Modifier
                 .fillMaxSize()
@@ -67,7 +67,7 @@ fun ResultScreen(
                         ),
                         shape = RoundedCornerShape(16.dp)
                     ) {
-                        Text(text = "Show Answer", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                        Text(text = "Show Answer", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White)
                     }
 
                     Button(
@@ -84,7 +84,8 @@ fun ResultScreen(
                         Text(
                             text = "Close",
                             fontSize = 24.sp,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White
                         )
                     }
                 }
