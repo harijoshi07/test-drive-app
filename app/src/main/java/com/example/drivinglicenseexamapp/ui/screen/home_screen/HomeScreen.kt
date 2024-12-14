@@ -57,6 +57,46 @@ fun HomeScreen(
 
                 Spacer(modifier = Modifier.height(20.dp))
 
+                Row(
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 20.dp, end = 20.dp, bottom = 12.dp)
+                ) {
+                    Button(
+                        onClick = navigateToCategory,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = Color(0xFF617AD3)
+                            //containerColor = Color(0xFFD6E8FF)
+                        )
+                    ) {
+                        Text(
+                            text = "Study Mode",
+                            fontSize = 16.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White
+
+                        )
+                    }
+
+                    Button(
+                        onClick = navigateToQuiz,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = Color(0xFF617AD3)
+                            //containerColor = Color(0xFFD6E8FF)
+                        )
+                    ) {
+                        Text(
+                            text = "Exam Mode",
+                            fontSize = 16.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White
+                        )
+                    }
+                }
+
+
                 HomeScreenComponent(
                     title = "Bike-Scooter",
                     category = "Category A-K",
@@ -188,45 +228,6 @@ fun HomeScreenComponent(
                             .align(Alignment.Start)
                             //.background(Color.Black.copy(alpha = 0.5f))
                             .padding(start = 12.dp)
-                    )
-                }
-            }
-
-
-            Row(
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(start = 20.dp, end = 20.dp, bottom = 12.dp)
-            ) {
-                Button(
-                    onClick = navigateToCategory,
-                    colors = ButtonDefaults.buttonColors(
-                        //containerColor = Color(0xFF617AD3)
-                        containerColor = Color(0xFFD6E8FF)
-                    )
-                ) {
-                    Text(
-                        text = "Study Mode",
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color.Black
-
-                    )
-                }
-
-                Button(
-                    onClick = navigateToQuiz,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFFD6E8FF)
-                    )
-                ) {
-                    Text(
-                        text = "Exam Mode",
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color.Black
                     )
                 }
             }

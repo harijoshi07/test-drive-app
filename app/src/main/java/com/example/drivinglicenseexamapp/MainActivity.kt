@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.data.getSampleQuestions
 import com.example.drivinglicenseexamapp.navigation.AppNavigation
+import com.example.drivinglicenseexamapp.ui.screen.TestScreen
 import com.example.drivinglicenseexamapp.ui.theme.DrivingLicenseExamAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DrivingLicenseExamAppTheme {
-                AppNavigation()
+                //AppNavigation()
+                TestScreen()
             }
         }
     }
