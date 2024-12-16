@@ -1,9 +1,9 @@
 package com.example.drivinglicenseexamapp.ui.screen.home_screen
 
-
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,16 +13,17 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -32,213 +33,206 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
 
+import androidx.compose.runtime.*
+
 @Composable
 fun HomeScreen(
     navigateToCategory: () -> Unit,
     navigateToQuiz: () -> Unit,
 ) {
-    Box(
+    val backgroundColor = Color(0xFFEAF3FF) // Light theme background
+    val cardBackgroundColor = Color(0xFFDAEAFF) // Blueish card color
+    val buttonColor = Color(0xFF617AD3) // Consistent blue for buttons
+    val buttonTextColor = Color.White // White text for buttons
+
+    // State to track the selected mode
+    var selectedMode by remember { mutableStateOf("Study Mode") }
+
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color(0xFFEAF3FF)) // Use the background color from the theme
+            .background(
+                backgroundColor,
+                shape = RoundedCornerShape(topStartPercent = 8, topEndPercent = 8)
+            )
+            .padding(horizontal = 32.dp, vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
+        // Header Buttons
+        Spacer(Modifier.height(4.dp))
 
-        Column {
+        Box(
+            modifier = Modifier
+                .background(
+                    color = Color(0xFFDAEAFF),
+                    shape = RoundedCornerShape(12.dp)
+                )
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                HomeScreenButton(
+                    text = "Study Mode",
+                    isSelected = selectedMode == "Study Mode",
+                    onClick = { selectedMode = "Study Mode" },
+                    selectedColor = buttonColor,
+                    deselectedColor = backgroundColor,
+                    textColor = buttonTextColor
+                )
+                HomeScreenButton(
+                    text = "Exam Mode",
+                    isSelected = selectedMode == "Exam Mode",
+                    onClick = { selectedMode = "Exam Mode" },
+                    selectedColor = buttonColor,
+                    deselectedColor = backgroundColor,
+                    textColor = buttonTextColor
+                )
+            }
+        }
 
+        // Cards
+        HomeScreenCard(
+            title = "Bike - Scooter",
+            subtitle = "Category A - K",
+            icon = R.drawable.bike0,
+            backgroundColor = cardBackgroundColor,
+            onClick = {
+                if (selectedMode == "Study Mode") navigateToCategory()
+                else navigateToQuiz()
+            }
+        )
+        HomeScreenCard(
+            title = "Car",
+            subtitle = "Category B",
+            icon = R.drawable.car1,
+            backgroundColor = cardBackgroundColor,
+            onClick = {
+                if (selectedMode == "Study Mode") navigateToCategory()
+                else navigateToQuiz()
+            }
+        )
 
-
+        // Ultimate Guide Section
+        Card(
+            colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
+            shape = RoundedCornerShape(12.dp),
+            border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+            modifier = Modifier.clickable { }
+        ) {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
-                modifier = Modifier.padding(horizontal = 8.dp)
+                modifier = Modifier.padding(12.dp)
             ) {
-
-
-
-                Spacer(modifier = Modifier.height(20.dp))
-
-                Row(
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(start = 20.dp, end = 20.dp, bottom = 12.dp)
-                ) {
-                    Button(
-                        onClick = navigateToCategory,
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF617AD3)
-                            //containerColor = Color(0xFFD6E8FF)
-                        )
-                    ) {
-                        Text(
-                            text = "Study Mode",
-                            fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = Color.White
-
-                        )
-                    }
-
-                    Button(
-                        onClick = navigateToQuiz,
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF617AD3)
-                            //containerColor = Color(0xFFD6E8FF)
-                        )
-                    ) {
-                        Text(
-                            text = "Exam Mode",
-                            fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = Color.White
-                        )
-                    }
-                }
-
-
-                HomeScreenComponent(
-                    title = "Bike-Scooter",
-                    category = "Category A-K",
-                    painter = R.drawable.bike0,
-                    navigateToCategory = navigateToCategory,
-                    navigateToQuiz = navigateToQuiz
+                Text(
+                    text = "YOUR ULTIMATE GUIDE:",
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black, modifier = Modifier.padding(bottom = 8.dp)
                 )
-                Spacer(modifier = Modifier.height(20.dp))
-
-                HomeScreenComponent(
-                    title = "Car",
-                    category = "Category B",
-                    painter = R.drawable.car1,
-                    navigateToCategory = navigateToCategory,
-                    navigateToQuiz = navigateToQuiz
+                Text(
+                    text = "from filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
+                    fontSize = 14.sp,
+                    color = Color.Black,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(bottom = 16.dp)
                 )
-
-            }
-
-            Card(
-                colors = CardDefaults.cardColors(
-                    containerColor = Color(0x338E8FF3) //more vibrant & purple
-                    //containerColor = Color(0x338E8FF3) //bluish
-                ),
-                modifier = Modifier
-                    .fillMaxSize()                   //.size(164.dp)
-                .padding(top = 32.dp),
-                shape = RoundedCornerShape(topStartPercent = 16, topEndPercent = 16),
-                border = BorderStroke(width = 1.dp, color = Color(0xFF617AD3))
-            ) {
-
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    modifier = Modifier
-                        .padding(20.dp)
-                        .fillMaxWidth()
+                Button(
+                    onClick = { /* Navigate to guide */ },
+                    colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
                 ) {
                     Text(
-                        text = "An ultimate guide:\nfrom filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Medium,
-                        color = Color.Black,
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth()
+                        text = "Let's Start",
+                        color = Color.White
                     )
-
-                    Spacer(modifier = Modifier.height(8.dp))
-
-                    Button(
-                        onClick = {},
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF617AD3)
-                        ),
-                        elevation = ButtonDefaults.buttonElevation(8.dp)
-                    ) {
-                        Text(
-                            text = "Let's Start",
-                            fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = Color.White
-                        )
-                    }
                 }
             }
-
-
         }
-
-
     }
+}
 
+
+@Composable
+fun HomeScreenButton(
+    text: String,
+    isSelected: Boolean,
+    onClick: () -> Unit,
+    selectedColor: Color,
+    deselectedColor: Color,
+    textColor: Color
+) {
+    Button(
+        onClick = onClick,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = if (isSelected) selectedColor else deselectedColor
+        ),
+        shape = RoundedCornerShape(16.dp),
+        modifier = Modifier
+            .padding(horizontal = 4.dp)
+    ) {
+        Text(
+            text = text,
+            color = if (isSelected) textColor else selectedColor
+        )
+    }
 }
 
 @Composable
-fun HomeScreenComponent(
+fun HomeScreenCard(
     title: String,
-    category: String,
-    painter: Int,
-    navigateToCategory: () -> Unit,
-    navigateToQuiz: () -> Unit,
-    modifier: Modifier = Modifier
+    subtitle: String,
+    @DrawableRes icon: Int,
+    backgroundColor: Color,
+    onClick: () -> Unit
 ) {
     Card(
-        colors = CardDefaults.cardColors(
-            //containerColor = Color(0x338E8FF3)
-            containerColor = Color(0xFF617AD3)
-        ),
+        onClick = onClick, // Use onClick here for better integration
+        colors = CardDefaults.cardColors(containerColor = backgroundColor),
+        border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+        shape = RoundedCornerShape(12.dp),
         modifier = Modifier
             .fillMaxWidth()
-            .padding(8.dp),
-        shape = RoundedCornerShape(12),
-        border = BorderStroke(width = 1.dp, color = Color(0xFF617AD3))
+            .padding(4.dp) // Add padding outside the card to prevent overlap
     ) {
         Column(
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier.padding(16.dp), // Only padding here
         ) {
-
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(200.dp)
-            ) {
-                Image(
-                    painter = painterResource(id = painter),
-                    contentDescription = null,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(200.dp)
-                        .clip(RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp))
+            Column {
+                Text(
+                    text = title,
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black
                 )
-
-                Column {
-                    Text(
-                        text =title,
-                        color = Color.White,
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold,
-                        modifier = Modifier
-                            .align(Alignment.Start)
-                            //.background(Color.Black.copy(alpha = 0.5f))
-                            .padding(start = 12.dp, top = 12.dp)
-                    )
-
-                    Text(
-                        text =category,
-                        color = Color.White,
-                        fontSize = 16.sp,
-                        modifier = Modifier
-                            .align(Alignment.Start)
-                            //.background(Color.Black.copy(alpha = 0.5f))
-                            .padding(start = 12.dp)
-                    )
-                }
+                Text(
+                    text = subtitle,
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Light,
+                    color = Color.DarkGray
+                )
             }
+
+            Spacer(modifier = Modifier.width(16.dp))
+
+            Icon(
+                painter = painterResource(id = icon),
+                contentDescription = title,
+                tint = Color.Unspecified,
+                modifier = Modifier
+                    .height(160.dp)
+                    .width(260.dp)
+                    .align(Alignment.CenterHorizontally)
+            )
         }
+
     }
+
+
 }
 
-
-@Preview
+@Preview(showBackground = true)
 @Composable
-private fun HomeScreenPreview() {
+private fun PreviewTestScreen() {
     HomeScreen({}, {})
-
 }

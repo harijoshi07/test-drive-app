@@ -3,8 +3,13 @@ package com.example.drivinglicenseexamapp.ui.component
 import androidx.compose.foundation.background
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AirplanemodeActive
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.ArrowBackIosNew
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.Sort
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -12,6 +17,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,13 +27,31 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavBackStackEntry
+import com.example.drivinglicenseexamapp.data.topBarTitle
+import com.example.drivinglicenseexamapp.navigation.Screen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TopBar(modifier: Modifier = Modifier) {
+fun TopBar(
+    navBackStackEntry: NavBackStackEntry?,
+    navigateBack: () -> Unit,
+) {
+
+    val title = navBackStackEntry?.destination?.route ?: Screen.Home.route
 
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(rememberTopAppBarState())
 
+    if (title == Screen.Home.route) {
+        HomeTopBar(scrollBehavior)
+    } else {
+        GeneralTopBar(title, scrollBehavior, navigateBack)
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HomeTopBar(scrollBehavior: TopAppBarScrollBehavior, modifier: Modifier = Modifier) {
     CenterAlignedTopAppBar(
         title = {
             Text(
@@ -39,26 +63,74 @@ fun TopBar(modifier: Modifier = Modifier) {
                 color = Color.White
             )
         },
-        /*navigationIcon = {
+        navigationIcon = {
             IconButton(onClick = { /*TODO*/ }) {
                 Icon(
-                    imageVector = Icons.Default.ArrowBack,
+                    imageVector = Icons.Default.Sort,
                     contentDescription = null,
                     tint = Color.White
                 )
             }
-        },*/
+        },
+
+        actions = {
+            IconButton(onClick = { /*TODO*/ }) {
+                Icon(
+                    imageVector = Icons.Default.FavoriteBorder,
+                    contentDescription = null,
+                    tint = Color.White
+                )
+            }
+        },
+        scrollBehavior = scrollBehavior,
+
+        colors = TopAppBarDefaults.topAppBarColors(
+            containerColor = Color(0xFF617AD3)
+            //containerColor = Color(0xFFEAF3FF)
+        )
+    )
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun GeneralTopBar(
+    title: String,
+    scrollBehavior: TopAppBarScrollBehavior,
+    navigateBack: () -> Unit,
+) {
+
+    CenterAlignedTopAppBar(
+        title = {
+            Text(
+                text = topBarTitle[title] ?: "",
+                //text = "सवारी सञ्चालन सम्बन्धी ज्ञान",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                maxLines = 1,
+                color = Color.White
+            )
+        },
+        navigationIcon = {
+            IconButton(onClick = navigateBack) {
+                Icon(
+                    imageVector = Icons.Default.ArrowBackIosNew,
+                    contentDescription = null,
+                    tint = Color.White
+                )
+            }
+        },
         scrollBehavior = scrollBehavior,
 
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = Color(0xFF617AD3)
         )
     )
+
 }
 
 
-@Preview
-@Composable
-private fun TopBarPreview() {
-    TopBar()
-}
+//@Preview
+//@Composable
+//private fun TopBarPreview() {
+//    TopBar()
+//}

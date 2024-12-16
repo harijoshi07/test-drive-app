@@ -677,7 +677,1102 @@ fun getSampleQuestions1() {
         ),
 
         //upto qn 84
-
+        Question(
+            questionText = "नेपाली नागरिकलाई सवारी चालक अनुमति पत्र प्राप्त गर्न सबभन्दा पहिले कुन प्रमाणपत्र आवश्यक पर्दछ?",
+            optionA = "ड्राइभिङ स्कूलले दिएको प्रमाणपत्र",
+            optionB = "स्वास्थ्य परीक्षणको प्रमाणपत्र",
+            optionC = "नेपाली नागरिकताको प्रमाणपत्र",
+            optionD = "शैक्षिक योग्यताको प्रमाणपत्र",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एउटा यातायात व्यवस्था कार्यालयमा दर्ता भएको सवारीलाई अर्को यातायात व्यवस्था कार्यालयमा दर्ता गराउने कार्यलाई के भनिन्छ?",
+            optionA = "सफा दर्ता",
+            optionB = "नवीकरण",
+            optionC = "पुन: दर्ता",
+            optionD = "अन्य अञ्जलको दर्ता",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको परीक्षा मस्यौदा बनाउने कार्यलय कसको हो?",
+            optionA = "यातायात व्यवस्था कार्यालयको",
+            optionB = "परीक्षाहारुको",
+            optionC = "ट्राफिक प्रहरीको",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "पिक आवर भनेको कुन समयलाई भनिन्छ?",
+            optionA = "विहानको समय",
+            optionB = "बेलुकाको समय",
+            optionC = "अफिस लाग्ने र छुट्ने एक घण्टा अघि पछिको समय",
+            optionD = "खाजा खाने समय",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कस्तो सवारीको अनिवार्य रूपमा तेस्रो पक्ष बीमा गर्नुपर्छ?",
+            optionA = "भाडाका बस, ट्रक",
+            optionB = "मोटरसाइकल",
+            optionC = "निजी कार",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको परीक्षा समितिको अध्यक्ष को हुने व्यवस्था छ?",
+            optionA = "यातायात व्यवस्था कार्यालयको प्रमुख",
+            optionB = "यातायात व्यवस्था विभागको प्रमुख",
+            optionC = "ट्राफिक कार्यालयको प्रमुख",
+            optionD = "ड्राइभिङ प्रशिक्षण केन्द्रको प्रमुख",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तेस्रो पक्ष बीमा भनेको के हो?",
+            optionA = "यात्रुको बीमा",
+            optionB = "पैदल यात्रुको बीमा",
+            optionC = "सवारीको बीमा",
+            optionD = "चालकको बीमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "पहेँलो रङको नम्बर प्लेट भएको सवारी साधन कुन निकायको हो?",
+            optionA = "सरकारी सवारी साधन",
+            optionB = "निजी सवारी साधन",
+            optionC = "सार्वजनिक सवारी साधन",
+            optionD = "संस्थानको सवारी साधन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "गाडी रोकेपछि कुन साइडबाट ओर्लनु पर्छ?",
+            optionA = "बायाँबाट",
+            optionB = "दायाँबाट",
+            optionC = "पछाडिबाट",
+            optionD = "अगाडिबाट",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको प्रतिलिपि कुन अवस्थामा प्राप्त गर्न सकिन्छ?",
+            optionA = "हराएमा",
+            optionB = "च्यातिएमा",
+            optionC = "चोरी भएमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "तपाईले कसैको सवारी चालक अनुमति पत्र भेट्टाए के गर्नु पर्छ?",
+            optionA = "च्याते फाल्ने",
+            optionB = "घरमा लाने",
+            optionC = "ट्राफिक कार्यालयमा बुझाइदिने",
+            optionD = "वासते नगर्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कुन सवारीलाई बाटोको इजाजत-पत्र चाहिदैन?",
+            optionA = "मोटरसाइकल",
+            optionB = "सार्वजनिक ट्रक",
+            optionC = "सार्वजनिक जिप",
+            optionD = "सार्वजनिक बस",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी आवागमनलाई व्यवस्थित गर्ने पहिलो जिम्मेवार निकाय कुन हो?",
+            optionA = "जिल्ला प्रशासन कार्यालय",
+            optionB = "यातायात व्यवस्था विभाग",
+            optionC = "जिल्ला प्रहरी कार्यालय",
+            optionD = "ट्राफिक प्रहरी कार्यालय",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रका लागि कुन शैक्षिक योग्यता चाहिन्छ?",
+            optionA = "एस.एल.सी./एस.ई.ई.",
+            optionB = "(१०+२) वा सो सरह",
+            optionC = "उच्च शिक्षा",
+            optionD = "साधारण लेखपढ",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "यातायात व्यवस्था विभागको स्थापना कहिले भएको हो?",
+            optionA = "वि.सं.२०४५",
+            optionB = "वि.सं.२०४९",
+            optionC = "वि.सं.२०५२",
+            optionD = "वि.सं.२०६२",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "पानी परेको बखत सवारी चलाउँदा के कुरामा ध्यान दिनु पर्छ?",
+            optionA = "ब्रेक",
+            optionB = "गाडी चिप्लने विषय",
+            optionC = "हिलो छ्यापिने सावधानी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "करता सवारीलाई नामसारी गर्न हुँदैन?",
+            optionA = "उत्पादन वर्षले २० वर्ष कटेका",
+            optionB = "उत्पादन वर्षले १५ वर्ष कटेका",
+            optionC = "उत्पादन वर्षले ५ वर्ष कटेका",
+            optionD = "उत्पादन वर्षले २५ वर्ष कटेका",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "लिलामीबाट एक पटक दर्ता भएको सवारी पुनः लिलामी भएमा के गर्नुपर्दछ?",
+            optionA = "लिलामी गर्नुहुन्छ",
+            optionB = "दर्ता नगरी चलाउनुपर्छ",
+            optionC = "नियमअनुसार र्क्रयाप गर्नुपर्दछ",
+            optionD = "नियमअनुसार लिलामी दर्ता गर्नुपर्छ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "लामो दूरीमा चलेका यात्रिबाहक सार्वजनिक सवारी साधनले कति घण्टा पछि विश्राम गर्नुपर्छ?",
+            optionA = "प्रत्येक ३ घण्टामा",
+            optionB = "प्रत्येक ४ घण्टामा",
+            optionC = "प्रत्येक २ घण्टामा",
+            optionD = "प्रत्येक १ घण्टामा",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्र नवीकरण कुन कार्यालयले गर्दैन?",
+            optionA = "यातायात व्यवस्था कार्यालय",
+            optionB = "यातायात व्यवस्था विभागले",
+            optionC = "सवारी परीक्षण कार्यालयले",
+            optionD = "ट्राफिक प्रहरी कार्यालय",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो सडकमा सार्वजनिक सवारी सञ्चालन गर्न हुँदैन?",
+            optionA = "कालो पत्रे नगरिएको",
+            optionB = "ग्राभेल सडक",
+            optionC = "रूट कायम नभएको",
+            optionD = "पहाडी सडक",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कस्तो सवारीलाई सवारी कर लाग्दैन?",
+            optionA = "सरकारी सवारी",
+            optionB = "संस्थान सवारी",
+            optionC = "कूटनीतिक सवारी",
+            optionD = "सबैलाइ लाग्छ",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारीको इन्जिन ब्लक फुट्यो भने तपाईं के गर्नुहुन्छ?",
+            optionA = "वर्कसपमा गएर फेर्न लगाउने",
+            optionB = "यातायात व्यवस्था कार्यालयबाट स्वीकृत लिएर फेर्ने",
+            optionC = "पुरानो गाडीको इन्जिन ब्लक लगाउने",
+            optionD = "बिम्सिन बिग्रिक बजारमा गएर फेर्न लगाउने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "विदेशी सवारी चालक अनुमतिपत्रलाई नेपाली रुपान्तरण गर्ने कार्यालयलाई के भनिन्छ?",
+            optionA = "अन्तर्राष्ट्रियकरण",
+            optionB = "विदेशीकरण",
+            optionC = "नेपालीकरण",
+            optionD = "स्वदेशीकरण",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "विदेशी राष्ट्रबाट प्राप्त चालक अनुमति पत्रको नेपालीकरण गर्न कुन परीक्षा पास गर्नुपर्छ?",
+            optionA = "लिखित",
+            optionB = "मौखिक",
+            optionC = "प्रयोगात्मक",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "अन्तर्राष्ट्रिय सवारी चालक अनुमति पत्र सम्बन्धी नेपालमा के व्यवस्था छ?",
+            optionA = "स्वतः अमान्य हुने",
+            optionB = "अनुमति पत्रमा उल्लिखित सवारी नेपालभर चलाउन पाउने",
+            optionC = "काठमाण्डौँ उपत्यकामा मात्र अनुमति प्राप्त",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "कस्तो सवारी चालक अनुमतिपत्रको लगत कट्टा गरिन्छ?",
+            optionA = "याद नगएको स. चा. अनुमतिपत्रको ५ वर्षसम्म पनि नवीकरण नगराएमा",
+            optionB = "पुरानो सवारी चालक अनुमतिपत्र",
+            optionC = "दुर्घटना गराएको व्यक्तिले प्राप्त सवारी चालक अनुमतिपत्र",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्रको अनलाइन दरखास्त फाराम भरेपछि कहिले बायोमेट्रिकका लागि कार्यालय जानुपर्छ?",
+            optionA = "भोलिपल्ट",
+            optionB = "१ वर्षमा",
+            optionC = "३ महिनामा",
+            optionD = "सिस्टमले दिएको भिजिट डेटमा",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "२५ किलोमिटरसम्मको बाटोलाई कस्तो बाटो भनिन्छ?",
+            optionA = "लामो बाटो",
+            optionB = "छोटो बाटो",
+            optionC = "स्थानीय बाटो",
+            optionD = "मझौला बाटो",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तलका मध्ये कुन सवारीले रुट इजाजत पत्र लिनु पर्दैन?",
+            optionA = "एम्बुलेन्स",
+            optionB = "दमकल",
+            optionC = "मोटरसाइकल",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्ता सवारीलाई अधिकार प्राप्त अधिकारीले एउटै पटकमा ५ वर्षसम्मका लागि नवीकरण गर्न सक्ने प्रावधान छ?",
+            optionA = "सरकारी",
+            optionB = "संस्थान र कूटनीतिक",
+            optionC = "निजी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दमकल कस्तो सवारी हो?",
+            optionA = "यात्रुवाहक",
+            optionB = "मालवाहक",
+            optionC = "शववाहन",
+            optionD = "अग्नी नियन्त्रणक",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चलाइरहेको बेला एक्सेलेरेटर धेरै थिचेमा के हुन्छ?",
+            optionA = "सवारी साधन बिग्रिन्छ",
+            optionB = "ट्राफिकले जरिवाना लिन्छ",
+            optionC = "सवारीको गति बढ्छ",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "यातायात व्यवस्था कार्यालयहरु कुन निकायको मातहतमा रहेका छन्?",
+            optionA = "यातायात व्यवस्था विभाग",
+            optionB = "प्रदेश भौतिक पूर्वाधार विकास मन्त्रालय",
+            optionC = "भौतिक पूर्वाधार तथा यातायात मन्त्रालय",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो अवस्थामा सवारी साधनहरु चलाउँदा एक आपसको दूरी बढी राख्नु पर्छ?",
+            optionA = "सवारी भएको बेलामा",
+            optionB = "घाम लागेको बेलामा",
+            optionC = "पानी परेको बेलामा",
+            optionD = "हुस्सु कुहिरो लागेको बेलामा",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा के गर्नु हुँदैन?",
+            optionA = "मोबाइलमा कुरा गर्न",
+            optionB = "मादक पदार्थ सेवन गर्न",
+            optionC = "जथाभावी ओभरटेक गर्न",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सडक पार गर्दा कसरी गर्न पर्छ?",
+            optionA = "हिँड्दै रोकिने",
+            optionB = "दौडिएर",
+            optionC = "जेब्रा क्रसिङबाट विस्तारै",
+            optionD = "एउटै गतिमा हिँडेर",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "तलका मध्ये कुन सवारी चालकको कर्तव्य हो?",
+            optionA = "गाडी भाडा उठाउने",
+            optionB = "कन्डिसन चेक गरेर गाडी चलाउने",
+            optionC = "सडक सफा गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सहरी इलाकामा सवारी चलाउँदा के गर्नु पर्छ?",
+            optionA = "गति सीमित गर्ने",
+            optionB = "गति बढाउने",
+            optionC = "सवारी रोक्ने",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "गाडी चलाउँदा के अनिवार्य छ?",
+            optionA = "सिटबेल्ट लगाउने",
+            optionB = "चश्मा लगाउने",
+            optionC = "ज्याकेट लगाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको सुरक्षा भन्नाले केलाई बुझाउँछ?",
+            optionA = "बाटोमा पार्किङ गर्ने",
+            optionB = "सवारीलाई न्युट्रलमा राख्ने",
+            optionC = "सवारीको लक गर्ने",
+            optionD = "ओरालोमा पार्किङ गर्ने",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारीको ब्रेक फेल किन हुन्छ?",
+            optionA = "ब्रेक तातर",
+            optionB = "ब्रेक पाइप फुटेर",
+            optionC = "ब्रेक आयल नभर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा प्रेसर हर्न बजाउनलाई के हुन्छ?",
+            optionA = "कैद",
+            optionB = "जरिवाना",
+            optionC = "सवारी जफत",
+            optionD = "केही पनि हुँदैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सडकको मध्यभागमा कोरिएका रेखाले के जनाउँछ?",
+            optionA = "रेस गर्न नपाउने",
+            optionB = "सडक लेन छुट्याउने",
+            optionC = "बाटो काट्न नपाउने",
+            optionD = "ओभरटेक गर्न नपाउने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्लुबुक कहाँ राख्नु पर्छ?",
+            optionA = "घरमा",
+            optionB = "चालकसँग",
+            optionC = "कार्यालयमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "साइड लाइट कति बेला बालिन्छ?",
+            optionA = "लेन परिवर्तन गर्दा",
+            optionB = "ओभरटेक गर्दा",
+            optionC = "सवारी रोकि राख्न लाग्दा",
+            optionD = "क र ख दुबै",
+            correctOptionIndex = 4
+        )
 
     )
+
+
+    val quizQuestions2 = listOf(
+        Question(
+            questionText = "सवारी चालक अनुमति पत्र हराएमा कति अवधिभित्र सूचना गरिसक्नु पर्छ?",
+            optionA = "७ दिन",
+            optionB = "१५ दिन",
+            optionC = "१ महिना",
+            optionD = "२ महिना",
+            correctOptionIndex = 1
+        ),
+
+        Question(
+            questionText =
+            "म्याद सकिएको कति समयसम्म सवारी चालक अनुमति पत्र नविकरण नगरी जरिवाना लाग्दैन?",
+            optionA = "एक महिना",
+            optionB = "तीन महिना",
+            optionC = "पाँच महिना",
+            optionD = "सात महिना",
+            correctOptionIndex = 1
+        ),
+
+        Question(
+            questionText = "कार/जिपको सवारी चालक अनुमति पत्र लिन कति वर्ष उमेर पुरा भएको हुनुपर्छ?",
+            optionA = "१६ वर्ष",
+            optionB = "१७ वर्ष",
+            optionC = "१८ वर्ष",
+            optionD = "२० वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "चालकले पालन गर्नु पर्ने शर्तहरु कति पटक भन्दा बढी उल्लंघन गरेमा चालक अनुमति पत्र निलम्बन हुन्छ?",
+            optionA = "तीन पटक",
+            optionB = "चार पटक",
+            optionC = "पाँच पटक",
+            optionD = "छ पटक",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कार/जिपको सवारी चालक अनुमति पत्र लिएको कति वर्ष पछि ठूला सवारी साधनको सवारी चालक अनुमति पत्र लिन सकिन्छ?",
+            optionA = "१ वर्ष",
+            optionB = "२ वर्ष",
+            optionC = "३ वर्ष",
+            optionD = "४ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी साधनको नामसारी कुन कार्यालयले गर्छ?",
+            optionA = "ट्राफिक प्रहरी कार्यालयले",
+            optionB = "जिल्ला प्रहरी कार्यालयले",
+            optionC = "यातायात व्यवस्था कार्यालयले",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "मजौला सवारीको सवारी चालक अनुमति पत्र नविकरण गर्दा कति दस्तूर लाग्छ?",
+            optionA = "एक हजार पाँच सय",
+            optionB = "दुई हजार",
+            optionC = "दुई हजार पाँच सय",
+            optionD = "तीन हजार",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्र कति-कति वर्षमा नविकरण गर्नु पर्छ?",
+            optionA = "५-५ वर्ष",
+            optionB = "३-३ वर्ष",
+            optionC = "२-२ वर्ष",
+            optionD = "७-७ वर्ष",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "जिपको चालक अनुमति पत्रको लागि कति शुल्क लाग्ने व्यवस्था रहेको छ?",
+            optionA = "एक हजार",
+            optionB = "सात सय",
+            optionC = "दुई हजार",
+            optionD = "एक हजार पाँच",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "चालकको ठेगाना बदलिएमा कति अवधिभित्र कार्यालयमा सूचना गर्नु पर्छ?",
+            optionA = "सात दिन भित्र",
+            optionB = "पन्ध्र दिन भित्र",
+            optionC = "एक महिना भित्र",
+            optionD = "पैतालिस दिन भित्र",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सार्वजनिक सवारी साधनमा महिलाको लागि कति सिट आरक्षित गरिएको छ?",
+            optionA = "२ सिट",
+            optionB = "३ सिट",
+            optionC = "६ सिट",
+            optionD = "५ सिट",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी दर्ता प्रमाणपत्रको म्याद नाघेको कति सयमभित्र नविकरण गराएमा जरिवाना लाग्दैन?",
+            optionA = "१ महिनाभित्र",
+            optionB = "२ महिनाभित्र",
+            optionC = "३ महिनाभित्र",
+            optionD = "४ महिनाभित्र",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "लामो दुरीमा सञ्चालन हुने सार्वजनिक सवारी साधनको चालकले कति घण्टा पछि पालो फेर्र्न पर्छ?",
+            optionA = "४ घण्टा",
+            optionB = "६ घण्टा",
+            optionC = "८ घण्टा",
+            optionD = "आवश्यकता अनुसार",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ज्यान मर्ने मनसाय राखी सवारी चलाउँदा कुनै व्यक्तिको मृत्यु भएमा त्यसतो चालकलाई के सजाय हुने व्यवस्था गरिएको छ?",
+            optionA = "कुनै पनि सजाय हुदैन",
+            optionB = "सर्वस्वसहित जन्म कैद",
+            optionC = "जन्मकैद",
+            optionD = "२० वर्ष जेल सजाय",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्लुबुक कति अवधिभित्र नविकरण नगाए स्वतः रद्द हुन्छ?",
+            optionA = "१ वर्ष",
+            optionB = "३ वर्ष",
+            optionC = "५ वर्ष",
+            optionD = "७ वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रमा ठुला सवारी थप गर्दा कति दस्तुर लाग्छ?",
+            optionA = "पाँच सय",
+            optionB = "एक हजार",
+            optionC = "एक हजार पाँच सय",
+            optionD = "दुई हजार",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको लागि दरखास्त दिँदा दरखास्त दस्तुर वापत कति रकम बुझाउन पर्छ?",
+            optionA = "रु. १००",
+            optionB = "रु. ५००",
+            optionC = "रु. ३००",
+            optionD = "रु. ४००",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "कति वर्ष पुराना भाडाका सवारी साधन सञ्चालन गर्न पाइँदैन?",
+            optionA = "१० वर्ष",
+            optionB = "१५ वर्ष",
+            optionC = "२० वर्ष",
+            optionD = "२५ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मोटर साइकलको चालक अनुमति पत्र नवीकरण गर्दा कति दस्तुर लाग्छ?",
+            optionA = "एक हजार पाँच सय",
+            optionB = "दुई हजार",
+            optionC = "दुई हजार पाँच सय",
+            optionD = "तीन हजार",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "तेसो पक्ष बीमा कति रकमको गर्नुपर्ने व्यवस्था रहेको छ?",
+            optionA = "२ लाख",
+            optionB = "३ लाख",
+            optionC = "४ लाख",
+            optionD = "५ लाख",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "लामो दूरीमा चल्ने यात्रुवाहक सार्वजनिक सवारी साधनले कति घण्टा पछि विश्राम गर्नु पर्छ?",
+            optionA = "प्रत्येक ३ घण्टामा",
+            optionB = "प्रत्येक ५ घण्टामा",
+            optionC = "प्रत्येक २ घण्टामा",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको बहाल अवधि कति वर्षको हुने व्यवस्था रहेको छ?",
+            optionA = "१ वर्ष",
+            optionB = "३ वर्ष",
+            optionC = "५ वर्ष",
+            optionD = "१० वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "स्थानीय बाटोमा चल्ने यातुवाहक ठूला सार्वजनिक सवारीमा अशक्त व्यक्तिका लागि कति सिट आरक्षित गरिएको छ?",
+            optionA = "२ सिट",
+            optionB = "३ सिट",
+            optionC = "४ सिट",
+            optionD = "५ सिट",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "चालक अनुमति पत्र कति अवधिसम्म निलम्बन गर्ने सकिने प्रावधान छ?",
+            optionA = "३ महिना",
+            optionB = "४ महिना",
+            optionC = "६ महिना",
+            optionD = "८ महिना",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ठूला सवारीको सवारी चालक अनुमति पत्र नवीकरण गर्दा कति दस्तुर लाग्छ?",
+            optionA = "एक हजार पाँच सय",
+            optionB = "दुई हजार",
+            optionC = "दुई हजार पाँच सय",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "म्याद सकिएको कति समयपछि सवारी चालक अनुमति पत्र नवीकरण गर्दा जरिवाना लाग्छ?",
+            optionA = "एक महिना",
+            optionB = "तीन महिना",
+            optionC = "पाँच महिना",
+            optionD = "सात महिना",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "बाटो इजाजत र नामसारी गर्नको लागि निवेदन फाराममा कतिको टिकट टाँस गर्नुपर्ने व्यवस्था छ?",
+            optionA = "पाँच रुपैयाँ",
+            optionB = "दश रुपैयाँ",
+            optionC = "दुई रुपैयाँको",
+            optionD = "एक रुपैयाँको",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी दर्ता प्रमाण पत्र हराएको वा अन्य कुनै कारणबाट नासिएमा सो भएको कति दिन भित्र प्रतिलिपिका लागि निवेदन दिनु पर्छ?",
+            optionA = "३ दिन भित्र",
+            optionB = "९ दिन भित्र",
+            optionC = "१५ दिन भित्र",
+            optionD = "३० दिन भित्र",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "प्रदूषण पास स्टिकर नभएको सवारी साधन नियमित सडकमा लागिएमा के सजाय हुन्छ?",
+            optionA = "कैद सजाय",
+            optionB = "सवारी जफत",
+            optionC = "भविष्यमा सवारी चलाउन प्रतिबन्ध",
+            optionD = "चालकलाई जरिवाना",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्र नवीकरण गर्ने समय एक वर्ष पार भएको अवस्थामा नियमअनुसार कति जरिवाना थप हुन्छ?",
+            optionA = "एक सय पचास प्रतिशत",
+            optionB = "पचास प्रतिशत",
+            optionC = "तीस प्रतिशत",
+            optionD = "एक सय प्रतिशत",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी तथा यातायात व्यवस्था ऐन अनुसार ठूलो सवारीको चालक अनुमति पत्र प्राप्त गर्न कति उमेर पुगेको हुनुपर्छ?",
+            optionA = "१६ वर्ष",
+            optionB = "१८ वर्ष",
+            optionC = "२१ वर्ष",
+            optionD = "२५ वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "निजी सवारी साधनको प्रदूषण जाँच कति कति अवधिमा गरिन्छ?",
+            optionA = "३/३ महिनामा",
+            optionB = "६/६ महिनामा",
+            optionC = "१/१ वर्षमा",
+            optionD = "२/२ वर्षमा",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "भन्सार तिरी ल्याएको मितिले कति दिन भित्र सवारी साधन दर्ता गराइसम्पन्न पर्छ?",
+            optionA = "१० दिनभित्र",
+            optionB = "१५ दिनभित्र",
+            optionC = "२० दिनभित्र",
+            optionD = "२५ दिनभित्र",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तौलको आधारमा ठूलो सवारी भन्नाले कति वजन भएको सवारीलाई बुझिन्छ?",
+            optionA = "१० टनभन्दा बढी",
+            optionB = "४ टनदेखि १० टनसम्म",
+            optionC = "४ टनभन्दा कम",
+            optionD = "१ टन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तौलको आधारमा मझौला सवारी भन्नाले कति वजन भएको सवारीलाई बुझिन्छ?",
+            optionA = "१० टन",
+            optionB = "१ टनदेखि ४ टनसम्म",
+            optionC = "४ टनदेखि १० टनसम्म",
+            optionD = "१ टन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "तौलको आधारमा साना सवारी भन्नाले कति वजन भएको सवारीलाई बुझिन्छ?",
+            optionA = "१० टन",
+            optionB = "४ टनभन्दा कम",
+            optionC = "१ टनभन्दा कम",
+            optionD = "१ टन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी तथा यातायात व्यवस्था ऐन कुन सालमा जारी भएको हो?",
+            optionA = "वि.सं. २०४८",
+            optionB = "वि.सं. २०४९",
+            optionC = "वि.सं. २०५४",
+            optionD = "वि.सं. २०५०",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "नेपालमा हाल सवारी प्रदूषण मापदण्ड ऐन कुन लागू भएको छ?",
+            optionA = "नेपाल सवारी प्रदूषण मापदण्ड, २०५६",
+            optionB = "नेपाल सवारी प्रदूषण मापदण्ड, २०६०",
+            optionC = "नेपाल सवारी प्रदूषण मापदण्ड, २०६५",
+            optionD = "नेपाल प्रदूषण मापदण्ड, २०६९",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी दर्ता प्रमाणपत्र कति अवधिमा नवीकरण गराउनुपर्छ?",
+            optionA = "६ महिनामा",
+            optionB = "१ वर्षमा",
+            optionC = "२ वर्षमा",
+            optionD = "४ वर्षमा",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्रको म्याद सकिए पछि जरीवाना तिरेर कति वर्षसम्म नवीकरण गर्न पाइन्छ?",
+            optionA = "५ वर्ष",
+            optionB = "३ वर्ष",
+            optionC = "२ वर्ष",
+            optionD = "७ वर्ष",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्र प्राप्त गर्नका लागि प्रयोगात्मक (ट्रायल) पास गरेको मितिले कति समय भित्र सवारी चालक दस्तुर (लाइसेन्स फि पेमेंट) बुझाइसक्नुपर्दछ?",
+            optionA = "१८ महिना भित्र",
+            optionB = "५ वर्ष भित्र",
+            optionC = "१५ दिन भित्र",
+            optionD = "१० दिन भित्र",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्रको प्रतिलिपि दस्तुर कति हो?",
+            optionA = "दुई सय",
+            optionB = "पाँच सय",
+            optionC = "एक हजार",
+            optionD = "एक हजार पाँच सय",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्र खारेज गर्ने सक्ने अवस्था देहायका मध्ये कुन हो वा हुन्?",
+            optionA = "ऐनको व्यवस्था बमोजिमको अयोग्यता प्रमाणित भएमा",
+            optionB = "चालकको मृत्यु भएमा",
+            optionC = "स्वेच्छाले खारेज गर्न चाहेमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्रको लिखित परीक्षा केन्द्रमा अनियमितता गरी निष्काशित गरिएको व्यक्तिलाई कति अवधिसम्म यस्तो परीक्षामा सामेल गराइँदैन?",
+            optionA = "१ वर्ष",
+            optionB = "२ महिना",
+            optionC = "३ महिना",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "अस्थायी सवारी दर्ताको प्रमाणपत्र बढीमा कति समय अवधिसम्म मान्य हुन्छ?",
+            optionA = "१ महिना",
+            optionB = "३ महिना",
+            optionC = "६ महिना",
+            optionD = "१ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "२५० किलोमिटर भन्दा बढी दूरी भएको बाटोलाई कुन बाटो भनिन्छ?",
+            optionA = "लामो बाटो",
+            optionB = "स्थानीय बाटो",
+            optionC = "छोटो बाटो",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "२१ वर्ष पुगेको व्यक्ति कुन सवारी चलाउन योग्य मानिन्छ?",
+            optionA = "साना",
+            optionB = "मझौला",
+            optionC = "ठूला",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्र प्राप्त नगरी सवारी साधन चलाउँदा कति रुपैयाँ जरिवाना हुने व्यवस्था छ ?",
+            optionA = "रु. २०० देखि रु ५०० सम्म",
+            optionB = "रु. ४०० मात्र",
+            optionC = "रु. ५०० देखि रु २००० सम्म",
+            optionD = "रु. १०० सम्म",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रको परीक्षण काल कति समय रहने व्यवस्था छ ?",
+            optionA = "६ महिना",
+            optionB = "१ वर्ष",
+            optionC = "३ महिना",
+            optionD = "१८ महिना",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रमा वर्ग थप गर्दा थप गरिएको मिति कति वर्षले बढ्छ ?",
+            optionA = "५ वर्षले",
+            optionB = "३ महिना",
+            optionC = "बढ्दैन",
+            optionD = "१८ महिना",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "बढीमा कति अवधिका लागि पटक्के बाटो इजाजत दिन सकिने व्यवस्था छ ?",
+            optionA = "१५ दिन",
+            optionB = "७ दिन",
+            optionC = "५ दिन",
+            optionD = "एक महिना",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "एक पटक बाटो इजाजत लिएपछि उक्त इजाजत कति अवधिका लागि मान्य हुन्छ ?",
+            optionA = "४ महिना",
+            optionB = "६ महिना",
+            optionC = "३ महिना",
+            optionD = "१ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "बाटो इजाजतको म्याद समाप्त भए पछि कति दिन भित्र इजाजत नवीकरण गर्नुपर्छ ?",
+            optionA = "३ दिन",
+            optionB = "६ दिन",
+            optionC = "१५ दिन",
+            optionD = "१ वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "म्याद नाघिसकेको एक महिनासम्ममा बाटो इजाजत नवीकरण गर्नु परेमा अतिरिक्त कति प्रतिशत दस्तुर लाग्छ?",
+            optionA = "५० प्रतिशत",
+            optionB = "२५ प्रतिशत",
+            optionC = "१०० प्रतिशत",
+            optionD = "अतिरिक्त शुल्क लाग्दैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "जाँचपास गरेको कति दिन भित्र बाटोको इजाजतपत्र लिनु सक्नु पर्छ?",
+            optionA = "४५ दिन भित्र",
+            optionB = "६० दिन भित्र",
+            optionC = "१० दिन भित्र",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमतिपत्रको लिखित परीक्षा उत्तीर्ण गर्न किमान कति प्रतिशत अंक प्राप्त गर्नु पर्ने हुन्छ?",
+            optionA = "५० प्रतिशत",
+            optionB = "६० प्रतिशत",
+            optionC = "८० प्रतिशत",
+            optionD = "७० प्रतिशत",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "चलिरहेको सवारी मार्ग परिवर्तन गरी अपहरण गर्नेलाई कस्तो सजाय हुन्छ?",
+            optionA = "कैद वा जरिवाना",
+            optionB = "सवारी जफत",
+            optionC = "देश निकाला",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "खोएर भएको सवारी चालक अनुमति पत्र कति दिन भित्र अधिकार प्राप्त अधिकारी समक्ष फिर्ता बुझाउनुपर्छ?",
+            optionA = "७ दिन",
+            optionB = "१४ दिन",
+            optionC = "३५ दिन",
+            optionD = "१५ दिन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "नम्बर प्लेट परिवर्तन गरी सवारी चलाएमा के सजाय हुने व्यवस्था छ?",
+            optionA = "६ महिना कैद",
+            optionB = "५ हजार देखि १५ हजार जरिवाना",
+            optionC = "सवारी जफत",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "यात्रिवाहक सवारी चालक तथा अन्य कर्मचारीको बीमा रकम कति तोकिएको छ?",
+            optionA = "रु. ५,००,०००",
+            optionB = "रु. २,००,०००",
+            optionC = "रु. ३,००,०००",
+            optionD = "रु. ६,००,०००",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "स्थानीय बाटो भन्नाले कति किलोमिटर लामो बाटोलाई बुझिन्छ?",
+            optionA = "१५० किलोमिटरसम्मको",
+            optionB = "५० किलोमिटरसम्मको",
+            optionC = "२५ किलोमिटरसम्मको",
+            optionD = "२५० किलोमिटरभन्दा लामो",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सार्वजनिक सवारीमा जेठ नागरिकलाई भाडादरमा कति प्रतिशत छुट दिने व्यवस्था छ?",
+            optionA = "५ प्रतिशत",
+            optionB = "५० प्रतिशत",
+            optionC = "१५ प्रतिशत",
+            optionD = "२० प्रतिशत",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "उत्पादन भएको कति वर्ष पूरा भएका सवारीलाई निजी तथा अन्य नम्बरमा दर्ता गर्ने गरी हेरेर दर्ता गरिँदैन?",
+            optionA = "२० वर्ष",
+            optionB = "१५ वर्ष",
+            optionC = "५ वर्ष",
+            optionD = "२५ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "एक पटक दर्ता भएको सवारी पुन: दर्ता गर्ने कति अवधि नविकरण फेल भएको हुनुपर्छ?",
+            optionA = "३ वर्ष",
+            optionB = "१५ वर्ष",
+            optionC = "७ वर्ष",
+            optionD = "५ वर्ष",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "लामो बाटो भन्नाले कति किलोमिटर दूरीको सडकलाई बुझिन्छ?",
+            optionA = "१०० कि.मि. भन्दा छोटो बाटो",
+            optionB = "२५० कि.मि. भन्दा लामो बाटो",
+            optionC = "२५ कि.मि. भन्दा छोटो बाटो",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मध्यम बाटो भन्नाले कति किलोमिटर लामो सडकलाई बुझिन्छ?",
+            optionA = "२५० कि.मि. भन्दा लामो सडक",
+            optionB = "१०० देखि २५० कि.मि. लामो सडक",
+            optionC = "२५ कि.मि. भन्दा छोटो सडक",
+            optionD = "२५ देखि १०० कि.मि. लामो सडक",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "छोटो बाटो भन्नाले कति किलोमिटर लामो सडकलाई बुझिन्छ?",
+            optionA = "२५० कि.मि. भन्दा लामो सडक",
+            optionB = "१०० देखि २५० कि.मि. लामो सडक",
+            optionC = "२५ कि.मि. भन्दा छोटो सडक",
+            optionD = "२५ देखि १०० कि.मि. लामो सडक",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "अस्थायी दर्ताको प्रमाणपत्र एक पटक वा पटक/पटक गरी बढीमा कति बहाल अवधि रहेको हुन्छ?",
+            optionA = "४ महिना",
+            optionB = "६ महिना",
+            optionC = "१४ महिना",
+            optionD = "५ वर्ष",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "विदेशमा दर्ता भएको सवारी बढीमा कति अवधिका लागि नेपालमा चलाउन अनुमति प्रदान गर्न सकिन्छ?",
+            optionA = "१ महिना",
+            optionB = "१ वर्ष",
+            optionC = "५ वर्ष",
+            optionD = "पाइँदैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको हेरेर दर्ता गर्दा कति दस्तुर लाग्छ?",
+            optionA = "उक्त सवारी दर्ताको ५० प्रतिशतले हुन आउने रकम",
+            optionB = "रु. ५०००",
+            optionC = "दर्ता गर्दा लाग्ने जति",
+            optionD = "रु. २५००",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "दर्ताको प्रमाणपत्र स्थगित गरेर अधिकार प्राप्त अधिकारीले आदेश दिएको कति दिनभित्र सवारी दर्ताको प्रमाण पत्र बुझाउनुपर्दछ?",
+            optionA = "७ दिन भित्र",
+            optionB = "१५ दिन भित्र",
+            optionC = "२५ दिन भित्र",
+            optionD = "२१ दिन भित्र",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक अनुमति पत्रमा वर्ग थप गर्दा कुन परीक्षा दिनु पर्दैन?",
+            optionA = "लिखित",
+            optionB = "प्रयोगात्मक",
+            optionC = "माथिका दुबै",
+            optionD = "कुनै पनि परीक्षा दिनु पर्दैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षा उत्तीर्ण हुन न्यूनतम कति प्रतिशत अंक प्राप्त गर्नुपर्छ?",
+            optionA = "५० प्रतिशत",
+            optionB = "६० प्रतिशत",
+            optionC = "७० प्रतिशत",
+            optionD = "८० प्रतिशत",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा यू टर्न गर्दा तोकिएको रेखा छोप्दा के हुन्छ?",
+            optionA = "१० अंक घट्छ",
+            optionB = "१५ अंक घट्छ",
+            optionC = "अनुत्तीर्ण घोषणा गरिन्छ",
+            optionD = "केही हुँदैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा घुमाउरो आठमा कुनै गल्ती नगरी पार गर्दा कति अंक प्राप्त हुन्छ?",
+            optionA = "३० अंक",
+            optionB = "२० अंक",
+            optionC = "१५ अंक",
+            optionD = "२४ अंक",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा कति पटकसम्म स्टार्ट बन्द हुँदा परीक्षाको मौका दिइन्छ?",
+            optionA = "१ पटक",
+            optionB = "२ पटक",
+            optionC = "३ पटक",
+            optionD = "४ पटक",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा सिटबेल्टको प्रयोग नगरी सवारी चलाउन सुरु गर्दा कति अंक घट्छ?",
+            optionA = "२ अंक",
+            optionB = "४ अंक",
+            optionC = "अंक नै घट्दैन",
+            optionD = "अयोग्य घोषणा गरिन्छ",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा ग्यारेज पार्किङ टेष्ट गर्दा प्रयोग हुने ग्यारेज ट्र्याकको चौडाई कति हुन्छ?",
+            optionA = "२ मिटर",
+            optionB = "३ मिटर",
+            optionC = "४ मिटर",
+            optionD = "५ मिटर",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जीप/डेलिभरी भ्यान) को सवारी चालक अनुमतिपत्रको प्रयोगात्मक परीक्षामा ट्राफिक संकेतको पालना नगरेमा कति अंक घट्छ?",
+            optionA = "१० अंक",
+            optionB = "१५ अंक",
+            optionC = "२० अंक",
+            optionD = "अंक नै घट्दैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वर्ग ख (कार/जीप/डेलिभरी भ्यान) को सवारी चालक अनुमतिपत्रको प्रयोगात्मक परीक्षामा लिइने रिफ ब्रेकर (र्याम्प टेस्ट) का लागि प्रयोग हुने टेष्ट ट्र्याकको लम्बाई कति हुन्छ?",
+            optionA = "१२ मिटर",
+            optionB = "१४ मिटर",
+            optionC = "१६ मिटर",
+            optionD = "२० मिटर",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एक पटक लिखित परीक्षा पास गरिसकेपछि बढीमा कति अवधिसम्म ट्रायल परीक्षा दिन पाइन्छ?",
+            optionA = "६ महिनासम्म",
+            optionB = "९ महिनासम्म",
+            optionC = "१२ महिनासम्म",
+            optionD = "१८ महिनासम्म",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एक पटक लिखित परीक्षा उतीर्ण गरिसकेपछि बढीमा कति पटकसम्म ट्रायल परीक्षा दिन पाइन्छ?",
+            optionA = "१ पटक",
+            optionB = "२ पटक",
+            optionC = "३ पटक",
+            optionD = "४ पटक",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी तथा यातायात व्यवस्था ऐन बमोजिम ''सार्वजनिक स्थान'' भन्नाले के बुझिन्छ?",
+            optionA = "पुल",
+            optionB = "बाटो",
+            optionC = "पेटी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "निजी सवारीले सवारी साधन कर कहिलेसम्म बुझाउनुपर्छ?",
+            optionA = "असार मसान्त",
+            optionB = "चैत मसान्त",
+            optionC = "असोस मसान्त",
+            optionD = "याद समाप्त भएको ३ महिना भित्र",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "खोरेज भएको अनुमतिपत्र कति दिन भित्र फिर्ता बुझाउनुपर्छ?",
+            optionA = "दश दिनभित्र",
+            optionB = "पन्ध्र दिनभित्र",
+            optionC = "तीस दिनभित्र",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "पर्यटक सवारी साधनलाई कुन सवारी साधन सरह मानिन्छ?",
+            optionA = "सार्वजनिक सवारी साधन",
+            optionB = "निजी सवारी साधन",
+            optionC = "सरकारी सवारी साधन",
+            optionD = "कूटनीतिक सवारी साधन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "मिनी बसको सिट क्षमता कति तोकिएको छ?",
+            optionA = "चालक सहित १५ देखि २५",
+            optionB = "चालक सहित १२ देखि २०",
+            optionC = "चालक सहित १० देखि २२",
+            optionD = "चालक सहित १४",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "कति वर्ष उमेर पूरा भएका व्यक्तिलाई ठूलो र मझौला सार्वजनिक सवारी साधन चलाउन अनुमति पत्र दिइँदैन?",
+            optionA = "५५ वर्ष",
+            optionB = "५० वर्ष",
+            optionC = "६० वर्ष",
+            optionD = "४५ वर्ष",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी परीक्षण कार्यालयमा मझौला र साना सवारी साधनको जाँचपास प्रमाणपत्रको दरखास्त दस्तुर कति लाग्छ?",
+            optionA = "रु. २००",
+            optionB = "रु. ४००",
+            optionC = "रु. ४५०",
+            optionD = "रु. ३००",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी ऐन अनुसार चालक भन्नाले कसलाई बुझिन्छ?",
+            optionA = "सवारी साधन चलाउने व्यक्ति",
+            optionB = "सवारी चालक अनुमति पत्र प्राप्त व्यक्ति",
+            optionC = "यातायात व्यवसायी कम्पनीमा काम गर्ने व्यक्ति",
+            optionD = "संघ संस्थामा काम गर्ने व्यक्ति",
+            correctOptionIndex = 0
+        )
+    )
+
 }

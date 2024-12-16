@@ -5,11 +5,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.drivinglicenseexamapp.viewmodel.QuestionViewModel
 import com.example.drivinglicenseexamapp.data.Question
@@ -24,11 +26,19 @@ import com.example.drivinglicenseexamapp.ui.screen.study_mode_screen.StudyScreen
 fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
 
     val navController = rememberNavController()
+    val navBackStackEntry by navController.currentBackStackEntryAsState()
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
-        topBar = { TopBar() },
+        topBar = {
+            TopBar(
+                navBackStackEntry = navBackStackEntry,
+                navigateBack = { navController.popBackStack() }
+
+            )
+                 },
         containerColor = Color(0xFF617AD3)
+        //containerColor = Color(0xFFEAF3FF)
     ) { innerPadding ->
         NavHost(
             navController = navController,
