@@ -36,7 +36,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                 navigateBack = { navController.popBackStack() }
 
             )
-                 },
+        },
         containerColor = Color(0xFF617AD3)
         //containerColor = Color(0xFFEAF3FF)
     ) { innerPadding ->
@@ -129,7 +129,6 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                     selectedAnswers = selectedAnswers
                 )
             }
-
 
 
         }
