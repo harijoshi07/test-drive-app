@@ -39,6 +39,7 @@ import androidx.compose.runtime.*
 fun HomeScreen(
     navigateToCategory: () -> Unit,
     navigateToQuiz: () -> Unit,
+    navigateToUltimateGuide: () -> Unit,
 ) {
     val backgroundColor = Color(0xFFEAF3FF) // Light theme background
     val cardBackgroundColor = Color(0xFFDAEAFF) // Blueish card color
@@ -139,7 +140,7 @@ fun HomeScreen(
                     modifier = Modifier.padding(bottom = 16.dp)
                 )
                 Button(
-                    onClick = { /* Navigate to guide */ },
+                    onClick = navigateToUltimateGuide,
                     colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
                 ) {
                     Text(
@@ -234,5 +235,5 @@ fun HomeScreenCard(
 @Preview(showBackground = true)
 @Composable
 private fun PreviewTestScreen() {
-    HomeScreen({}, {})
+    HomeScreen({}, {}, {})
 }

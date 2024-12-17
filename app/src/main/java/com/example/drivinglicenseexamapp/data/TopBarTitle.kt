@@ -8,5 +8,6 @@ val topBarTitle = mapOf(
     Screen.Study.route to "Study Mode",
     Screen.Quiz.route to "Quiz Mode",
     Screen.Result.route to "Result",
-    Screen.Answer.route to "Answer"
+    Screen.Answer.route to "Answer",
+    Screen.UltimateGuide.route to "Ultimate Guide"
 )

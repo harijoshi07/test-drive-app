@@ -1,6 +1,7 @@
 package com.example.drivinglicenseexamapp.navigation
 
 import ExamModeScreen
+import UltimateGuideScreen
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -48,7 +49,8 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             composable(Screen.Home.route) {
                 HomeScreen(
                     navigateToCategory = { navController.navigate(route = Screen.Category.route) },
-                    navigateToQuiz = { navController.navigate(route = Screen.Quiz.route) }
+                    navigateToQuiz = { navController.navigate(route = Screen.Quiz.route) },
+                    navigateToUltimateGuide = {navController.navigate(route = Screen.UltimateGuide.route)}
                 )
             }
             composable(Screen.Category.route) {
@@ -128,6 +130,10 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                     questions = questions,
                     selectedAnswers = selectedAnswers
                 )
+            }
+
+            composable(Screen.UltimateGuide.route){
+                UltimateGuideScreen()
             }
 
 

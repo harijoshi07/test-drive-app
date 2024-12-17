@@ -7,4 +7,5 @@ sealed class Screen(val route: String) {
     object Quiz : Screen("quiz")
     object Result : Screen("result")
     object Answer : Screen("answer")  // Add this line
+    object UltimateGuide: Screen(route = "ultimate_guide")
 }
