@@ -1775,4 +1775,834 @@ fun getSampleQuestions1() {
         )
     )
 
+    val quizQuestions3 = listOf(
+        Question(
+            questionText = "आफ्नैले चलाउने सवारी चलाउनु पुर्व सवारीको अवस्था ठीक छ / छैन भन्ने कर्तव्य कसको हो?",
+            optionA = "ट्राफिक प्रहरीको",
+            optionB = "मेकानिकल इन्जिनियरको",
+            optionC = "सवारी चालकको",
+            optionD = "यातायात व्यवस्था कार्यालयको",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "अकस्मात सवारी रोक्न के गर्न पर्छ?",
+            optionA = "सुरक्षित रूपमा ब्रेक लगाउने",
+            optionB = "हर्न बजाउने",
+            optionC = "ट्राफिक प्रहरीलाई सोध्ने",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "इन्जिन भित्र पानी कहाँबाट पस्न सक्छ?",
+            optionA = "साइलेंसर पाइपबाट",
+            optionB = "मोबिल चेक गर्ने गेजको पाइपबाट",
+            optionC = "एयरफिल्टरबाट",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "स्पिडोमिटरको काम के हो?",
+            optionA = "सवारीको स्पीड नाप्ने",
+            optionB = "सवारीको तापक्रम नाप्ने",
+            optionC = "सवारीको फ्यूल नाप्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "कस्तो अवस्थामा ब्रेक लाइट बल्छ?",
+            optionA = "गियर चेन्ज गर्दा",
+            optionB = "एक्सिलेटर दबाउँदा",
+            optionC = "फुटब्रेक लगाउँदा",
+            optionD = "हर्न बजाउँदा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "स्पार्क प्लगको काम के हो?",
+            optionA = "करेन्ट दिने",
+            optionB = "इन्जिनमा पानीको मात्रा पु¥याउने",
+            optionC = "इन्जिनमा मोबिल पु¥याउने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "फोरह्विल ड्राइभ सवारी साधन भन्नाले कस्तो सवारीलाई जनाउँछ?",
+            optionA = "चारवटै चक्कामा ब्रेक लाग्ने सवारी",
+            optionB = "चारवटै चक्कामा इन्जिन पावर भएको सवारी",
+            optionC = "छोटो दुरीमा सज्जालान हुने सवारी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "हर्न तलकामध्ये कुन शक्तिले बज्छ?",
+            optionA = "विद्युत्",
+            optionB = "हावाको प्रेसर",
+            optionC = "ब्रेक",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "इन्जिनको पार्टपुर्जालाई चिल्लो बनाउने काम केले गर्छ?",
+            optionA = "पेट्रोल",
+            optionB = "डिजल",
+            optionC = "मोबिल",
+            optionD = "पानी",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कार्बोरेटरमा इन्धनको मात्रा बढाउने यन्त्रलाई के भनिन्छ?",
+            optionA = "स्पार्क प्लग",
+            optionB = "क्लच",
+            optionC = "ब्याट्री",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "मास्टर सिलिण्डरले के काम गर्छ?",
+            optionA = "गाडी दौडन मदत गर्छ",
+            optionB = "उकालो चढ्न मदत गर्छ",
+            optionC = "ब्रेक गर्न मदत गर्छ",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "कार्बोरेटर कुन इन्जिनमा हुन्छ?",
+            optionA = "पेट्रोल इन्जिनमा",
+            optionB = "डिजल इन्जिनमा",
+            optionC = "विद्युतिय इन्जिनमा",
+            optionD = "माथिका सबैमा",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "गाडीको गति बढाउने मुख्य दुई यन्त्रहरु के के हुन्?",
+            optionA = "ब्रेक र एक्सिलेटर",
+            optionB = "एक्सिलेटर र स्टेरिङ",
+            optionC = "गियर र एक्सिलेटर",
+            optionD = "प्यान बेल्ट र एक्सिलेटर",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "इग्नास बोर्ड मिट्समा रहेको आयल प्रेसर मिटेरको रातो बत्ती बल्दा के गर्नु पर्छ?",
+            optionA = "इन्जिन स्टार्ट गर्नुपर्छ",
+            optionB = "इन्जिन बन्द गर्नुपर्छ",
+            optionC = "ब्रेक लगाउनुपर्छ",
+            optionD = "हर्न बजाउनुपर्छ",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "रेडिएटरमा के राखिन्छ?",
+            optionA = "पेट्रोल",
+            optionB = "डिजल",
+            optionC = "पानी",
+            optionD = "एसिड",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "इन्जिन स्टार्ट गर्दा कुन गियरमा राखी गर्नु पर्छ?",
+            optionA = "१ गियरमा",
+            optionB = "२ गियरमा",
+            optionC = "३ गियरमा",
+            optionD = "न्यूट्रलमा",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गाडीको इन्जिन स्टार्ट गर्दा कालो धुँवा आयमा के गर्न पर्दछ?",
+            optionA = "साइलेन्सर पाइप बन्द गर्ने",
+            optionB = "साइलेन्सर पाइप झिकेर फाल्ने",
+            optionC = "इन्जिन मर्मतको लागि वर्कसपमा लाने",
+            optionD = "इन्धन थप्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्याट्रीको शक्ति नाप्ने मिटरको नाम के हो?",
+            optionA = "ल्याक्टो मिटर",
+            optionB = "स्पिडो मिटर",
+            optionC = "हाइड्रो मिटर",
+            optionD = "एम्पियर मिटर",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गाडी ब्याक गर्दा कुन गियर प्रयोग गर्नु पर्छ?",
+            optionA = "हाइ गियर",
+            optionB = "१ नम्बर गियर",
+            optionC = "३ नम्बर गियर",
+            optionD = "ब्याक गियर",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "क्लचको काम के हो?",
+            optionA = "स्पिड बढाउने",
+            optionB = "स्पिड घटाउने",
+            optionC = "गियरबाट इन्जिनलाई फ्री बनाउने",
+            optionD = "गाडी रोक्ने",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारीमा A/C चलाउँदा के खर्च हुन्छ?",
+            optionA = "ब्याट्री",
+            optionB = "डाइनामो",
+            optionC = "क र ख दुबै",
+            optionD = "क र ख दुबै होइनन्",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गियर बक्सको मुख्य काम के हो?",
+            optionA = "गाडी छिटो गुडाउने",
+            optionB = "गाडी रोक्ने",
+            optionC = "चाहिएको स्पीडमा गाडी गुडाउने",
+            optionD = "गाडीलाई खाल्टा पार गर्न मदत गर्ने",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ब्रेकको काम के हो?",
+            optionA = "गाडीलाई रोक्ने",
+            optionB = "गाडीको स्पिड बढाउने",
+            optionC = "गाडीलाई ब्याक गर्ने",
+            optionD = "गाडीलाई मोडने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "फ्युल मिटरले के देखाउँछ?",
+            optionA = "इन्धनको मात्रा",
+            optionB = "पानीको मात्रा",
+            optionC = "मोबिलको मात्रा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "गाडीको टायरको हिफाजतको लागि के गर्नु पर्छ?",
+            optionA = "टप गियरमा चलाउने",
+            optionB = "हावा कम राखेर चलाउने",
+            optionC = "हावाको प्रेसर ठीक राख्ने",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "इन्जिन बढी तात्यो भने के हुन्छ?",
+            optionA = "इन्जिन बढी घुम्छ",
+            optionB = "केरेट लाग्छ",
+            optionC = "इन्जिन बन्द हुन्छ",
+            optionD = "केही पनि हुने छैन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कार्बुरेटरको काम के हो?",
+            optionA = "इन्जिनलाई चिसो पार्नु",
+            optionB = "इन्जिनलाई तताउनु",
+            optionC = "इन्जिनको स्पिड घटाउन बढाउन मद्दत गर्नु",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चलाउनु अघी चालकले चेक गर्नु पर्ने के हो?",
+            optionA = "बत्ति हरु",
+            optionB = "चककाहरु",
+            optionC = "गाडीको रङ",
+            optionD = "ब्रेक",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "डिफरेन्सलबाट गियर आयल थोपा चुहिन थालेपछि के गर्नुपर्छ?",
+            optionA = "बेलाबेलामा आयल थप्दै चलाउँदै जाने",
+            optionB = "कसरी चुहिएको हो मर्मत गरी हाल्ने",
+            optionC = "आवाज नआउन्जेलसम्म चलाइराख्ने",
+            optionD = "तातो नहुन्जेलसम्म चलाइ राख्ने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको चक्कालाई कसले नियन्त्रण गर्छ?",
+            optionA = "इन्जिनमा",
+            optionB = "ब्रेक",
+            optionC = "बडी",
+            optionD = "व्याट्री",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "रिभर्स लाइट कति बेला बालिन्छ?",
+            optionA = "ब्रेक लगाउँदा",
+            optionB = "ह्याण्ड ब्रेक लगाउँदा",
+            optionC = "एक्सिलेटर थिच्दा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "डिजल इन्जिनको सिलिन्डरभित्र केलाई कम्प्रेस गरिन्छ?",
+            optionA = "पानीलाई",
+            optionB = "ईन्धनलाई",
+            optionC = "हावालाई",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "एक्कासी फुट ब्रेक लाग्न कम भएमा के चेक गर्नु पर्छ?",
+            optionA = "चककाको प्रेसर चेक गर्ने",
+            optionB = "ब्रेक आयल लेभल चेक गर्ने",
+            optionC = "मास्टर सिलिन्डर चेक गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "जाडो मौसममा इन्जिन स्टार्ट नभए स्टार्ट गर्न के गर्नुपर्छ?",
+            optionA = "स्टार्ट स्विच थिच्नु पर्छ",
+            optionB = "मोबिलमा पानी थप गर्नुपर्छ",
+            optionC = "इन्धन थप गर्नु पर्छ",
+            optionD = "चोक प्रयोग गर्नुपर्छ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारीमा भएको ब्याट्री कसरी चार्ज हुन्छ?",
+            optionA = "गाडीको इन्जनबाट",
+            optionB = "गाडीको इन्धनबाट",
+            optionC = "गाडीको डाइनामोबाट",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "डिप स्टिकको काम के हो?",
+            optionA = "मोबिलको मात्रा चेक गर्ने",
+            optionB = "पानीको मात्रा चेक गर्ने",
+            optionC = "तेलको मात्रा ठिक गर्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "एक्सिलेटरको काम के हो?",
+            optionA = "इन्जन तताउने",
+            optionB = "तेल बन्द गर्ने",
+            optionC = "स्पीड अनुसार तेलको मात्रा दिने",
+            optionD = "धुँवा धेरै फाल्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "डिफरेन्सियल काम के हो?",
+            optionA = "चकका घुमाउने",
+            optionB = "चककाम हावा भर्ने",
+            optionC = "चकको पङ्क्चर टाल्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "गाडीको एक्सलको मुख्य काम के हो?",
+            optionA = "गाडीलाई थामेर राख्ने",
+            optionB = "गाडीको लोड थाम्ने",
+            optionC = "मोशन चक्कासम्म पु¥याउने",
+            optionD = "फोर ह्विल्ड लगाउने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "वाईपर भनेको के हो?",
+            optionA = "गति बढाउने यन्त्र",
+            optionB = "गाडी रोक्ने यन्त्र",
+            optionC = "गाडी पुग्ने टावे",
+            optionD = "सिसा सफा गर्ने यन्त्र",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "चालु इन्जिनमा विद्यु‍त उत्पादन गर्ने यन्त्रको नाम के हो?",
+            optionA = "स्टोरेज ब्याट्री",
+            optionB = "चार्जिङ डायनामो",
+            optionC = "ड्राइसेल",
+            optionD = "टर्चलाइट",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "पेट्रोल इन्जिनलाई अर्को शब्दमा के भनिन्छ?",
+            optionA = "डिजल इन्जिन",
+            optionB = "हाइड्रोलिक इन्जिन",
+            optionC = "ग्यासोलिन इन्जिन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ह्याण्ड ब्रेक कुन अवस्थामा लगाउनु घातकजनक मानिन्छ?",
+            optionA = "उकालोमा",
+            optionB = "ओरालोमा",
+            optionC = "बढि स्पीड भएको अवस्थामा",
+            optionD = "घुम्तीहरूमा",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "स्टेरिङले कहाँ काम गर्छ?",
+            optionA = "अघाडिको चक्कामा",
+            optionB = "पछाडिको चक्कामा",
+            optionC = "गियरमा",
+            optionD = "इन्जिनमा",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारीमा ब्रेकले कहाँ काम गर्छ?",
+            optionA = "इन्जिनमा",
+            optionB = "स्टेरिङमा",
+            optionC = "चक्कामा",
+            optionD = "गियरमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्रेकमा कुन सिस्टम जडित हुन्छ?",
+            optionA = "मेकानिकल",
+            optionB = "हाइड्रोलिक सिस्टम",
+            optionC = "क र ख दुबै हुन्",
+            optionD = "क र ख दुबै होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "ब्याट्रीको लेभल कम भएमा के हाल्नु पर्छ?",
+            optionA = "धाराे पानी हाल्ने",
+            optionB = "डिस्टिल्वाटर हाल्ने",
+            optionC = "मिनरलवाटर",
+            optionD = "तौरीको तेल",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "चोक लिभर कहिले बन्द गर्नु पर्छ?",
+            optionA = "इन्जिन बन्द भएपछि",
+            optionB = "पुर्ण भाप चलेपछि",
+            optionC = "इन्जिन स्टार्ट भएपछि",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा कालो धुवाँ आएमा के गर्नु पर्छ?",
+            optionA = "इन्जिन थन्कु पर्छ",
+            optionB = "इन्जिन मर्मत गर्नु पर्छ",
+            optionC = "साइलेंसर पाइप बन्द गर्नु पर्छ",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "गाडी गुडेको गति मापन गर्ने यन्त्र तलका मध्ये कुन होइन?",
+            optionA = "हाइड्रोमिटर",
+            optionB = "थर्मो मिटर",
+            optionC = "हेक्टोमिटर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ब्याट्री ओभर चार्ज हुनबाट केले बचाउँछ?",
+            optionA = "कार्बोरेटर",
+            optionB = "कट आउट",
+            optionC = "एयर कुलर",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "इग्निशन स्विच केसँग सम्बन्धित छ?",
+            optionA = "इन्जिन र क्लचसँग",
+            optionB = "इन्जिन र गियरबक्ससँग",
+            optionC = "इन्जिन र ब्याट्रीसँग",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गुडिरहेको गाडीको अगाडिको दाहिने चक्का पङ्चर हुँदा गाडी कता घुम्छ?",
+            optionA = "केही घुम्दैन",
+            optionB = "दायाँ तिर",
+            optionC = "बायाँ तिर",
+            optionD = "टक्क अडिन्छ",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "स्टेरिङ बक्समा कुन आयल राखिन्छ?",
+            optionA = "ब्रेक आयल",
+            optionB = "मोटर आयल",
+            optionC = "स्टेरिङ आयल",
+            optionD = "ग्रीस",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "इन्जिनमा विद्युत्को मुख्य स्रोत के हो?",
+            optionA = "पेट्रोल",
+            optionB = "ब्याट्री",
+            optionC = "मोटर",
+            optionD = "डिजेल",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तलका मध्ये के कारणले चलिरहेको गाडीको इन्जिन बन्द हुँदैन?",
+            optionA = "कम गतिमा गुड्दा",
+            optionB = "इन्जिन सही अवस्थामा हेम",
+            optionC = "इन्धन नस्किएमा",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालक प्रशिक्षण केन्द्रमा प्रयोग गरिने चार पाङ्ग्रे सवारी साधनको क्षमता कति तोकिएको छ?",
+            optionA = "७६६ सि.सि.",
+            optionB = "७८५ सि.सि.",
+            optionC = "७९७ सि.सि.",
+            optionD = "७७५ सि.सि.",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी चालक प्रशिक्षण केन्द्रमा प्रयोग गरिने विद्युतीय तीन पाङ्ग्रे सवारी साधनको विद्युतीय क्षमता कति तोकिएको छ?",
+            optionA = "१००० वाट",
+            optionB = "८०० वाट",
+            optionC = "९०० वाट",
+            optionD = "७०० वाट",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "गाडीको चक्का घुमाउने काम के ले गर्छ?",
+            optionA = "रेडिएटरले",
+            optionB = "गियरले",
+            optionC = "डिफ्रेन्सियलले",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "रेडिएटरमा तलका मध्ये के राखिदैन?",
+            optionA = "पेट्रोल",
+            optionB = "डिजेल",
+            optionC = "एसिड",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "इन्जिनको शक्ति के ले नियन्त्रण गर्छ?",
+            optionA = "एक्सिलरेटरले",
+            optionB = "ब्रेकले",
+            optionC = "स्टेरिङले",
+            optionD = "कलचले",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारीको इन्जिनमा करेन्ट दिने काम के ले गर्छ?",
+            optionA = "एक्सिलरेटरले",
+            optionB = "कलचले",
+            optionC = "स्टेरिङले",
+            optionD = "स्पार्क प्लगले",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "डाईनामोको काम के हो?",
+            optionA = "इन्जिनलाई करेन्ट सप्लाई गर्ने",
+            optionB = "रेडिएटरको पानी चिसो पार्ने",
+            optionC = "ब्याट्री चार्ज गर्ने",
+            optionD = "डाईनामोको काम नै छैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "इन्जिनको पार्टपुर्जालाई तलका मध्ये के ले चिल्लो बनाउँछ?",
+            optionA = "गिरिज",
+            optionB = "मोबिल",
+            optionC = "स्टेरिङ आयल",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "प्युल नाम तलका मध्ये कुन प्रयोग गरिदैन?",
+            optionA = "स्पीडोमिटर",
+            optionB = "थर्ममिटर",
+            optionC = "टेलिस्कोप",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "तलका मध्ये ब्रेकको काम कुन होईन?",
+            optionA = "गाडीको स्पिड बढाउने",
+            optionB = "गाडीलाई मोड्ने",
+            optionC = "गाडीलाई ब्याक गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी चलाउनु पूर्व के गर्नु पर्छ?",
+            optionA = "सवारीको अवस्थाको निरिक्षण गर्ने",
+            optionB = "ट्राफिकलाई खबर गर्ने",
+            optionC = "मेकानिकल इन्जिनियरलाई खबर गर्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "प्यानलाई घुमाउने काम के ले गर्छ?",
+            optionA = "एक्सिलरेटरले",
+            optionB = "कलचले",
+            optionC = "प्यान बेल्टले",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "गाडीमा प्युलको मात्रा हेर्ने के हेर्नु पर्छ?",
+            optionA = "प्युल मिटर",
+            optionB = "स्पीडोमिटर",
+            optionC = "थर्ममिटर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "गाडीको चक्का पानीमा डुबेको अवस्थामा कुन पार्टले राम्रो काम गर्दैन?",
+            optionA = "लाइट",
+            optionB = "क्लच",
+            optionC = "फुटब्रेक",
+            optionD = "ह्यान्ड ब्रेक",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधनमा सि.सि. भनेको के हो?",
+            optionA = "इन्जिनको क्षमता",
+            optionB = "ब्रेकको क्षमता",
+            optionC = "गियर बक्सको क्षमता",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "वर्कशपको कार्य तलकामध्ये कुन हो?",
+            optionA = "बिग्रिएको सवारी बनाउने",
+            optionB = "सवारीको फिनिसिङ गर्ने",
+            optionC = "सवारीको बडी बनाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "ड्राइभिङ प्रशिक्षण केन्द्रको कार्य तलकामध्ये कुन हो?",
+            optionA = "लाइसेन्स फाराम भर्न सहयोग गर्ने",
+            optionB = "लाइसेन्स फाराम दर्ता गराई दिने",
+            optionC = "ट्रायल परीक्षामा सिकाउने",
+            optionD = "सवारी साधन चलाउन प्रशिक्षण दिने",
+            correctOptionIndex = 3
+        )
+    )
+
+    val quizQuestions4 = listOf(
+        Question(
+            questionText = "सवारी प्रदूषण भन्नाले के बुझिन्छ?",
+            optionA = "इन्जिनमा राखिने मोबिल",
+            optionB = "सवारीमा राखिने इन्धन",
+            optionC = "सवारी भित्रको फोहोर",
+            optionD = "सवारीबाट निस्कने धुवाँ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन भागले प्रभाव पार्छ?",
+            optionA = "ब्रेकले",
+            optionB = "गियर बक्सले",
+            optionC = "इन्धनले",
+            optionD = "इन्जिनको अवस्थाले",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सबैभन्दा कम प्रदूषण गर्ने इन्जिन कुन हो?",
+            optionA = "डिजल इन्जिन",
+            optionB = "पेट्रोल इन्जिन",
+            optionC = "विद्युत इन्जिन",
+            optionD = "कोइला इन्जिन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "हर्नको कारणले कस्तो प्रदूषण हुने गर्छ?",
+            optionA = "हावाको प्रदूषण",
+            optionB = "माटोको प्रदूषण",
+            optionC = "पानीको प्रदूषण",
+            optionD = "ध्वनि प्रदूषण",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "टु-स्ट्रोक र फोर-स्ट्रोक इन्जिनका सवारी साधनमध्ये कुनले वातावरण प्रदूषण बढी गराउँछ?",
+            optionA = "टु-स्ट्रोकले",
+            optionB = "फोर-स्ट्रोकले",
+            optionC = "कर र ख दुबै",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "प्रदूषणमुक्त सहर बनाउनलाई कुन गाडी सज्जालमा ल्याउदा उपयुक्त हुन्छ?",
+            optionA = "विद्युतीय",
+            optionB = "डिजेल",
+            optionC = "पेट्रोल",
+            optionD = "ग्यास",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "विद्युतबाट सञ्चालित सवारी साधनको प्रदूषण कहाँ परीक्षण हुन्छ?",
+            optionA = "यातायात व्यवस्था विभाग",
+            optionB = "विद्युत प्राधिकरण",
+            optionC = "यातायात व्यवस्था कार्यालय",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो क्षेत्रमा हर्न बजाउन हुँदैन?",
+            optionA = "मूल सडक",
+            optionB = "ट्राफिक जाम भएको क्षेत्र",
+            optionC = "विद्यालय र अस्पताल नजिक",
+            optionD = "नारा जुलुस भएको ठाउँमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधनको धुवाँ कहाँबाट बाहिर निस्कन्छ?",
+            optionA = "साइलेंसर",
+            optionB = "इन्जिन",
+            optionC = "गियर",
+            optionD = "एक्सल",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "हाल कुन सवारी प्रदूषण मापदण्ड लागू भएको हो?",
+            optionA = "वि.सं. २०४५",
+            optionB = "वि.सं. २०४९",
+            optionC = "वि.सं. २०७७",
+            optionD = "वि.सं. २०५६",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारीको प्रदूषण जाँचपास किन गरिन्छ?",
+            optionA = "सवारीको अवस्था ठीक छ/छैन थाहा पाउन",
+            optionB = "सवारी दुर्घटनाबाट बचाउन",
+            optionC = "कर र ख दुबै",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको प्रदूषण जाँचपास कसले गर्छ?",
+            optionA = "सवारी परीक्षण कार्यालयले",
+            optionB = "यातायात व्यवस्था कार्यालयले",
+            optionC = "ट्राफिक प्रहरी कार्यालयले",
+            optionD = "क र ख दुबैले",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "निम्नमध्ये कुन प्रकारको साधनमा सवारी प्रदूषण मापदण्ड, २०६९ लागू हुँदैन?",
+            optionA = "निजी सवारी साधनहरु",
+            optionB = "ठूला बसहरु",
+            optionC = "डोजर लोडर जस्ता संयन्त्रहरु",
+            optionD = "सबैलाई लागू हुन्छ",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "प्रदूषण पास स्टिकर नभएको सवारीसाधन निबन्धित क्षेत्रमा चलाएमा के हुन्छ?",
+            optionA = "जरिवाना",
+            optionB = "सवारी जफत",
+            optionC = "कैद",
+            optionD = "क र ख दुबैले",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कुन सवारी साधनको प्रदूषण परीक्षण गर्नु पर्दैन?",
+            optionA = "पेट्रोलबाट चल्ने",
+            optionB = "विद्युतबाट चल्ने",
+            optionC = "डिजेलबाट चल्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको प्रदूषण जाँचपास कसले गर्दैन?",
+            optionA = "सवारी परीक्षण कार्यालयले",
+            optionB = "यातायात व्यवस्था कार्यालयले",
+            optionC = "ट्राफिक प्रहरी कार्यालयले",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी प्रदूषण जाँचमा सामान्यतया केको परीक्षण गरिन्छ?",
+            optionA = "ब्रेकको",
+            optionB = "बडीको",
+            optionC = "धुँवाको",
+            optionD = "इन्धनको",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधनको जाँचपासको काम कसले गर्छ?",
+            optionA = "भौतिक पूर्वाधार तथा यातायात मन्त्रालयले",
+            optionB = "यातायात व्यवस्था विभागले",
+            optionC = "ट्राफिक प्रहरी कार्यालयले",
+            optionD = "यातायात व्यवस्था कार्यालयले",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सफा टेम्पोमा कुन रङको स्टिकर टाँसिएको हुन्छ?",
+            optionA = "निलो",
+            optionB = "रातो",
+            optionC = "हरियो",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारीको धुवाँका कारण के प्रदूषण हुन्छ?",
+            optionA = "वायुको प्रदूषण",
+            optionB = "माटोको प्रदूषण",
+            optionC = "पानीको प्रदूषण",
+            optionD = "ध्वनीको प्रदूषण",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "कुन इन्धनबाट बढी प्रदूषण हुन्छ?",
+            optionA = "विद्युतिय",
+            optionB = "डिजेल",
+            optionC = "पेट्रोल",
+            optionD = "ग्यास",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "जाँचपास प्रमाणपत्र कस्ता सवारीलाई आवश्यक हुन्छ?",
+            optionA = "निजी सवारी",
+            optionB = "भाडाका सवारी",
+            optionC = "सरकारी सवारी",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "मोटरसाइकलको प्रदूषण जाँच कहाँ गराउनु पर्छ?",
+            optionA = "यातायात व्यवस्था कार्यालय",
+            optionB = "ग्यारेज",
+            optionC = "वर्कसप",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "प्रदूषण स्टिकर कस्तो रङको हुन्छ?",
+            optionA = "हरियो",
+            optionB = "निलो",
+            optionC = "पहेंलो",
+            optionD = "रातो",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "प्रदूषण जाँच नगरी सवारी चलाए के हुन्छ?",
+            optionA = "कैद",
+            optionB = "जरिवाना",
+            optionC = "क र ख दुबै",
+            optionD = "केही पनि हुँदैन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सरकारी गाडीको प्रदूषण जाँच कति कति समयमा गरिन्छ?",
+            optionA = "६/६ महिनामा",
+            optionB = "१/१ वर्षमा",
+            optionC = "२/२ वर्षमा",
+            optionD = "३/३ महिनामा",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी साधनमा टाँसिने हरियो स्टिकरले के लाई संकेत गर्छ?",
+            optionA = "सवारी साधनको प्रदूषण जाँच भएको छ",
+            optionB = "सवारी साधन प्रदूषणरहित छ",
+            optionC = "क र ख दुबै",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "तलका मध्ये कुन सवारीले धुवाँ फाल्दैन?",
+            optionA = "बस",
+            optionB = "मिनी बस",
+            optionC = "ट्रक",
+            optionD = "ट्रोलिबस",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "प्रदूषण कसरी कम गर्न सकिन्छ?",
+            optionA = "एयर कन्टिसन र हिटर कम प्रयोग गरेर",
+            optionB = "इन्जिन ठीक अवस्थामा राखेर",
+            optionC = "सवारी साधन कम चलाएर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सवारी प्रदूषण नियम कुन कुन स्थानमा लागू भएको छ?",
+            optionA = "काठमाण्डौँ उपत्यकामा",
+            optionB = "वीरगन्ज बजारमा",
+            optionC = "विराटनगर उपमहानगरपालिकामा",
+            optionD = "नेपाल भर",
+            correctOptionIndex = 4
+        )
+    )
+
 }

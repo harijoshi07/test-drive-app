@@ -18,6 +18,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Lightbulb
+import androidx.compose.material.icons.outlined.Lightbulb
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -54,7 +55,8 @@ fun UltimateGuideScreen() {
         ) {
             items(phases) { phase ->
                 ExpandableCard(
-                    icon = Icons.Default.Lightbulb,
+                    icon = Icons.Outlined.Lightbulb,
+                   // icon = Icons.Default.Lightbulb,
                     title = phase.title,
                     subtitle = phase.subtitle
                 ) {
@@ -74,13 +76,13 @@ fun PhaseStep(description: String, subPoints: List<String>? = null) {
     Column(modifier = Modifier.padding(bottom = 12.dp)) {
         Text(
             text = description,
-            fontSize = 14.sp,
+            fontSize = 16.sp,
             modifier = Modifier.padding(4.dp)
         )
         subPoints?.forEach { point ->
             Text(
                 text = "• $point",
-                fontSize = 12.sp,
+                fontSize = 14.sp,
                 modifier = Modifier.padding(start = 24.dp, bottom = 4.dp)
             )
         }

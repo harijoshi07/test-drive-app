@@ -5,7 +5,7 @@ data class Phase(val title: String, val subtitle: String, val steps: List<Pair<S
 val phases = listOf(
     Phase(
         "Phase I", "Online Form", listOf(
-            "1. Visit the official site:" to listOf(
+            "1. Visit the official website:" to listOf(
                 "For Bagmati and Pokhara: applydlnew.dotm.gov.np",
                 "For other regions: applydl.dotm.gov.np"
             ),
@@ -22,43 +22,55 @@ val phases = listOf(
                 "Medical report confirming blood group (get it from your nearest hospital as it'll cost you less money)"
             ),
             "2. What you DON'T need:" to listOf(
-                "Ticket (save Rs. 10)",
-                "Expensive blood group ID (better to get a report from a local medical center or hospital)"
+                "don't attach passport-sized photo in application form, leave it empty",
+                " don't buy and attach the ticket they sell"
             ),
             "3. Process:" to listOf(
-                "Biometric: Palm print and photo will be taken.",
-                "Eye Check: Pay Rs. 105 and pass the E-test.",
+                "Biometric: Finger print and photo will be taken.",
+                "Eye Check: ",
                 "Final Stage: Pay Rs. 500 for written test and trial."
             )
         )
     ),
     Phase(
-        "Phase III", "Written Test", listOf(
-            "1. Exam Details:" to listOf(
-                "Languages: Nepali or English.",
-                "Use practice apps to prepare as the exam is simple."
+        "Phase III", "Written Exam", listOf(
+
+            "1. Checklist for Exam Day:" to listOf(
+                "Admit card",
+                "Original citizenship",
             ),
-            "2. If you fail:" to listOf(
+
+            "2. Exam Details:" to listOf(
+                "Languages: Nepali or English.",
+                "There will be 25 questions asked",
+                "You'll need to answer minimum of 15 questions correctly to pass",
+                "Exam duration will be 30 minutes",
+                "If you want to take the exam in English, you must submit a form for that beforehand.",
+                "Result will be published on same day in facebook page/website of transportation office within 5 pm."
+            ),
+            "3. If you fail:" to listOf(
                 "Wait 90 days before reapplying.",
                 "You must retake the written exam."
             )
         )
     ),
     Phase(
-        "Phase IV", "Trial", listOf(
+        "Phase IV", "Trial Exam", listOf(
             "1. Checklist for Trial Day:" to listOf(
-                "Admit card (signed)",
+                "Admit card",
                 "Original citizenship",
-                "Wear shoes (no slippers allowed)"
+                "Wear shoes (no slippers allowed)",
+                "Around 300 rupees as trail fee to the trail centre."
             ),
             "2. Key Tips:" to listOf(
-                "Ukalo-Oralo: Stop above the STOP word without crossing it.",
-                "Avoid common mistakes like forgetting the sidelight or double-tapping the incline."
+                "Go a day before or early in the morning of trail day to practice in the trial centre where your trial exam will happen.",
+                "This will highly boost your confidence as you'll get familiar with vehicles and place",
             ),
             "3. If you pass:" to listOf(
-                "Visit the Transport Office the day after tomorrow (पर्सि).",
-                "Pay Rs. 1500 and collect two receipts (Green and Red).",
-                "Laminate the green receipt and keep the red one safe."
+                "Visit the Transport Office after a week taking your admit card.",
+                "Pay Rs. 1500 and collect tax receipts (Green and Red).",
+                "Keep them safe and use them as your License until it'll be printed digitally.",
+                "You can check dotm website if your license has been printed digitally or not."
             ),
             "4. If you fail:" to listOf(
                 "You have two more attempts.",
