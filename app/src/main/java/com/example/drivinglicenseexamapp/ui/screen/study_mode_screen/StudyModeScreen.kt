@@ -47,7 +47,7 @@ fun StudyScreen(
                             questions[index].optionD
                         ),
                         selectedAnswer = selectedAnswers[index],
-                        correctAnswer = questions[index].correctOptionIndex,
+                        correctAnswer = questions[index].correctOptionIndex - 1,
                         onAnswerSelected = { answer ->
                             selectedAnswers = selectedAnswers.mapIndexed { i, _ ->
                                 if (i == index) answer else selectedAnswers[i]

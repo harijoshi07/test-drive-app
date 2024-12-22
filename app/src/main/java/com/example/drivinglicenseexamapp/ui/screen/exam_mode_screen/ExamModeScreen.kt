@@ -57,7 +57,7 @@ fun ExamModeScreen(
                     randomQuestions[currentQuestionIndex].optionD
                 ),
                 selectedAnswer = selectedAnswers[currentQuestionIndex],
-                correctAnswer = randomQuestions[currentQuestionIndex].correctOptionIndex,
+                correctAnswer = randomQuestions[currentQuestionIndex].correctOptionIndex - 1,
                 onAnswerSelected = { answer ->
                     selectedAnswers[currentQuestionIndex] = answer
                 },

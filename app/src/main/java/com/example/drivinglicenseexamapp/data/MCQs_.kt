@@ -28,7 +28,7 @@ fun getSampleQuestions1() {
             correctOptionIndex = 3 // Corresponds to option D ("माथिका सबै")
         ),
         Question(
-            questionText = "सडकमा सवारी चालकलाई साधारणतया पहिलो प्राथमिकता दिनु पर्छ?",
+            questionText = "सडकमा सवारी चलाउँदा कस्तो साधनलाई पहिलो प्राथमिकता दिनु पर्दछ?",
             optionA = "शव वाहन",
             optionB = "दमकल",
             optionC = "एम्बुलेन्स",
@@ -2601,6 +2601,489 @@ fun getSampleQuestions1() {
             optionB = "वीरगन्ज बजारमा",
             optionC = "विराटनगर उपमहानगरपालिकामा",
             optionD = "नेपाल भर",
+            correctOptionIndex = 4
+        )
+    )
+
+    val quizQuestions5 = listOf(
+        Question(
+            questionText = "सडक सुरक्षा भन्नाले केलाई जनाउँछ?",
+            optionA = "सवारी साधन चालकले होशियारी अपनाउनु",
+            optionB = "सवारी नियमको पालना गर्नु",
+            optionC = "सडकमा गुड्ने सवारी साधनलाई महत्व दिनु",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारीलाई मोड्दा कुन लाइट बाल्नु पर्छ?",
+            optionA = "फा लाइट",
+            optionB = "हेड लाइट",
+            optionC = "ब्रेक लाइट",
+            optionD = "साइड लाइट",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "रातो ट्राफिक लाइटको अर्थ के हो?",
+            optionA = "सतर्क हुने संकेत",
+            optionB = "सवारी साधन रोक्ने संकेत",
+            optionC = "सुरक्षित हुने संकेत",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "हर्नको प्रयोग कुन बेला गर्नु पर्छ?",
+            optionA = "नभई नहुने परिस्थितिमा मात्र प्रयोग गर्ने",
+            optionB = "हर्न बजाउँदै नबजाउने",
+            optionC = "धेरै भिड भएको ठाउँमा बजाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "कतिसो अवस्थामा सवारी साधन रोक्नु पर्छ?",
+            optionA = "दोहोर चोकबाट ट्राफिक बत्तिले रोक्ने संकेत गरेको बेला",
+            optionB = "जेब्रा क्रसिङमा मानिस ओहोर दोहोर गरेको ठाउँमा",
+            optionC = "ट्राफिक प्रहरीले रोक्न संकेत गरेको बेला",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "जेब्रा क्रसिङ सडकको कुन भागमा राखिन्छ?",
+            optionA = "मुख्य चौकमा",
+            optionB = "सबै चौकामा",
+            optionC = "चोक बाहेक अन्यत्र",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "कस्तो ठाउँमा सवारीको गति कम गर्नु पर्छ?",
+            optionA = "विद्यालय क्षेत्र",
+            optionB = "बाहुलो बस्ती भएको ठाउँ",
+            optionC = "चौबाटो",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "तिव्र गतिमा सवारी चलाउँदा के हुन्छ?",
+            optionA = "सवारी चलाउने सीप बढ्छ",
+            optionB = "छिटो गन्तव्यमा पुगिन्छ",
+            optionC = "दुर्घटना हुने सम्भावना हुन्छ",
+            optionD = "सवारी पुरानो हुन्छ",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "जेब्रा क्रसिङ केका लागि बनाइएको हुन्छ?",
+            optionA = "सवारीले सडक पार गर्न",
+            optionB = "जनावरले सडक पार गर्न",
+            optionC = "सवारी साधन रोक्न",
+            optionD = "पैदल यात्रीले सडक पार गर्न",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "विद्यालय तथा अस्पताल अगाडि सवारी चलाउँदा के गर्नु हुँदैन?",
+            optionA = "हर्न बजाउन हुँदैन",
+            optionB = "तीव्र गतिमा चलाउन हुँदैन",
+            optionC = "ओभरटेक गर्नु हुँदैन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "बाहुलो बस्ती भएको इलाकामा प्रति घण्टा कति गतिमा सवारी चलाउन पर्छ?",
+            optionA = "२० किलोमिटर भन्दा कम",
+            optionB = "४० किलोमिटर भन्दा कम",
+            optionC = "३५ किलोमिटर भन्दा कम",
+            optionD = "माथिका सबैद्वै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना भएमा चालकले कसलाई खबर गर्नुपर्छ?",
+            optionA = "नजिकका प्रहरीलाई",
+            optionB = "नजिकका बासिन्दालाई",
+            optionC = "घाइतेका आफन्तलाई",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "मानिसले बाटो काट्न लागेको समयमा आफ्नो सवारीलाई के गर्नु पर्छ?",
+            optionA = "हाल्ते इशारा गर्ने",
+            optionB = "सवारीको गति बढाउने",
+            optionC = "सवारी फर्काउने",
+            optionD = "सवारीको गति कम गरी बाटो काट्न दिने",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा सिट बेल्टको प्रयोग किन गरिन्छ?",
+            optionA = "राम्रो देखाउन",
+            optionB = "ट्राफिक प्रहरीको कारवाहीबाट बच्न",
+            optionC = "दुर्घटना भए कम क्षति होस् भनेर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "बाटोमा टायर पङ्चर भएमा के गर्नु हुन्छ?",
+            optionA = "बाटा नगरी कुदाउने",
+            optionB = "गाडी हेड लगाएर छोडेर जाने",
+            optionC = "स्पेयर टायर प्रयोग गरी पङ्चर टाल्ने",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी साधन बायाँ मोड्दा के गर्नु पर्दछ?",
+            optionA = "गाडीको ब्रेक लगाउने र रोक्ने",
+            optionB = "दायाँ साइड लाइट बालेर मोड्ने",
+            optionC = "बायाँ साइडलाइट बालेर मोड्ने",
+            optionD = "बेस्सरी हर्न बजाउने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सुरक्षाका दृष्टिले कस्तो समयमा यात्रा नगर्नु राम्रो मानिन्छ?",
+            optionA = "मुसलधारे पानी परेको बेला",
+            optionB = "बाल्टो हिँड्दै गरेको समयमा",
+            optionC = "बाल्टो कुहिरो लागेको समयमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "बाटोमा गुडिरहेको सवारीको गति पत्ता लगाउँदा प्रहरीले प्रयोग गर्ने साधन कुन हो?",
+            optionA = "राडार गन",
+            optionB = "रेस गन",
+            optionC = "स्पिड गन",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "रातो ट्राफिक लाइटको अर्थ के हो?",
+            optionA = "सतर्क हुने संकेत",
+            optionB = "सवारी साधन रोक्ने संकेत",
+            optionC = "जाने संकेत",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "उछिने (ओभरटेक गर्ने) कार्य गर्दा कसतो प्रकारले गर्नु पर्दछ?",
+            optionA = "सधैं दायाँबाट",
+            optionB = "हर्न बजाएर",
+            optionC = "सिधा बाटो र सुरक्षित भएमा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गोलो घुम्तीमा कताबाट आउने सवारी साधनलाई पहिलो प्राथमिकता दिनु पर्दछ?",
+            optionA = "दायाँबाट आउनेलाई",
+            optionB = "बायाँबाट आउनेलाई",
+            optionC = "पछाडिबाट आउनेलाई",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "ओभरटेक गर्दा कुन साइडबाट गर्नुपर्छ?",
+            optionA = "बायाँबाट",
+            optionB = "दायाँबाट",
+            optionC = "दुवै साइडबाट",
+            optionD = "कुनै साइडबाट पनि होइन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "दुर्घटनामा परेको कसतो घाइतेलाई क्रियाशील अक्सिजन दिनु पर्दछ?",
+            optionA = "सामान्य",
+            optionB = "रगत बगिरहेको",
+            optionC = "बेहोस अवस्थामा रहेको",
+            optionD = "होसमा रहेको",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुँदा कसलाई सूचना दिनु पर्दछ?",
+            optionA = "नजिकको प्रहरीलाई",
+            optionB = "नजिकका बासिन्दालाई",
+            optionC = "घाइतेका आफन्तलाई",
+            optionD = "सडक यात्रीलाई",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "ओभरटेक गर्दा अगाडिको सवारीलाई कसरी संकेत दिनु पर्दछ?",
+            optionA = "हेड लाइट बालेर",
+            optionB = "हर्न बजाएर",
+            optionC = "साइड लाइट बालेर",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दिनभरी र रातमा किन दुर्घटनाको सम्भावना बढी हुन्छ?",
+            optionA = "बढी गति र भिजिबिलिटी कम हुनाले",
+            optionB = "बढी सवारी गुड्ने हुनाले",
+            optionC = "यात्रुहरूले मादक पदार्थ सेवन गर्नाले",
+            optionD = "माथिका कुनै पनि होइनन्",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "कसतो ठाउँमा सवारीको गति कम गर्नु पर्दैन?",
+            optionA = "बालको बस्ती भएको ठाउँमा",
+            optionB = "स्कूल क्षेत्रमा",
+            optionC = "चोकबाटोमा",
+            optionD = "खुल्ला बाटोमा",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा के गर्नु हुँदैन?",
+            optionA = "मोबाइलमा कुरा गर्नु हुँदैन",
+            optionB = "मादक पदार्थ सेवन गर्नु हुँदैन",
+            optionC = "यात्रुसँग झगडा गर्नु हुँदैन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "रातको समयमा गाडी पार्क गर्दा बालिने लाइट कुन हो?",
+            optionA = "हेड लाइट",
+            optionB = "साइड लाइट",
+            optionC = "पार्किङ लाइट",
+            optionD = "कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "पछाडि आएको सवारीले ओभरटेक गर्ने लाग्दा के गर्नुपर्छ?",
+            optionA = "आफ्नो सवारीको गति बढाउने",
+            optionB = "आफ्नो सवारी स्लो गरी साइड दिने",
+            optionC = "हर्न बजाउने",
+            optionD = "केही नगर्ने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "बढी उकालोमा सवारी चलाउँदा कुन गियरमा सवारी चलाउन पर्दछ?",
+            optionA = "एक गियरमा",
+            optionB = "दुई गियरमा",
+            optionC = "तीन गियरमा",
+            optionD = "चार गियरमा",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "लुकिङ् ग्लास कुन ठाउँबाट हेर्नु पर्छ?",
+            optionA = "ओभरटेक गर्दा",
+            optionB = "व्याक गर्दा",
+            optionC = "दायाँबायाँ मोड्दा",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "आफ्नो सवारीभन्दा पछाडिको सवारीले ओभरटेक गर्ने क्रममा के गर्न हुँदैन?",
+            optionA = "स्लो गरी साइड दिन",
+            optionB = "गति बढाउन",
+            optionC = "हर्न बजाउन",
+            optionD = "ख र ग",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चलाउँदा चालकको अवस्था कस्तो हुन जरुरी छ?",
+            optionA = "सफा लुगा लगाएको",
+            optionB = "लागू पदार्थ सेवन नगरेको",
+            optionC = "जुता लगाएको",
+            optionD = "रातभर नसुतेको",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारीको यातायात्रिक अवस्था ठीक नभएमा सवारी चालकले सर्वप्रथम कसलाई जानकारी गराउन पर्छ?",
+            optionA = "ट्राफिक प्रहरी",
+            optionB = "नजिकको प्रहरी कार्यालय",
+            optionC = "सवारी धनी वा व्यवस्थापक",
+            optionD = "जिल्ला प्रशासन कार्यालय",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "सवारी रोक्दा कस्तो ठाउँमा रोक्नु पर्दछ?",
+            optionA = "बस स्टप नजिक",
+            optionB = "भीडभाड भएको ठाउँमा",
+            optionC = "पार्किङ लेखिएको ठाउँमा",
+            optionD = "सडकको बीचमा",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "साइड रोडबाट मेन रोडमा प्रवेश गर्दा चालकले के गर्नुपर्छ?",
+            optionA = "स्पिडमा गाडी ल्याएर प्रवेश",
+            optionB = "मेनरोडको बीचमा गाडी रोकेर",
+            optionC = "सिग्नल दिएर सुरक्षित गतिमा प्रवेश गर्ने",
+            optionD = "सिग्नल नदिइ प्रवेश गर्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारी ब्याक गर्दा के गर्नुपर्छ?",
+            optionA = "इन्जिन रेभ गर्ने",
+            optionB = "रियरभ्यु मिररद्वारा पछाडि सवारी/पदयात्री छ कि छैन हेर्ने",
+            optionC = "गाडी रोकि झरेर पछाडि हेर्ने",
+            optionD = "हर्न बजाउने",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "तपाईं आफ्नो सवारी स्टार्ट गर्नु भन्दा पहिले के गर्नुहुन्छ?",
+            optionA = "तेल चेक गर्नु",
+            optionB = "गियर चेक गर्नु",
+            optionC = "ब्रेक तथा इन्डिकेटर लाइट चेक गर्नु",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो अवस्थामा ह्यान्ड ब्रेक लगाउनु उपयुक्त हुन्छ?",
+            optionA = "गाडी स्टार्ट गर्दा",
+            optionB = "गाडी रोकेर राख्दा",
+            optionC = "गाडी रेममा लग्दा",
+            optionD = "छिटो रेम्नु पर्दा",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुनुको कारण के हो?",
+            optionA = "मानवीय गल्ती",
+            optionB = "मेसिनको गल्ती",
+            optionC = "सडकको दुरावस्था",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "एकतर्फी बाटोमा अचानक लेन बदल्दा कुन गाडीसँग दुर्घटना हुने सम्भावना हुन्छ?",
+            optionA = "अगाडिबाट आइरहेको गाडीसँग",
+            optionB = "दायाँबाट आएको गाडीसँग",
+            optionC = "बायाँबाट आएको गाडीसँग",
+            optionD = "पछाडिबाट आएको गाडीसँग",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "गाडी ब्याक गर्दा के गर्नुपर्छ?",
+            optionA = "ब्याक गियर लगाउने",
+            optionB = "साईड मिरर हेर्ने",
+            optionC = "एक्सिलेरेटर दबाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी चालकको अवस्था देहायक मध्ये कस्तो हुनु जरुरी हुन्छ?",
+            optionA = "देख्ने शक्ति राम्रो भएको",
+            optionB = "नशा नगरेको",
+            optionC = "मदिरा सेवन नगरेको",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "हतार भएको समयमा सवारी कसरी चलाउनु पर्छ?",
+            optionA = "हर्न पटक पटक बजाउँदै चलाउने",
+            optionB = "ब्रेक लाइट बाल्दै, हात हलाउँदै चलाउने",
+            optionC = "इन्सिडेन्ट लाइट बालि सुरक्षित गतिमा चलाउने",
+            optionD = "जसरी भए पनि छिटो पुग्ने उपाय खोज्ने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "टर्निङमा गाडी चलाउँदा कसरी चलाउनु पर्छ?",
+            optionA = "लो गियरमा चलाउने",
+            optionB = "स्पीड कम गर्ने",
+            optionC = "टर्निङ अगाडि नै २–३ पटक हर्न बजाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुँदा पीडित पक्षलाई क्षतिपूर्ति भराई दिने कर्तव्य कसको हो?",
+            optionA = "सवारी धनी",
+            optionB = "प्रमुख जिल्ला अधिकारी",
+            optionC = "ट्राफिक प्रहरी",
+            optionD = "यातायात व्यवस्था कार्यालय",
+            correctOptionIndex = 0
+        ),
+        Question(
+            questionText = "मादक पदार्थ सेवन गरी सवारी चलाउँदा के हुन्छ?",
+            optionA = "दुर्घटना हुन सक्छ",
+            optionB = "जरिवाना हुन्छ",
+            optionC = "माथिका दुबै",
+            optionD = "रामाइलो हुन्छ",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सिटबेल्ट किन प्रयोग गर्नु पर्छ?",
+            optionA = "आरामको लागि",
+            optionB = "जरिवानाबाट बच्न",
+            optionC = "सुरक्षित यात्राको लागि",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "दुर्घटनामा घाइते भएका व्यक्तिलाई सर्वप्रथम के गर्नु पर्छ?",
+            optionA = "अस्पताल लैजानु पर्छ",
+            optionB = "प्राथमिक उपचार गर्नु पर्छ",
+            optionC = "भिडबाट अलग गर्नु पर्छ",
+            optionD = "केही गर्नु पर्दैन",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "दुर्घटनामा परेको घाइतेलाई तुरुन्त कुनै खानेकुरा खान दिन हुन्छ कि हुँदैन?",
+            optionA = "हुन्छ",
+            optionB = "हुँदैन",
+            optionC = "घाइतेको इच्छा अनुसार दिने",
+            optionD = "घटनामा उपस्थित व्यक्तिहरूसँग सल्लाह गरी दिने",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "पानी परेको बखत सवारी चलाउँदा के कुराको डर हुन्छ?",
+            optionA = "गाडीको चक्का चिप्लिने",
+            optionB = "भनेको बेला ब्रेक नलाग्ने",
+            optionC = "पैदलयात्रुलाई हिलो छ्यापिन सक्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "जेब्रा क्रसिङमा के गर्नु हुँदैन?",
+            optionA = "सवारी तीव्र गतिमा चलाउन",
+            optionB = "ट्राफिक प्रहरी अटिन",
+            optionC = "सवारी साधन रोक्न",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 1
+        ),
+        Question(
+            questionText = "सवारी साधन दायाँ मोड्दा के गर्नुपर्छ?",
+            optionA = "बायाँ साइडलाइट दिई मोड्ने",
+            optionB = "हेडलाइट बाली मोड्ने",
+            optionC = "दायाँ साइडलाइट दिई मोड्ने",
+            optionD = "माथिका कुनै पनि होइन",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "उकालोमा गाडी रोक्दा के गर्नुपर्छ?",
+            optionA = "ओट लगाउने",
+            optionB = "पहिलो गियरमा राख्ने",
+            optionC = "हैंडब्रेक लगाउने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "बाक्लो कुहिरो वा हुस्सु लागेको बेला सवारी साधन चलाउँदा कुन बत्ती बाल्नुपर्छ?",
+            optionA = "हेडलाइट",
+            optionB = "ब्रेक लाइट",
+            optionC = "फग लाइट",
+            optionD = "साइड लाइट",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "टी जक्सन आइपुग्न लाग्दा आफ्नो सवारीलाई के गर्नुपर्छ?",
+            optionA = "दायाँ बाँकिएका सवारी पास हुन दिने",
+            optionB = "सवारी रोक्ने",
+            optionC = "गति कम गरी बाटो सुरक्षित भएको मात्र अघि बढ्ने",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सवारीमा मोबिलको प्रयोग किन गरिन्छ?",
+            optionA = "इन्धन बचाउन",
+            optionB = "इन्जिन सञ्चालन सहज पार्न",
+            optionC = "सवारी तीव्र गतिमा चलाउन",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "सवारीबाट निस्कने कालो धुँवाले के संकेत गर्दछ?",
+            optionA = "साइलेंसर पाइप बिग्रेको",
+            optionB = "साइलेंसर नभएको",
+            optionC = "इन्जिन बिग्रेको",
+            optionD = "इन्धन नभएको",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "कस्तो अवस्थामा क्लच दबाएर गाडी चलाउँदा खतरा हुन्छ?",
+            optionA = "ओरालोमा",
+            optionB = "बढी स्पीडमा",
+            optionC = "मोडमा",
+            optionD = "माथिका सबै",
             correctOptionIndex = 4
         )
     )
