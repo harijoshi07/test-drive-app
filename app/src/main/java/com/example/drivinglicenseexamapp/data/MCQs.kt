@@ -86,7 +86,7 @@ fun getSampleQuestions(): List<Question> {
             optionB = "अनलाइन फाराम",
             optionC = "क र ख दुवै",
             optionD = "निश्चित नियम छैन",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "निम्नमध्ये सवारी चालकको कर्तव्य कुन हो?",
@@ -1065,7 +1065,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ महिना",
             optionC = "३ महिना",
             optionD = "४ महिना",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ज्यान मार्ने मनसाय राखी सवारी चलाइ कुनै व्यक्तिको मृत्यु भएमा के सजाय हुन्छ ?",
@@ -1073,7 +1073,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सर्वस्व सहित जन्म कैद",
             optionC = "जन्मकैद",
             optionD = "२० वर्ष जेल सजाय",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सरकारी मोटरसाइकलको नम्बर प्लेटमा कुन अक्षरले संकेत गरिन्छ ?",
@@ -1089,7 +1089,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "१५ वर्ष",
             optionC = "२० वर्ष",
             optionD = "२५ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "देहायको कुन अवस्थामा ट्राफिक प्रहरीले कारवाही गर्न सक्छ ?",
@@ -1097,7 +1097,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "मादकपदार्थ सेवन गरी सवारी चलाएको",
             optionC = "सडकमा गलत साइडबाट सवारी चलाएको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "'A' वर्गको सवारी चालक अनुमतिपत्रले कुन सवारी साधन चलाउन पाइन्छ?",
@@ -1105,7 +1105,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "ट्र्याक्टर",
             optionC = "मोटरसाइकल, स्कुटर र मोपेड",
             optionD = "अटो रिक्शा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "विदेशी पर्यटकलाई यातायात सेवा प्रदान गर्न अनुमति प्राप्त सार्वजनिक सवारीलाई कुन सवारी भनिन्छ ?",
@@ -1113,7 +1113,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "मिटर ट्याक्सी",
             optionC = "पर्यटक सवारी",
             optionD = "साझा सवारी",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "'K' वर्गको सवारी चालक अनुमतिपत्रले कुन कुन सवारी साधन चलाउन पाइन्छ?",
@@ -1129,7 +1129,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "संस्थान सवारी",
             optionC = "निजी सवारी",
             optionD = "कूटनीतिक सवारी",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कार, जिप र डेलिभरी भ्यानको लाइसेन्स कुन वर्गमा पर्छ?",
@@ -1137,7 +1137,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "B वर्ग",
             optionC = "C वर्ग",
             optionD = "D वर्ग",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हराएको सवारी चालक अनुमति पत्रको सिफारिस पत्र बनाइदिने निकाय कुन हो?",
@@ -1145,7 +1145,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "जिल्ला प्रशासन कार्यालय",
             optionC = "ट्राफिक प्रहरी कार्यालय",
             optionD = "यातायात व्यवस्था कार्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रको निवेदन दस्तुर कति हो?",
@@ -1153,7 +1153,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "रु. पाँच सय",
             optionC = "रु. एक हजार",
             optionD = "रु. एक हजार पाँच सय",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "मोटरसाइकलको सवारी चालक अनुमतिपत्र लिन कति वर्ष उमेर पूरा भएको हुन पर्दछ?",
@@ -1161,7 +1161,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "१७ वर्ष",
             optionC = "१८ वर्ष",
             optionD = "२० वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कुन सवारीले तेस्रो पक्ष बीमा गराउन आवश्यक छ?",
@@ -1169,7 +1169,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "निजी साना र ठूला सवारीले",
             optionC = "मोटरसाइकल र स्कुटरले",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र प्राप्त गरेको कति समयपछि नविकरण गराउन पर्दछ?",
@@ -1177,7 +1177,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "१ वर्ष",
             optionC = "१० वर्ष",
             optionD = "५ वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "यातायात व्यवस्था कार्यालयहरू कुन सरकार मातहत रहेका छन्?",
@@ -1185,7 +1185,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "प्रदेश सरकार",
             optionC = "स्थानीय सरकार",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हरियो नम्बर प्लेटको सवारी भन्नाले कस्तो सवारीलाई बुझाउँछ?",
@@ -1193,7 +1193,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सार्वजनिक सवारी",
             optionC = "संस्थानका सवारी",
             optionD = "कूटनीतिक सवारी",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कुन सवारीले तेस्रो पक्ष बीमा गराउन आवश्यक छैन?",
@@ -1201,7 +1201,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सरकारी सवारी साधनले",
             optionC = "मालवाहक ट्रकले",
             optionD = "साइकल",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दर्ताको प्रमाण पत्रको म्याद समाप्त भएको कति वर्षसम्म नविकरण नगरेमा स्वतः रद्द हुन्छ?",
@@ -1209,7 +1209,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "५ वर्ष",
             optionC = "७ वर्ष",
             optionD = "१० वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र प्राप्त गर्न कुन कुन परीक्षा उत्तीर्ण हुनुपर्छ?",
@@ -1217,31 +1217,31 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "प्रयोगात्मक परीक्षा",
             optionC = "मेडिकल जाँच",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालकको अवस्था देहायमध्ये कस्तो हुन पर्दछ?",
             optionA = "देख्ने शक्ति राम्रो भएको",
-            optionB = "नशाकोे",
+            optionB = "नथाकेको",
             optionC = "मदिरा सेवन गरेको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "सवारी साधन कर तलबमध्ये कुन कार्यालयमा बुझाउनुपर्दछ?",
+            questionText = "सवारी साधन कर तल मध्ये कुन कार्यालयमा बुझाउनुपर्दछ?",
             optionA = "आन्तरिक राजस्व कार्यालय",
             optionB = "भन्सार कार्यालय",
             optionC = "यातायात व्यवस्था कार्यालय",
             optionD = "अन्त:शुल्क कार्यालय",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "कुन सवारी चलाउने सवारी चालक अनुमतिपत्रको लागि रहदानी फाराम बुझाउँदा सो फाराम साथ ड्राइभिङ्ग प्रशिक्षण केन्द्रको प्रमाणपत्र चाहिँदैन?",
+            questionText = "कुन सवारी चलाउने सवारी चालक अनुमतिपत्रको लागि दरखास्त फाराम बुझाउँदा सो फाराम साथ ड्राइभिङ्ग प्रशिक्षण केन्द्रको प्रमाणपत्र चाहिँदैन?",
             optionA = "बस",
             optionB = "कार",
             optionC = "ट्रक",
             optionD = "मोटरसाइकल",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रमा उल्लेख नगरिने विवरण कुन हो?",
@@ -1249,15 +1249,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "नागरिकता नम्बर",
             optionC = "शैक्षिक योग्यता",
             optionD = "स्थायी ठेगाना",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "प्रदूषण जाँच पास स्टीकर नभएको सवारी साधन निर्धारित सडकमा लगिएमा के सजाय हुन्छ?",
+            questionText = "प्रदूषण जाँच पास स्टीकर नभएको सवारी साधन निषेधित सडकमा लगिएमा के सजाय हुन्छ?",
             optionA = "कैदको सजाय",
             optionB = "सवारी जफत",
             optionC = "भविष्यमा सवारी चलाउन प्रतिबन्ध",
             optionD = "जरिवाना",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी तथा यातायात व्यवस्था ऐन अनुसार मझौला र सानो सवारीको चालक अनुमतिपत्र प्राप्त गर्न कति उमेर पुगेको हुनुपर्दछ?",
@@ -1265,7 +1265,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "१८ वर्ष",
             optionC = "२१ वर्ष",
             optionD = "२५ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको लिखित परीक्षा पास गरेपछि कति पटक प्रयोगात्मक परीक्षा दिन पाइन्छ?",
@@ -1273,7 +1273,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ पटक",
             optionC = "३ पटक",
             optionD = "४ पटक",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र लिनका लागि के के कागजात चाहिन्छ?",
@@ -1281,23 +1281,23 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "निरोगिताको प्रमाणपत्र",
             optionC = "माथिका दुवै",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "इन्कोड नम्बर प्लेटमा झुल्का हेर्दा देखिएका मध्ये कुन कुराको जानकारी हुँदैन?",
+            questionText = "इम्बोस्ट नम्बर प्लेटमा झट्ट हेर्दा देखिएका मध्ये कुन कुराको जानकारी हुँदैन?",
             optionA = "प्रदेशको नाम",
             optionB = "सवारी लट नम्बर",
             optionC = "सरकारी सवारी साधनको पहिचान",
             optionD = "सवारी कसको विवरण",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "ठूला तथा मझौला सवारीमा नराख्नुपर्ने कुन हो?",
+            questionText = "ठूला तथा मझौला सवारीमा नपर्ने कुन हो?",
             optionA = "बस र ट्रक",
             optionB = "लोडर र क्रेन",
             optionC = "दमकल र एम्बुलेन्स",
             optionD = "पिकअप र भ्यान",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सार्वजनिक सवारीमा प्रदूषण स्टिकरको म्याद कति अवधिको हुन्छ?",
@@ -1305,7 +1305,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "५ महिना",
             optionC = "६ महिना",
             optionD = "७ महिना",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "कस्तो सवारीको नम्बर प्लेट सेतो हुन्छ?",
@@ -1313,15 +1313,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सार्वजनिक सवारी",
             optionC = "संस्थानको सवारी",
             optionD = "पर्यटक सवारी",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी दर्ता प्रमाणपत्र (ब्लुबुक) भनेको के हो?",
             optionA = "सवारीको सम्पूर्ण विवरण लेखेको प्रमाणपत्र",
             optionB = "सवारी चलाउने इजाजत",
-            optionC = "सवारी कर तिरेको स्टे लेखेको प्रमाणपत्र",
+            optionC = "सवारी कुदाउन पाउने रूट लेखेको प्रमाणपत्र",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको वहाल अवधि (म्याद) कति वर्षको हुने व्यवस्था छ?",
@@ -1329,7 +1329,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ वर्ष",
             optionC = "३ वर्ष",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दर्ता प्रमाणपत्र कहिले नविकरण गर्नु पर्दछ?",
@@ -1345,7 +1345,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "ट्राफिक प्रहरीले",
             optionC = "जिल्ला प्रशासन कार्यालयले",
             optionD = "अर्थ मन्त्रालयले",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी चालकले कुन कुन कागजपत्रहरु अनिवार्य रुपमा साथमा लिएर हिँड्नुपर्दछ?",
@@ -1353,7 +1353,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "कर तिरेको प्रमाण",
             optionC = "सवारी चालक अनुमतिपत्र",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "निजी सवारीले सवारी कर कहिलेसम्म तिरी सक्नुपर्दछ?",
@@ -1372,12 +1372,12 @@ fun getSampleQuestions2(): List<Question> {
             correctOptionIndex = 1
         ),
         Question(
-            questionText = "आफ्नो सवारी साधनमा इन्कोड नम्बर प्लेट जडान गर्नु परेमा कहाँ जानुहुन्छ?",
+            questionText = "आफ्नो सवारी साधनमा इम्बोस्ट नम्बर प्लेट जडान गर्नु परेमा कहाँ जानुहुन्छ?",
             optionA = "ट्राफिक प्रहरी कार्यालय",
             optionB = "यातायात व्यवस्था कार्यालय",
             optionC = "भौतिक पूर्वाधार तथा यातायात मन्त्रालय",
             optionD = "जिल्ला प्रशासन कार्यालय",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी साधनको जाँचपासको काम कसले गर्छ?",
@@ -1385,7 +1385,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "यातायात व्यवस्था विभागले",
             optionC = "ट्राफिक प्रहरीले",
             optionD = "यातायात व्यवस्था कार्यालयले",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मोटरसाइकलको सवारी चालक अनुमतिपत्र लिन कति राजस्व बुझाउन पर्दछ?",
@@ -1393,15 +1393,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "रु. १०००",
             optionC = "रु. १५००",
             optionD = "रु. २०००",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "मोटरसाइकलको पछाडिको भागमा राखिने इन्कोड नम्बर प्लेटमा कति लाइनमा लेखिएको हुन्छ?",
+            questionText = "मोटरसाइकलको पछाडिको भागमा राखिने इम्बोस्ट नम्बर प्लेटमा कति लाइनमा लेखिएको हुन्छ?",
             optionA = "१ लाइनमा",
             optionB = "२ लाइनमा",
             optionC = "३ लाइनमा",
             optionD = "४ लाइनमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "निलो नम्बर प्लेट भएको सवारीले कस्तो सवारीलाई बुझाउँछ?",
@@ -1409,7 +1409,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सरकारी सवारी साधन",
             optionC = "निजी सवारी साधन",
             optionD = "संस्थानको सवारी साधन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "तेसो पक्ष बीमा भन्नेको के हो?",
@@ -1425,7 +1425,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ नम्बरमा",
             optionC = "३ नम्बरमा",
             optionD = "४ नम्बरमा",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीको सामान्य पार्टपूर्जा परिवर्तन गर्न कसबाट स्वीकृति लिनु पर्छ?",
@@ -1433,7 +1433,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "ट्राफिक प्रहरीबाट",
             optionC = "प्रमुख जिल्ला अधिकारीबाट",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक प्रशिक्षण केन्द्रको निरीक्षण गर्ने जिम्मेवारी कसको हो?",
@@ -1441,10 +1441,10 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "ट्राफिक प्रहरी कार्यालय",
             optionC = "जिल्ला प्रशासन कार्यालय",
             optionD = "यातायात व्यवस्था विभाग",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "विदेशमा दर्ता भएको सवारी नेपालभित्र चलाउन पेमा कसबाट स्वीकृति लिनु पर्छ?",
+            questionText = "विदेशमा दर्ता भएको सवारी नेपालभित्र चलाउन कसबाट स्वीकृति लिनु पर्छ?",
             optionA = "यातायात व्यवस्था कार्यालय प्रमुख",
             optionB = "प्रमुख जिल्ला अधिकारी",
             optionC = "प्रहरी प्रमुख",
@@ -1453,11 +1453,11 @@ fun getSampleQuestions2(): List<Question> {
         ),
         Question(
             questionText = "मोटरसाइकलको इन्जिन मिस फायर भएको कसरी थाहा हुन्छ?",
-            optionA = "साइलेंसरमा आवाज चाट चाट आउँछ",
+            optionA = "साइलेंसरमा आवाज प्वाट प्वाट आउँछ",
             optionB = "हेडलाइट बल्दैन",
             optionC = "इन्जिन स्टार्ट हुँदैन",
             optionD = "हर्न बज्दैन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीमा पहेँलो रङ्को नम्बर प्लेट जडान गरिएको छ भने उक्त सवारी कुन निकायको हो भनी बुझिन्छ?",
@@ -1465,7 +1465,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "संस्थानको सवारी साधन",
             optionC = "निजी सवारी साधन",
             optionD = "सार्वजनिक सवारी साधन",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र प्राप्त नगरी के गर्न हुँदैन?",
@@ -1473,7 +1473,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारीमा बस्न",
             optionC = "सवारी खरीद गर्न",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कड्कड आवाज आएर इन्जिन रोकिएमा केको खराबी हुन सक्छ?",
@@ -1481,7 +1481,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "ब्रेकको",
             optionC = "पेट्रोलको",
             optionD = "विधुतको",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "मोटरसाइकलको इन्जिन चिसो बनाउने मुख्य स्रोत के हो?",
@@ -1489,7 +1489,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "पेट्रोल",
             optionC = "डिजेल",
             optionD = "मोबिल",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "विद्युतीय सवारीको प्रदूषण जाँच कहाँ गरिन्छ?",
@@ -1497,7 +1497,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "यातायात व्यवस्था विभागमा",
             optionC = "भौतिक पूर्वाधार तथा यातायात मन्त्रालयमा",
             optionD = "कहीं पनि हुँदैन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कुनै एक प्रयोजनका निम्ति दर्ता भएको सवारीलाई अर्को प्रयोजनको निम्ति प्रयोग गर्न मिल्छ कि मिल्दैन?",
@@ -1505,7 +1505,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "यस्तो गर्न कानुनी रुपमा मिल्दैन",
             optionC = "बढी कर तिरेर प्रयोग गर्नुपर्छ",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रको प्रतिलिपि कुन अवस्थामा प्राप्त गर्न सकिन्छ?",
@@ -1513,7 +1513,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "च्यातिएमा",
             optionC = "नचिनिने भएमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रको परीक्षा मर्यादित बनाउने कर्तव्य कसको हो?",
@@ -1521,7 +1521,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "परीक्षामा बसेका परीक्षार्थीको",
             optionC = "ट्राफिक प्रहरीको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको म्याद समाप्त भएपछिको नविकरणको हदसम्म कति रहन्छ?",
@@ -1529,7 +1529,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ वर्ष",
             optionC = "३ वर्ष",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र किन आवश्यक छ?",
@@ -1537,7 +1537,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारी खरीद गर्न",
             optionC = "सवारी साधन बेच बिखन गर्न",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "निजी मोटरसाइकलको नम्बर कुन अक्षरले संकेत गरिन्छ?",
@@ -1553,7 +1553,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारी कर नतिरी चलाएको",
             optionC = "सवारी चालक अनुमति पत्र साथमा नराखी चलाएको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र सम्बन्धी व्यवस्था कुन ऐनमा गरिएको छ?",
@@ -1561,7 +1561,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारी चालक ऐन",
             optionC = "यातायात व्यवस्थापन ऐन",
             optionD = "ट्राफिक ऐन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "टिक मार्क भनेको के हो?",
@@ -1573,10 +1573,10 @@ fun getSampleQuestions2(): List<Question> {
         ),
         Question(
             questionText = "एउटा यातायात व्यवस्था कार्यालयमा दर्ता भएको सवारीलाई अर्को यातायात व्यवस्था कार्यालयमा दर्ता गराउँदा के भनिन्छ?",
-            optionA = "अञ्जलिकरण",
+            optionA = "अञ्चलिकरण",
             optionB = "सफा दर्ता",
             optionC = "पुनःदर्ता",
-            optionD = "अन्य अञ्जलको दर्ता",
+            optionD = "अन्य अञ्चलको दर्ता",
             correctOptionIndex = 2
         ),
         Question(
@@ -1585,7 +1585,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारी परिचालक",
             optionC = "यात्री",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको प्रतिलिपि लिन कति दस्तुर लाग्दछ?",
@@ -1593,7 +1593,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "रु. दुई सय",
             optionC = "रु. पाँच सय",
             optionD = "रु. एक हजार",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "यातायात व्यवस्था कार्यालयबाट प्रदान गरिएको सवारी चालक अनुमतिपत्रको मान्यता कहाँ हुन्छ?",
@@ -1601,7 +1601,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सम्बन्धित स्थानीय तहभित्र मात्र",
             optionC = "नेपालभर",
             optionD = "विश्वको जुनसुकै मुलुकमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मोटरसाइकलको सवारी चालक अनुमतिपत्र प्राप्त गरेको कति अवधि पछाडि बसको सवारी चालक अनुमतिपत्र प्राप्त गर्न पाइन्छ?",
@@ -1609,7 +1609,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "२ वर्ष",
             optionC = "३ वर्ष",
             optionD = "प्राप्त गर्न सक्दैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी परीक्षण कार्यालय (Vehicle Fitness Testing Center: VFTC) कुन सरकार मातहतका निकाय हुन्?",
@@ -1625,7 +1625,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "बायाँ साइडबाट",
             optionC = "जताबाट पनि हुन्छ",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र प्राप्त गर्ने देहायको कुन योग्यता हुन आवश्यक पर्छ?",
@@ -1633,7 +1633,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "न्यूनतम उमेर पुगेको",
             optionC = "छारे रोग नलागेको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र हराएमा के गर्नुपर्दछ?",
@@ -1641,7 +1641,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "यातायात व्यवस्था विभागमा सम्पर्क राख्ने",
             optionC = "ट्राफिक प्रहरी कार्यालयबाट प्रतिलिपि लिनु",
             optionD = "जिल्ला प्रशासन कार्यालयबाट प्रतिलिपि लिनु",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सडकमा गुड्ने कुनै पनि सवारीको गति निर्धारण गर्ने अधिकार कसलाई छ?",
@@ -1657,23 +1657,23 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "रु. १५ हजारसम्म जरीवाना",
             optionC = "सवारी जफत",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "आवासीय भिसा प्राप्त गरेको विदेशी नागरिकले नेपालबाट सवारी चालक अनुमति पत्र प्राप्त गर्न के का कागजात पेश गर्नुपर्दछ?",
+            questionText = "आवासीय भिसा प्राप्त गरेको विदेशी नागरिकले नेपालबाट सवारी चालक अनुमति पत्र प्राप्त गर्न के के कागजात पेश गर्नुपर्दछ?",
             optionA = "कार्यस्थल सिफारिसको पत्र",
             optionB = "भिसाको प्रतिलिपि",
             optionC = "पासपोर्टको प्रतिलिपि",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "सवारी चालक अनुमतिपत्रको प्रयोगात्मक परीक्षा उत्तीर्ण भएको परीक्षार्थीले १८ महिनाभित्र सवारी चालक अनुमतिपत्र दस्तुर (लाइसेन्स फि पेमेंट) नगदाए के हुन्छ ?",
+            questionText = "सवारी चालक अनुमतिपत्रको प्रयोगात्मक परीक्षा उत्तीर्ण भएको परीक्षार्थीले १८ महिनाभित्र सवारी चालक अनुमतिपत्र दस्तुर (लाइसेन्स फि पेमेंट) नदिए के हुन्छ ?",
             optionA = "पुनः बुझाए पनि हुन्छ",
             optionB = "सवारी अनुमतिपत्र प्राप्त छैन",
             optionC = "पुनः ट्रायल दिन पाइन्छ",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी दर्ता प्रमाणपत्रमा कुन कुन कुरा उल्लेख गरिएको हुन्छ ?",
@@ -1681,7 +1681,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "सवारी धनिको ठेगाना",
             optionC = "सवारी दर्ता नम्बर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी तथा यातायात व्यवस्था ऐन वमोजिम “सार्वजनिक स्थान” भन्नाले के बुझिन्छ ?",
@@ -1689,7 +1689,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "बाटो",
             optionC = "पेटी",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कूटनीतिक सुविधा प्राप्त सवारीको नम्बर प्लेटको रङ कस्तो हुन्छ?",
@@ -1697,7 +1697,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "रातो",
             optionC = "निलो",
             optionD = "हरियो",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र कति अवधिका लागि निलम्बन हुन सक्छ ?",
@@ -1705,7 +1705,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "नौ महिना",
             optionC = "एक वर्ष",
             optionD = "दुई वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सडकमा हिँडिरहेको व्यक्तिलाई सवारीले ठक्कर दिई मृत्यु भएमा दिने बीमालाई के भनिन्छ?",
@@ -1713,7 +1713,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "दोस्रो पक्ष",
             optionC = "तेस्रो पक्ष",
             optionD = "चौथो पक्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी दर्ता रोक्का गर्ने अधिकार कसलाई हुन्छ?",
@@ -1721,15 +1721,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "जिल्ला अदालतलाई",
             optionC = "यातायात व्यवस्था कार्यालयलाई",
             optionD = "प्रहरी कार्यालयलाई",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "मोटरसाइकल, स्कूटर र मोपेडको प्रयोगात्मक परीक्षामा उकालो (ग्रेड) पार गर्दा अनुमिति घोषणा हुनसक्ने अवस्था कुन हो?",
-            optionA = "एक पटकभन्दा बढी अंकित रेखा छोप्ना",
+            questionText = "मोटरसाइकल, स्कूटर र मोपेडको प्रयोगात्मक परीक्षामा उकालो पार गर्दा अनुत्तिर घोषणा हुनसक्ने अवस्था कुन हो?",
+            optionA = "एक पटकभन्दा बढी अंकित रेखा छोएमा",
             optionB = "सवारीको टायर अंकित रेखा भन्दा बाहिर गएको",
-            optionC = "एक पटकभन्दा बढी खुल्ला भूमि टेक्नमा",
+            optionC = "एक पटकभन्दा बढी खुल्ला भूमि टेकेमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र परीक्षा सञ्चालन कार्यविधि निर्देशन, २०७७ अनुसार मोटरसाइकल, स्कूटर र कारको लिखित परीक्षा उत्तीर्ण हुन कति अंक प्राप्त गर्नुपर्ने प्रावधान छ?",
@@ -1737,7 +1737,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "६० अंक",
             optionC = "७० अंक",
             optionD = "८० अंक",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र परीक्षा सञ्चालन कार्यविधि निर्देशन, २०७७ अनुसार मोटरसाइकल, स्कूटर र कारको प्रयोगात्मक परीक्षा उत्तीर्ण हुन कति अंक प्राप्त गर्नुपर्ने प्रावधान छ?",
@@ -1745,15 +1745,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "५० अंक",
             optionC = "६० अंक",
             optionD = "८० अंक",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "मोटरसाइकल र स्कूटरको प्रयोगात्मक परीक्षामा घुमाउरो आठमा एक पटक अंकित रेखा छोप्ना कति अंक घट्छ?",
+            questionText = "मोटरसाइकल र स्कूटरको प्रयोगात्मक परीक्षामा घुमाउरो आठमा एक पटक अंकित रेखा छोएमा कति अंक घट्छ?",
             optionA = "० अंक",
             optionB = "३ अंक",
             optionC = "५ अंक",
             optionD = "१० अंक",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "विदेशबाट प्राप्त चालक अनुमति पत्रको मान्यता लिन कस्तो परीक्षा उत्तीर्ण गर्नुपर्छ?",
@@ -1761,7 +1761,7 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "मौखिक",
             optionC = "प्रयोगात्मक",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मोटरसाइकल, स्कूटर र मोपेडको प्रयोगात्मक परीक्षामा यू-टर्न गर्दा रेखा छोप्न कति अंक घट्छ?",
@@ -1769,15 +1769,15 @@ fun getSampleQuestions2(): List<Question> {
             optionB = "१५ अंक",
             optionC = "२० अंक",
             optionD = "अनुत्तीर्ण घोषित हुन्छ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "मोटरसाइकल, स्कूटर र मोपेडको प्रयोगात्मक परीक्षामा उकालो (र्याम्प) पार गर्दा अनुमिति घोषणा हुनसक्ने अवस्था कुन हो?",
-            optionA = "तोकिएको रेखा नाघी सवारी रोक्नमा वा सवारी नरोकी अगाडि बढ्नमा",
-            optionB = "उकालो पार गरी ओरालोतिर झर्ने क्रममा तोकिएको रेखा नाघी सवारी रोक्नमा वा सवारी नरोकी अगाडि बढ्नमा",
+            questionText = "मोटरसाइकल, स्कूटर र मोपेडको प्रयोगात्मक परीक्षामा उकालो (र्याम्प) पार गर्दा अनुत्तिर्ण घोषणा हुनसक्ने अवस्था कुन हो?",
+            optionA = "तोकिएको रेखा नाघी सवारी रोकेमा वा सवारी नरोकी अगाडि बढेमा",
+            optionB = "उकालो पार गरी ओरालोतिर झर्ने क्रममा तोकिएको रेखा नाघी सवारी रोकेमा वा सवारी नरोकी अगाडि बढ्नमा",
             optionC = "एक पटकभन्दा बढी सवारीको स्टार्ट बन्द हुँदा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         )
     )
 
@@ -1794,7 +1794,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्जिन",
             optionC = "गियर",
             optionD = "एक्सल",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "बाटोमा गुडिरहेको सवारीको गति पत्ता लगाउन प्रयोग गरिने साधन कुन हो?",
@@ -1802,7 +1802,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "रेस गन",
             optionC = "थर्मल गन",
             optionD = "एक्सल",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "मोटरसाइकलमा फुट ब्रेक कुन चक्कामा लाग्छ?",
@@ -1810,7 +1810,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "पछाडिको चक्कामा",
             optionC = "सबै चक्कामा",
             optionD = "फुट ब्रेक हुँदैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी साधनको ब्रेकमा हालिने इन्धनलाई के भनिन्छ?",
@@ -1818,7 +1818,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "ब्रेक आयल",
             optionC = "गियर आयल",
             optionD = "आर-टी आयल",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "तलकामध्ये कुन सवारीको एउटा मात्र हेड लाइट हुन्छ?",
@@ -1826,7 +1826,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "मोटरसाइकल",
             optionC = "दुईवटै हुन्छ",
             optionD = "दुईवटा होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "ब्याट्रीको घनत्व (Density) नाप्ने मिटरको नाम के हो?",
@@ -1834,15 +1834,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "स्पिडोमिटर",
             optionC = "हाइड्रोमीटर",
             optionD = "नानोमीटर",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "पार्किङ लाइट कहिले बालिन्छ?",
-            optionA = "सिर्फमा कुर्दा",
+            optionA = "स्पीडमा कुदाउँदा",
             optionB = "यु टर्नमा",
             optionC = "पार्किङ गर्दा",
             optionD = "दायाँ वा बायाँ मोड्दा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी साधनको कुन चक्कामा तुलनात्मक रूपमा बढी हावा राख्नु पर्छ?",
@@ -1850,7 +1850,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "पछाडिकोमा",
             optionC = "सबैमा",
             optionD = "दायाँ वा बायाँकोमा",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "जाडो मौसममा मोटरसाइकलको इन्जिन स्टार्ट नभए स्टार्ट गर्न के गर्नुपर्दछ?",
@@ -1858,7 +1858,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "मोबिलमा पानी थप गर्नुपर्दछ",
             optionC = "इन्धन थप गर्नु पर्दछ",
             optionD = "चोक प्रयोग गर्नु पर्दछ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "स्पिडोमिटरको काम के हो?",
@@ -1866,7 +1866,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "तापक्रम नाप्ने",
             optionC = "फ्यूल नाप्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "मोटरसाइकल कुन गियरमा स्टार्ट गर्नु पर्दछ?",
@@ -1874,7 +1874,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "२ नम्बर",
             optionC = "न्यूट्रल",
             optionD = "जुनसुकै गियरमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "विद्युतीय स्कूटरमा कतिवटा गियर हुन्छ?",
@@ -1882,7 +1882,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "२ वटा",
             optionC = "४ वटा",
             optionD = "गियर नै हुँदैन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "इन्जिनको लागि सबैभन्दा महत्वपूर्ण के हुन्छ?",
@@ -1890,7 +1890,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्जिन आयल",
             optionC = "इन्धन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मोटरसाइकल नियन्त्रण गर्ने पुर्जाहरु कुन कुन हुन्?",
@@ -1898,15 +1898,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "क्लच र ब्रेक",
             optionC = "एक्सिलेरेटर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "बीच बाटोमा सवारी विघ्नमा के गर्नुपर्छ?",
+            questionText = "बीच बाटोमा सवारी बिग्रेमा के गर्नुपर्छ?",
             optionA = "सवारीलाई साइड लगाई संकेत दिई छोड्ने",
-            optionB = "कुशका राख्ने",
+            optionB = "कुरुवा राख्ने",
             optionC = "मर्मत गर्न आवश्यक पहल गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गाडीको गति बढाउने मुख्य दुई यन्त्रहरु के के हुन्?",
@@ -1914,7 +1914,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "एक्सिलेरेटर र ह्यान्डिल",
             optionC = "गियर र एक्सिलेरेटर",
             optionD = "फ्यान बेल्ट र एक्सिलेरेटर",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मोटरसाइकलको ब्याट्री कति भोल्टको हुन्छ?",
@@ -1922,7 +1922,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "१२ भोल्ट",
             optionC = "१५ भोल्ट",
             optionD = "१८ भोल्ट",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "ट्युबलेस टायरमा के हुन्छ?",
@@ -1930,7 +1930,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "ट्युब",
             optionC = "खर",
             optionD = "हावा मात्र भरिने भल्व",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हर्न तलकामध्ये कुन शक्तिले बज्दछ ?",
@@ -1946,7 +1946,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "गति बढाउने",
             optionC = "गाडीलाई ब्याक गर्ने",
             optionD = "गाडीलाई मोड्ने",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "डाइनामोको काम के हो ?",
@@ -1954,7 +1954,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "ब्याट्री चार्ज गर्ने",
             optionC = "रेडियेटरको पानी चिसो पार्ने",
             optionD = "डाइनामोको काम नै छैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "कार्बुरेटरमा इन्धनको मात्रा बढाउने यन्त्रलाई के भनिन्छ ?",
@@ -1962,15 +1962,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "एक्सिलेटर",
             optionC = "चोक",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
-            questionText = "इन्जिनको पार्ट पुर्नलगि चिल्लो बनाउने काम के ले गर्दछ ?",
+            questionText = "इन्जिनको पार्ट पूर्जालाई चिल्लो बनाउने काम के ले गर्दछ ?",
             optionA = "पेट्रोल",
             optionB = "डिजल",
             optionC = "मोबिल",
             optionD = "पानी",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "एक्सिलेटरले सवारी साधनको कुन भागमा काम गर्दछ ?",
@@ -1978,23 +1978,23 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "स्टेरिङमा",
             optionC = "ब्रेकमा",
             optionD = "इन्जिनमा",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "सवारी साधनको इन्जिनको तान सक्ने क्षमता कुन गियरमा सबैभन्दा बढी हुन्छ ?",
+            questionText = "सवारी साधनको इन्जिनको तान्न सक्ने क्षमता कुन गियरमा सबैभन्दा बढी हुन्छ ?",
             optionA = "पहिलो",
             optionB = "दोश्रो",
             optionC = "तेश्रो",
             optionD = "चौथो",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "ब्याट्रीमा प्रयोग गरिने पानीलाई के भनिन्छ ?",
             optionA = "मिनरल वाटर",
-            optionB = "डिस्टिल्ड वाटर",
-            optionC = "ड्रिंकिङ वाटर",
+            optionB = "ड्रिंकिङ वाटर",
+            optionC = "डिस्टिल्ड वाटर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "स्पार्क प्लगले सवारीको इन्जिनमा के काम गर्दछ ?",
@@ -2002,7 +2002,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "झिल्का दिने काम गर्दछ",
             optionC = "इन्जिनलाई मजबूत पार्छ",
             optionD = "इन्धन खपत कम गर्दछ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "स्पिडोमिटरले तलकामध्ये के काम गर्छ ?",
@@ -2010,7 +2010,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्जिनको तापक्रम नाप्ने",
             optionC = "गाडीको वजन नाप्ने",
             optionD = "माथिका कुनै पनि गर्दैन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "क्लचको काम के हो ?",
@@ -2018,7 +2018,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "स्पीड घटाउने",
             optionC = "गियरबाट इन्जिनलाई फ्री बनाउने",
             optionD = "गाडी रोक्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ब्रेक आयल राख्ने भाँडोलाई के भनिन्छ ?",
@@ -2026,7 +2026,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "आयल सिलिन्डर",
             optionC = "सेकेन्डरी सिलिन्डर",
             optionD = "फ्यूल ट्यांक",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "डिप स्टिकको काम के हो ?",
@@ -2034,7 +2034,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "पानीको मात्रा चेक गर्ने",
             optionC = "तेलकै मात्रा ठीक गर्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी साधनमा बिजुलीको मुख्य स्रोत कुन हो ?",
@@ -2042,15 +2042,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्धन",
             optionC = "ब्याट्री",
             optionD = "इन्जिन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
-            questionText = "तलकामध्ये कुन इन्धनबाच सवारी चल्दैन ?",
+            questionText = "तलकामध्ये कुन इन्धनबाट सवारी चल्दैन ?",
             optionA = "डिजल",
             optionB = "पेट्रोल",
             optionC = "डिस्टिल वाटर",
             optionD = "ग्यास",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मोटरसाइकलको हेन्डब्रेक कुन चक्कामा लाग्छ ?",
@@ -2058,20 +2058,20 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "पछाडिको",
             optionC = "दुवैमा",
             optionD = "कुनैमा पनि लाग्दैन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "फ्यूल मिटरले के देखाउँछ ?",
             optionA = "इन्धनको मात्रा",
             optionB = "पानीको मात्रा",
-            optionC = "मोटरतेलको मात्रा",
+            optionC = "मोबिलको मात्रा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "आयल प्रेसरले सवारीमा के को अवस्थालाई देखाउँछ ?",
             optionA = "पेट्रोल डिजलको अवस्था",
-            optionB = "मोटरतेलको अवस्था",
+            optionB = "मोबिलको अवस्था",
             optionC = "पानीको अवस्था",
             optionD = "माथिका कुनै पनि होइनन्",
             correctOptionIndex = 1
@@ -2082,15 +2082,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "फस्ट गियर",
             optionC = "सेकेन्ड गियर",
             optionD = "न्यूट्रल",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "इन्जिनको आयु बढाउन के गर्नु पर्छ?",
             optionA = "सवारी नचलाइ राख्नु पर्छ",
-            optionB = "इन्जिन प्रशस्त राख्नु पर्छ",
+            optionB = "इन्धन प्रशस्त राख्नु पर्छ",
             optionC = "तीव्र गतिमा सवारी चलाउनु पर्छ",
             optionD = "नियमित सर्भिसिङ गर्नु पर्छ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "एक्सिलेटर धेरै थिचे के हुन्छ?",
@@ -2098,23 +2098,23 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "गति बढ्छ",
             optionC = "तुरुन्त ब्रेक लाग्छ",
             optionD = "गति मन्द हुन्छ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "बाटोमा टायर पन्चर भएमा के गर्नु हुन्छ?",
-            optionA = "वार्ता नगरी कुदाउने",
+            optionA = "वास्ता नगरी कुदाउने",
             optionB = "गाडी छेउ लगाई छोड्ने",
-            optionC = "पन्चर टाल्ने मात्र अगाडि जाने",
+            optionC = "पन्चर टालेर मात्र अगाडि जाने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मोटरसाइकलको इन्जिन ब्लक फुट्यो भने तपाईं के गर्नु हुन्छ?",
             optionA = "आफैँ फेर्न लगाउने",
             optionB = "यातायात कार्यालयबाट पूर्व स्वीकृत लिएर फेर्न लगाउने",
             optionC = "पुरानो इन्जिन ब्लक लगाउने",
-            optionD = "ब्याप्री बिटिके बजारमा गएर फेर्न लगाउने",
-            correctOptionIndex = 1
+            optionD = "बिग्रिने बित्तिकै बजारमा गएर फेर्न लगाउने",
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "गाडीको इन्जिन स्टार्ट गर्दा कालो धुवाँ आएमा के गर्नु पर्छ?",
@@ -2122,7 +2122,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "साइलेंसर पाइप झिकेर फाल्ने",
             optionC = "इन्जिन मर्मतको लागि वर्कसपमा लाने",
             optionD = "इन्धन थप्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ड्यास बोर्ड मिटरमा रहेको आयल प्रेसर मिटरसँग रातो बत्ती बल्दा के गर्नु पर्छ?",
@@ -2130,7 +2130,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्जिन स्टार्ट गर्नु पर्छ",
             optionC = "ब्रेक लगाउनु पर्छ",
             optionD = "हर्न बजाउनु पर्छ",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीको यान्त्रिक स्थिति ठीक नभएमा सवारी चालकले सर्वप्रथम के गर्नु पर्छ?",
@@ -2138,7 +2138,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "नजिकको प्रहरी कार्यालयमा सम्पर्क गर्ने",
             optionC = "सवारी धनी वा व्यवस्थापकलाई खबर गर्ने",
             optionD = "जिल्ला प्रशासन कार्यालयमा सम्पर्क गर्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीमा मोबिलको प्रयोग किन गरिन्छ?",
@@ -2146,7 +2146,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "इन्जिन सञ्चालनलाई सजिलो पार्न",
             optionC = "सवारीबाट निस्कने धुँवा कम पार्न",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "कस्तो अवस्थामा ब्रेक लाइट बल्छ?",
@@ -2154,23 +2154,23 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "एक्सिलेटर दबाउँदा",
             optionC = "ब्रेक लगाउँदा",
             optionD = "हर्न बजाउँदा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "इन्जिनमा कुन आयलको प्रयोग गरिन्छ?",
-            optionA = "माईल्डेट",
+            optionA = "मट्टितेल",
             optionB = "डिजेल आयल",
             optionC = "ब्रेक आयल",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
-            questionText = "कार्बोरेटर इन्जिनका लागि के काम गर्दछ?",
+            questionText = "कार्बोरेटरले इन्जिनका लागि के काम गर्दछ?",
             optionA = "इन्जिनमा इन्धन र हावाको मिश्रण सप्लाई गर्छ",
             optionB = "इन्जिन चिसो पार्छ",
             optionC = "स्पीड बढाउँछ",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "इन्जिनको पार्टपुर्जालाई चिल्लो बनाउने काम के ले गर्छ?",
@@ -2178,7 +2178,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "डिजेल",
             optionC = "मोबिल",
             optionD = "पानी",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "गियर बक्सबाट गियर आयल थोरै थोरै चुहिन थालेपछि के गर्नु पर्छ?",
@@ -2186,15 +2186,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "मर्मत गर्ने",
             optionC = "आवाज नआउञ्जेलसम्म चलाइ रहने",
             optionD = "तातो नहुँञ्जेलसम्म चलाइ रहने",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
-            questionText = "जाडो मौसममा इन्जिन स्टार्ट नभए स्टार्ट गर्ने के गर्नुपर्छ?",
+            questionText = "जाडो मौसममा इन्जिन स्टार्ट नभए स्टार्ट गर्न के गर्नुपर्छ?",
             optionA = "स्टार्ट स्वीच थिच्नु पर्छ",
             optionB = "मोबिलमा पानी थप गर्नुपर्छ",
             optionC = "इन्धन थप गर्नुपर्छ",
-            optionD = "चोक ताने",
-            correctOptionIndex = 3
+            optionD = "चोक तान्ने",
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "इन्जिनको क्षमतालाई केले जनाउँछ?",
@@ -2202,15 +2202,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "ए.सि.",
             optionC = "बि.सि.",
             optionD = "डि.सि.",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "रिभर्स लाइट कति बेला बल्छ?",
             optionA = "ब्रेक लगाउँदा",
-            optionB = "क्लच लिंदै",
+            optionB = "क्लच लिंदा",
             optionC = "गियर चेन्ज गर्दा",
             optionD = "गाडी ब्याक गर्दा",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "रेडिएटरमा के राखिन्छ?",
@@ -2218,15 +2218,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "एसिड",
             optionC = "पेट्रोल",
             optionD = "डिजेल",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "गियर बक्सको मुख्य काम के हो?",
-            optionA = "छिटो गुडाउन",
+            optionA = "छिटो गुडाउने",
             optionB = "गाडी रोक्ने",
-            optionC = "चाहिएको स्पिडमा गुडाउन",
+            optionC = "चाहिएको स्पिडमा गुडाउने",
             optionD = "खाल्डा पार गर्न सहयोग गर्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "फ्युल ट्यांकीमा रहेको इन्धन तानेर कार्बोरेटरलाई दिने काम के ले गर्छ?",
@@ -2234,7 +2234,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "चोकले",
             optionC = "सप्लाई पम्पले",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी साधनमा सि.सि. ले केलाई जनाउँदैन?",
@@ -2242,7 +2242,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "ब्रेकको क्षमता",
             optionC = "गियर बक्सको क्षमता",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "बाटोमा टायर पञ्चर भएमा के गर्नु पर्छ?",
@@ -2250,7 +2250,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "गाडी छेउ लगाई छोडेर जाने",
             optionC = "स्पेयर टायर प्रयोग गरी पञ्चर टाल्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मोटरसाइकलको गति बढाउन के गर्नुपर्छ?",
@@ -2258,7 +2258,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "तेल धेरै हाल्ने गर्नु पर्छ",
             optionC = "क्लच सम्हाल्नुपर्छ",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीमा भएको ब्याट्री कसरी चार्ज हुन्छ?",
@@ -2266,15 +2266,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "गाडीको इन्धनबाट",
             optionC = "गाडीको डायनामोबाट",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "एक्कासी फुट ब्रेक लाग्न कम भएमा के चेक गर्नुपर्छ?",
-            optionA = "चक्माको प्रेसर चेक गर्ने",
+            optionA = "चक्काको प्रेसर चेक गर्ने",
             optionB = "ब्रेक आयल लेभल चेक गर्ने",
             optionC = "मास्टर सिलिण्डर चेक गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "तलका मध्ये कुन सवारीले धुँवा फाल्दैन?",
@@ -2282,7 +2282,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "मिनिबस",
             optionC = "ट्रक",
             optionD = "ट्रोलि बस",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गियर किन परिवर्तन गरिरहनुपर्छ?",
@@ -2290,15 +2290,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "स्पिड बढाउन",
             optionC = "हर्न बजाउन",
             optionD = "स्पिड घटाउन र बढाउन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ब्रेकले कहाँ काम गर्छ?",
             optionA = "इन्जिनमा",
             optionB = "स्टेरिङमा",
-            optionC = "चक्मामा",
+            optionC = "चक्कामा",
             optionD = "गियरमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "चलेको इन्जिन एक्कासी बन्द हुने कारण के हो?",
@@ -2306,7 +2306,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "फायरिङ नहुनु",
             optionC = "इन्जिनको कुनै पुर्जा टुट्नु",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "४-स्ट्रोक इन्जिनमा कति वटा इन्जिन हुन्छ?",
@@ -2314,18 +2314,18 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "२",
             optionC = "३",
             optionD = "४",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "पिस्टन के भित्र रहन्छ?",
             optionA = "ब्याट्रीभित्र",
             optionB = "सिलिन्डरभित्र",
-            optionC = "चक्माभित्र",
+            optionC = "चक्काभित्र",
             optionD = "इन्धनभित्र",
             correctOptionIndex = 2
         ),
         Question(
-            questionText = "मोटरसाइकलको एक्सिलेटर फर्स्यो भने के गर्नुपर्छ?",
+            questionText = "मोटरसाइकलको एक्सिलेटर फस्यो भने के गर्नुपर्छ?",
             optionA = "क्लच थिचेर गियर डाउन गर्दै बिस्तारै ब्रेक लगाउने",
             optionB = "तुरुन्त अगाडिको ब्रेक लगाउने",
             optionC = "तुरुन्त पछाडिको ब्रेक लगाउने",
@@ -2346,15 +2346,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB = "हाइड्रोलिक",
             optionC = "मिश्रित",
             optionD = "कुनै पनि होइनन्",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText="ब्याट्री कसरी बचाउन सकिन्छ?",
-            optionA="तेल तथा मोबाइल लामवद्ध बचाउने",
+            optionA="तेल तथा मोबिल लाग्नबाट बचाउने",
             optionB="सेल्फस्टार्ट स्विच घरीघरी नगर्ने",
             optionC="अनावश्यक रूपमा हर्न नबजाउने",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="डाइनामोले कुन विद्युत उत्पादन गर्छ?",
@@ -2370,7 +2370,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="पछाडि",
             optionC="दायाँ",
             optionD="बायाँ",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="मोटरसाइकलमा इन्धन खपत कम गर्न केले सहायता गर्छ?",
@@ -2378,7 +2378,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="डाइनामो",
             optionC="ब्याट्री",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=1
         ),
         Question(
             questionText="इन्जिन स्टार्ट गर्दा एक्सलेटरलाई धेरै पटक बटार्यो भने के हुन्छ?",
@@ -2386,7 +2386,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="ओभरफ्लो हुन सक्छ",
             optionC="पेट्रोल रोकिन्छ",
             optionD="माथिका सबै",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="ब्याट्रीभित्रको तेजाबलाई केले तताएको हुन्छ?",
@@ -2394,7 +2394,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="मोबिल",
             optionC="पेट्रोल",
             optionD="प्रिज आयल",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="हाइड्रोमिटरले के मापन गर्छ?",
@@ -2402,15 +2402,15 @@ fun getSampleQuestions3(): List<Question>{
             optionB="ब्याट्रीको घनत्व",
             optionC="दूरी",
             optionD="मोबिलको मात्रा",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="वार्निंग लाइट कतिबेला बालिन्छ?",
             optionA="इमरजेन्सीमा",
             optionB="मन लागेका बेला मात्र",
-            optionC="हत्तार भएमा",
+            optionC="हतार भएमा",
             optionD="माथिका सबै अवस्थामा",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="इमरजेन्सी लाइटले कसलाई सतर्क रहने संकेत दिन्छ?",
@@ -2418,7 +2418,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="सवारी चालक",
             optionC="प्रहरी",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="डाइनामोबाट बढी बिजुली उत्पादन भयो भने केले नियन्त्रण गर्छ?",
@@ -2426,7 +2426,7 @@ fun getSampleQuestions3(): List<Question>{
             optionB="पिस्टनले",
             optionC="हेडलाइटले",
             optionD="एक्सलेटरले",
-            correctOptionIndex=0
+            correctOptionIndex=1
         )
 
     )
@@ -2443,7 +2443,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="निजी कार",
             optionC="गियरवाला साइकल",
             optionD="सरकारी मोटरसाइकल",
-            correctOptionIndex=2
+            correctOptionIndex=3
         ),
         Question(
             questionText="सवारी प्रदूषण नियन्त्रण गर्ने निकाय कुन हो?",
@@ -2451,7 +2451,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="ट्राफिक प्रहरी",
             optionC="यातायात व्यवस्था विभाग",
             optionD="माथिका सबै",
-            correctOptionIndex=2
+            correctOptionIndex=4
         ),
         Question(
             questionText="टु–स्ट्रोक र फोर–स्ट्रोक इन्जिनका सवारी साधनमध्ये कुनले वातावरण बढी प्रदूषण गराउँछ?",
@@ -2459,7 +2459,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="फोर–स्ट्रोकले",
             optionC="क र ख दुबै",
             optionD="कुनै पनि होइनन्",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="सवारी प्रदूषण भन्नाले के बुझिन्छ?",
@@ -2467,7 +2467,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="सवारीमा राखिने इन्धन",
             optionC="सवारीबाट निस्कने धुवाँ",
             optionD="सवारी भित्रको फोहर",
-            correctOptionIndex=2
+            correctOptionIndex=4
         ),
         Question(
             questionText="सबैभन्दा कम प्रदूषण गर्ने इन्जिन कुन हो?",
@@ -2475,7 +2475,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="पेट्रोल इन्जिन",
             optionC="विद्युत इन्जिन",
             optionD="ख र ग मात्र ठीक",
-            correctOptionIndex=2
+            correctOptionIndex=3
         ),
         Question(
             questionText="सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन चीजले प्रभाव पार्दछ?",
@@ -2483,7 +2483,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="गियर बक्सले",
             optionC="इन्धनले",
             optionD="इन्जिनको अवस्थाले",
-            correctOptionIndex=2
+            correctOptionIndex=4
         ),
         Question(
             questionText="नेपालमा हाल कुन सवारी प्रदूषण मापदण्ड लागू भएको छ?",
@@ -2491,7 +2491,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="नेपाल सवारी प्रदूषण मापदण्ड, २०६०",
             optionC="नेपाल सवारी प्रदूषण मापदण्ड, २०६५",
             optionD="नेपाल प्रदूषण मापदण्ड, २०६९",
-            correctOptionIndex=0
+            correctOptionIndex=4
         ),
         Question(
             questionText="कण्डिसनमा नरहेको मोटरसाइकलले कस्तो धुवाँ फाल्छ?",
@@ -2499,7 +2499,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="कालो",
             optionC="सेतो",
             optionD="हरियो",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="कण्डिसनको मोटर इन्जिनको धुवाँ कस्तो हुन्छ?",
@@ -2507,7 +2507,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="रातो",
             optionC="हरियो",
             optionD="आकाशे निलो",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="सवारी परीक्षण कार्यालयबाट प्रदूषण पास स्टिकर लिँदा कति शुल्क लाग्छ?",
@@ -2515,7 +2515,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="रु. २००",
             optionC="रु. ३००",
             optionD="रु. ३२५",
-            correctOptionIndex=2
+            correctOptionIndex=4
         ),
         Question(
             questionText="सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन चीजले प्रभाव पार्दैन?",
@@ -2531,7 +2531,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="सेतो",
             optionC="पहेँलो",
             optionD="माथिका सबै",
-            correctOptionIndex=1
+            correctOptionIndex=4
         ),
         Question(
             questionText="सवारी साधनबाट निस्किने धुवाँले कुन प्रदूषण फैलाउँछ?",
@@ -2547,7 +2547,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="ध्वनि प्रदूषण",
             optionC="जल प्रदूषण",
             optionD="क र ख दुवै",
-            correctOptionIndex=3
+            correctOptionIndex=2
         ),
         Question(
             questionText="वायु प्रदूषणका कारण कस्ता रोग फैलिरहेका छन्?",
@@ -2555,7 +2555,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="दम, खोकी, धक्कीजस्ता रोग",
             optionC="ब्रोंकाइटिस",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="वायु प्रदूषणका कारण तीव्ररूपमा फैलिरहेको रोग कुन हो?",
@@ -2563,7 +2563,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="फोक्सोको क्यान्सर साथै",
             optionC="हाइपर टेन्सन",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="वातावरण–मैत्री सवारी साधन कुन हो?",
@@ -2571,7 +2571,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="इलेक्ट्रिक स्कूटर",
             optionC="विद्युत् बस",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="प्रदूषकले हर्जना तिर्ने प्रणाली (Polluters Pay System) भन्नेको के हो?",
@@ -2579,7 +2579,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="जनतालाई प्रदूषण कर तिराउने",
             optionC="क र ख दुवै हुन्",
             optionD="क र ख दुवै होइनन्",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="आफ्नो सवारी साधनले प्रदूषण नगरोस् भन्नेर के गर्नुपर्छ?",
@@ -2587,7 +2587,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="टायरमा हावा भरिरहनु पर्छ",
             optionC="पेट्रोल फूल हालेर मात्र चलाउनु पर्छ",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=1
         ),
         Question(
             questionText="तपाईंले चलाउने सवारी साधनबाट कसरी वातावरण प्रदूषण भइहेको हुन्छ?",
@@ -2595,7 +2595,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="हर्न धेरै बजाएर",
             optionC="धेरै स्पिडमा चलाएर",
             optionD="धेरै भिडभाडमा गएर",
-            correctOptionIndex=0
+            correctOptionIndex=2
         ),
         Question(
             questionText="सवारी साधनले सिर्जना गर्ने प्रदूषणका स्रोत कुन हो?",
@@ -2603,7 +2603,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="धुवाँ",
             optionC="कबाडी पार्टपुर्जा",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="तपाईं आफ्नो सवारी साधनको प्रदूषण जाँच गराउन कहाँ लैजानु पर्छ?",
@@ -2611,15 +2611,15 @@ fun getSampleQuestions4(): List<Question>{
             optionB="यातायात व्यवसाय कार्यालय",
             optionC="यातायात व्यवस्था सेवा कार्यालय",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=4
         ),
         Question(
             questionText="तलकामध्ये हरित सवारी (Green Vehicles) कुन हो?",
-            optionA="विद्युत्बाट चल्ने सवारी",
+            optionA="बिजुलीबाट चल्ने सवारी",
             optionB="पेट्रोलबाट चल्ने सवारी",
             optionC="डिजेलबाट चल्ने सवारी",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="डिजेल गाडीको प्रदूषण जाँच गर्ने मेसिन कुन हो?",
@@ -2627,7 +2627,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="फायर मिटर",
             optionC="पोलुसन मिटर",
             optionD="डिजेल मिटर",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="पेट्रोल गाडीको प्रदूषण जाँच गर्ने मेसिन कुन हो?",
@@ -2635,7 +2635,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB="ग्यास एनालाइजर",
             optionC="पोलुसन मिटर",
             optionD="डिजेल मिटर",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText = "वातावरण प्रदूषण रोकथाम गर्न के गर्नुपर्छ?",
@@ -2643,7 +2643,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB = "विद्युतीय सवारी चलाउने",
             optionC = "धेरै ध्वनी ननिकाल्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सहरी क्षेत्रमा ध्वनी प्रदूषणको मुख्य स्रोत के हो?",
@@ -2651,15 +2651,15 @@ fun getSampleQuestions4(): List<Question>{
             optionB = "अनावश्यक रूपमा बजाउने हार्न",
             optionC = "कलकारखाना",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ध्वनी प्रदूषणले स्वास्थ्यमा कस्तो असर पार्छ?",
             optionA = "उच्च रक्तचाप बढाउँछ",
             optionB = "सुन्ने शक्ति गुमाउँछ",
-            optionC = "मित्रता लाउँदैन",
+            optionC = "निद्रा लाउँदैन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ध्वनी प्रदूषणले कसलाई बढी असर गर्छ?",
@@ -2667,7 +2667,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB = "बालबालिका",
             optionC = "बृद्धबृद्धा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "काठमाडौं उपत्यकामा कहिलेदेखि हरित क्षेत्र निषेधित क्षेत्र लागू गरिएको हो?",
@@ -2675,7 +2675,7 @@ fun getSampleQuestions4(): List<Question>{
             optionB = "२०६७ बैशाख १",
             optionC = "२०७६ बैशाख १",
             optionD = "२०७७ बैशाख १",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         )
     )
 
@@ -2688,10 +2688,10 @@ fun getSampleQuestions5(): List<Question>{
         Question(
             questionText = "सुरक्षाका दृष्टिले कस्तो समयमा यात्रा गर्नु राम्रो मानिदैन?",
             optionA = "मुसलधारे पानी परेको बेलामा",
-            optionB = "बाल्को हिँड्दै गरेको समयमा",
-            optionC = "बालुवा कुहिरो लागेको समयमा",
+            optionB = "बाक्लो हिउँ परेको समयमा",
+            optionC = "बाक्लो कुहिरो लागेको समयमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटना भएको देखेमा के गर्नुपर्छ?",
@@ -2699,7 +2699,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "घाइतेको आफन्तलाई सूचना दिनुपर्छ",
             optionC = "नजिकको ट्राफिक प्रहरीलाई सूचना दिनुपर्छ",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "एकतर्फी बाटोमा अचानक लेन बदल्दा कुन गाडीसँग दुर्घटना हुने सम्भावना हुन्छ?",
@@ -2707,7 +2707,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "बायाँबाट आएको गाडीसँग",
             optionC = "दायाँबाट आएको गाडीसँग",
             optionD = "पछाडिबाट आएको गाडीसँग",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "तिब्र गतिमा सवारी चलाएमा के हुन्छ?",
@@ -2715,7 +2715,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "छिटो पुगिन्छ",
             optionC = "दुर्घटना हुने सम्भावना हुन्छ",
             optionD = "सवारी पुरानो हुँदैन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "रातको समयमा दुर्घटना हुने मुख्य कारण कुन हो?",
@@ -2723,7 +2723,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "बढी सवारी गुड्ने हुनाले",
             optionC = "यात्रुहरुले मादक पदार्थ सेवन गर्नेले",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी दुर्घटना हुनुको कारण के हो?",
@@ -2731,7 +2731,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "मेकानिकल गल्ती",
             optionC = "यान्त्रिक खराबी",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सडक मार्किङ्ग भन्नाले के बुझिन्छ?",
@@ -2739,7 +2739,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "लेन लाइन",
             optionC = "जेब्रा क्रसिङ",
             optionD = "माथिका ख र ग दुवै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटना हुँदा तेस्रो पक्ष बीमा अन्तर्गत केको क्षतिपूर्ति दिइन्छ?",
@@ -2747,7 +2747,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "तेस्रो पक्षको अंगभंग भएमा",
             optionC = "तेस्रो पक्षको सम्पत्तिको नोक्सानी भएमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटनाबाट ज्यान मरेकोमा सो मर्ने व्यक्तिको हकवालालाई कृत्य खर्च बापत कति रकम उपलब्ध गराइन्छ?",
@@ -2755,7 +2755,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "रु. ५० हजार",
             optionC = "रु. ७५ हजार",
             optionD = "रु. १ लाख",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हेलमेट नलगाई मोटरसाइकल चलाएमा के हुन्छ?",
@@ -2763,7 +2763,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "दुर्घटना भएमा टाउकोमा चोट लाग्न सक्छ",
             optionC = "केही पनि हुँदैन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी दुर्घटना हुँदा पीडित पक्षलाई क्षतिपूर्ति भराई दिने कर्तव्य कसको हो ?",
@@ -2771,7 +2771,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "प्रमुख जिल्ला अधिकारी",
             optionC = "ट्राफिक प्रहरी",
             optionD = "यातायात कार्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "निर्धारित गतिभन्दा बढी गतिमा सवारी चलाएमा के हुन्छ ?",
@@ -2779,7 +2779,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "चर्चा चमत हुन्छ",
             optionC = "कारवाहीमा पर्छ",
             optionD = "दुर्घटनामा पर्न सक्छ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटनाका दृष्टिकोणले सबैभन्दा असुरक्षित साधन कुन हो ?",
@@ -2787,7 +2787,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "ट्रक",
             optionC = "बस",
             optionD = "मोटरसाइकल",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटनामा घाइते भएका व्यक्तिलाई सर्वप्रथम के गर्नुपर्छ ?",
@@ -2795,7 +2795,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "प्राथमिक उपचार गर्नु पर्छ",
             optionC = "भीडबाट अलग गर्नु पर्छ",
             optionD = "केही गर्नुपर्दैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "दुर्घटनामा परेका कस्तो घाइतेलाई कृत्रिम अक्सिजन दिनु पर्छ ?",
@@ -2803,23 +2803,23 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "रगत बगिरहेको घाइतेलाई",
             optionC = "बेहोस अवस्थामा रहेको घाइतेलाई",
             optionD = "होसमा रहेको घाइतेलाई",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "एकतर्फी बाटोमा लेन बदल्दा कुन कुरामा ध्यान दिनुपर्छ ?",
-            optionA = "बकलीको संकेत दिने",
+            optionA = "बत्तीको संकेत दिने",
             optionB = "लुकिङ्ग ग्लासको प्रयोग गर्ने",
             optionC = "अगाडिको सवारीको दूरी आंकलन गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दुर्घटना हुनुको कारण के हो ?",
             optionA = "अनियन्त्रित गतिमा सवारी चलाउने",
             optionB = "मादक पदार्थ सेवन गरी सवारी चलाउने",
-            optionC = "क्षमताभन्दा बढी भारु राखी सवारी चलाउने",
+            optionC = "क्षमताभन्दा बढी भार राखी सवारी चलाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दुर्घटनाबाट बचाउने जिम्मेवारी कसको हो ?",
@@ -2827,7 +2827,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "पैदल यात्रीको",
             optionC = "ट्राफिक प्रहरीको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटनास्थलमा तत्कालै गरिने उपचार सेवालाई के भनिन्छ?",
@@ -2835,15 +2835,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "प्रारम्भिक उपचार",
             optionC = "घरेलु उपचार",
             optionD = "स्थानीय उपचार",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "चालकको साथमा रहने प्राथमिक उपचारको बाकसलाई के भनिन्छ?",
-            optionA = "फस्ट एड बाकस",
-            optionB = "प्राइमरी बाकस",
-            optionC = "हेल्थ केयर बाकस",
-            optionD = "सेकेन्डरी बाकस",
-            correctOptionIndex = 0
+            optionA = "फस्ट एड बक्स",
+            optionB = "प्राइमरी बक्स",
+            optionC = "हेल्थ केयर बक्स",
+            optionD = "सेकेन्डरी बक्स",
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "प्राथमिक उपचार किन गरिन्छ?",
@@ -2851,7 +2851,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "रोग निको हुने संभावना बढाउन",
             optionC = "घाइतेको अवस्था खराब हुनबाट बचाउन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दुर्घटनास्थलमा घाइतेलाई गरिने ड्रेसिङ्ग भन्नाले के बुझिन्छ?",
@@ -2859,15 +2859,48 @@ fun getSampleQuestions5(): List<Question>{
             optionB = "घाउमा मलमपट्टी लगाउने कार्य",
             optionC = "औषधी खुवाउने कार्य",
             optionD = "माथिका सबै",
+            correctOptionIndex = 2
+        ),
+        Question(
+            questionText = "दुर्घटनाका घाइतेलाई कृत्रिम अक्सिजन कति समयसम्म दिनुपर्छ?",
+            optionA = "२ घण्टासम्म दिनुपर्छ",
+            optionB = "३ घण्टासम्म दिनुपर्छ",
+            optionC = "होस नआएसम्म दिनुपर्छ",
+            optionD = "जति दिए पनि हुन्छ",
+            correctOptionIndex = 3
+        ),
+        Question(
+            questionText = "दुर्घटनाको घाइतेले बान्ता गर्यो भने कसरी सुताउनुपर्छ?",
+            optionA = "उतानो पोरेर सुताउनुपर्छ",
+            optionB = "घोप्टो पोरेर सुताउनुपर्छ",
+            optionC = "जसरी राखे पनि हुन्छ",
+            optionD = "कोल्टे पोरेर सुताउनुपर्छ",
             correctOptionIndex = 1
         ),
+        Question(
+            questionText = "सवारी दुर्घटना भएमा चालकले कसलाई खबर गर्नुपर्छ?",
+            optionA = "घाइतेका आफन्तलाई",
+            optionB = "नजिकका वासिन्दालाई",
+            optionC = "प्रहरीलाई",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+        Question(
+            questionText = "सवारी दुर्घटना हुनाको कारण के हो?",
+            optionA = "पदयात्रा ट्राफिक नियमको चेतना अभाव",
+            optionB = "प्रतिस्पर्धा र हतारमा सवारी चलाउनु",
+            optionC = "आकस्मिक गाडीको यान्त्रिक अवस्था खराब हुनु",
+            optionD = "माथिका सबै",
+            correctOptionIndex = 4
+        ),
+
         Question(
             questionText="दुर्घटनामा परेको कस्तो घाइतेलाई अक्सिजन दिइनु पर्दैन?",
             optionA="होस अवस्थामा रहेकाे",
             optionB="रगत बगेकोलाई",
             optionC="सामान्य बिरामीलाई",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=4
         ),
         Question(
             questionText="दुर्घटना निम्त्याउने लापरवाही कुन हो?",
@@ -2875,7 +2908,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="अत्याधिक गतिमा सवारी चलाउनु",
             optionC="अचानक लेन बदल्ने बानी",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="दुर्घटना निम्त्याउने भवितव्य कुन हो?",
@@ -2883,7 +2916,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="पहिरो जानु",
             optionC="चालक मुर्छित हुनु",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="दुर्घटनास्थलमा प्रहरी आएपछि घटनास्थलका अरू मानिसको कर्तव्य के हुन्छ?",
@@ -2891,7 +2924,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="प्रहरीसँग क्षतिपूर्ति माग्ने",
             optionC="प्रहरीको बाटो बन्द गर्ने",
             optionD="प्रहरीले भनेको मान्ने",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="दुर्घटनामा बेहोस भई सास फेर्न छोड्यो भने के गर्नु पर्छ?",
@@ -2899,7 +2932,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="पानी खुवाउने",
             optionC="कृतिम अक्सिजन दिने",
             optionD="माथिका सबै",
-            correctOptionIndex=2
+            correctOptionIndex=3
         ),
         Question(
             questionText="दुर्घटनाको जोखिम कस्तो अवस्थामा हुन्छ?",
@@ -2907,7 +2940,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="हिँड्न पर्नेको बखत",
             optionC="पानी परेकाे बखत",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="मोटरसाइकल चलाउँदा अचानक हावाहुरी आयो भने के गर्नु पर्छ?",
@@ -2915,15 +2948,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB="स्पीड बढाउने",
             optionC="बीचबाटोमै छोडेर हिँड्ने",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="बायाँ साइडबाट ओभरटेक गर्दा के हुन्छ?",
             optionA="छिटो पुगिन्छ",
             optionB="दुर्घटना हुने संभावना हुन्छ",
-            optionC="जिल्लामा पर्नेछ",
+            optionC="जरिवानामा परिन्छ ",
             optionD="खासै केही हुँदैन",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="सवारी चलाउँदा भूलबस पैदलयात्रीलाई ठक्कर दिन पुग्यो भने के गर्नु पर्छ?",
@@ -2931,7 +2964,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="व्यक्तिको अवस्था बुझेर छोडिदिनु",
             optionC="अवस्था हेरी उपचार गर्ने व्यवस्था मिलाउनु",
             optionD="माथिका सबै",
-            correctOptionIndex=2
+            correctOptionIndex=3
         ),
         Question(
             questionText="सवारी जाममा पर्नु भयो भने के गर्नुहुन्छ?",
@@ -2939,7 +2972,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="हर्न बजाएर दबाब दिनु",
             optionC="स्टार्ट बन्द गरेर कुर्नु",
             optionD="सडक पेटीबाट हिँड्नु",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="ट्राफिक चिह्न कसका लागि हो?",
@@ -2947,7 +2980,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="पैदल यात्री",
             optionC="ट्राफिक प्रहरी",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="स्पीड ब्रेकरमा कसरी सवारी चलायो भने दुर्घटना हुँदैन?",
@@ -2955,15 +2988,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB="बिस्तारै चलाउने",
             optionC="एक्सिलेटर जोडले थिचेर चलाउने",
             optionD="माथिका सबै",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="हेलमेट लगाउने उद्देश्य के हो?",
-            optionA="राम्ररी देखिन",
+            optionA="राम्रो देखिन",
             optionB="ट्राफिक प्रहरीले गर्ने सजायबाट बच्न",
             optionC="हावा रोक्न",
             optionD="टाउकोमा चोट लाग्नबाट बच्न",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="सवारी दुर्घटनामा परे के गर्नु पर्छ?",
@@ -2971,15 +3004,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB="काजगात चेक गर्ने",
             optionC="रोइकराइ गर्ने",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
-            questionText="ब्याट्री सर्ट भई आगलागी हुन गएका सर्वप्रथम के गर्नुपर्छ?",
+            questionText="ब्याट्री सर्ट भई आगलागी हुन गएमा सर्वप्रथम के गर्नुपर्छ?",
             optionA="गाडीको स्पीड बढाउने",
             optionB="इन्जिन स्वीच अफ गर्ने",
             optionC="छोडेर भाग्ने",
             optionD="आगलागी भएको ठाउँमा पानी हाल्ने",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="सडकमा गुडिरहेको मोटरसाइकल पल्टियो भने तपाईं पहिले के गर्नुहुन्छ?",
@@ -2987,31 +3020,31 @@ fun getSampleQuestions5(): List<Question>{
             optionB="मोटरसाइकल उठाउँछु",
             optionC="अब के हुन्छ भनी हेरेर बस्छु",
             optionD="प्रहरी बोलाउँछु",
-            correctOptionIndex=0
+            correctOptionIndex=2
         ),
         Question(
             questionText="कसैले अनियन्त्रित तवरले सवारी हाँकिरहेको भेट्नु भयो भने के गर्नुहुन्छ?",
             optionA="ट्राफिकलाई खबर गर्नु",
-            optionB="केस सोधपुछ गर्नु",
+            optionB="रोकेर सोधपुछ गर्नु",
             optionC="देखे नदेखेजस्तो गर्नु",
             optionD="भिडियो खिचेर बस्नु",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
-            questionText="सवारी साधनको चक्का फिस्क हुनको कारण के हो?",
+            questionText="सवारी साधनको चक्का स्किड हुनको कारण के हो?",
             optionA="चिल्लो सतह",
             optionB="बालुवा तथा धुलो सडक",
             optionC="ज्यादा ओरालो",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
             questionText="बीच बाटोमा चक्का पञ्चर भयो भने के गर्नुपर्छ?",
             optionA="त्यहीं रोकेरै हेर्ने",
             optionB="साइड लगाए हेर्ने",
             optionC="बाटो आवागमन बन्द गर्नु",
-            optionD="सरोकी हिँडिरहने",
-            correctOptionIndex=1
+            optionD="नरोकी हिँडिरहने",
+            correctOptionIndex=2
         ),
         Question(
             questionText="दुर्घटनामा आपत्ति परे पनि कससँग सहयोग माग्नु हुँदैन?",
@@ -3019,7 +3052,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="महिलासँग",
             optionC="गाउँलेसँग",
             optionD="बुद्धबुद्धासँग",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="गाडी रोकिसकेपछि यात्रीले के गर्दा बढी दुर्घटना हुन्छ?",
@@ -3027,7 +3060,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="अचानक बाटो काट्दा",
             optionC="गाडीमा बरिरहँदा",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=2
         ),
         Question(
             questionText="तँछाडमछाड गरी गाडी चलाए के हुन्छ?",
@@ -3035,7 +3068,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="अरूलाई जितिन्छ",
             optionC="दुर्घटना हुन सक्छ",
             optionD="माथिका सबै",
-            correctOptionIndex=2
+            correctOptionIndex=3
         ),
         Question(
             questionText="गाडीमा खतराको बत्ती बलेर गुँडिरहेको भए के भएको हुन सक्छ?",
@@ -3043,7 +3076,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="दुर्घटनामा परेको",
             optionC="गन्तव्य आइपुगेको",
             optionD="इन्धन सकिएको",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="नाकबाट बढी रात आयो भने घाइतेलाई कसरी राख्नु पर्छ?",
@@ -3059,7 +3092,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="हावा चल्ने समयमा",
             optionC="मादक पदार्थ सेवन गरेको समयमा",
             optionD="थकाइ लागेको समयमा",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="मोटरसाइकलहरू बढी पल्टिनुको कारण के हो?",
@@ -3067,7 +3100,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="दाहिने मोडिँदा",
             optionC="दुबै ब्रेक लगाउँदा",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=1
         ),
         Question(
             questionText="कुन अवस्थामा गाडीको सबै भार अगाडिको चक्कामा पर्छ?",
@@ -3075,15 +3108,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB="ठूलो गियरमा चलाउँदा",
             optionC="बाटो खराब भएको अवस्थामा",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="दुर्घटनामा परेको घाइतेलाई तुरुन्त खान पिउन दिनु हुन्छ कि हुँदैन?",
-            optionA="खान दिनु हुँदैन",
+            optionA="खाना दिनु पर्छ",
             optionB="पानी पिउन दिनु पर्छ",
-            optionC="खान पिउन दिनु हुन्छ",
+            optionC="खान पिउन दिनु हुँदैन",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=3
         ),
         Question(
             questionText="गुँडिरहेको गाडी चालकले खतराको संकेत के गरी दिनु पर्छ?",
@@ -3091,15 +3124,15 @@ fun getSampleQuestions5(): List<Question>{
             optionB="साइडलाइट बालेर",
             optionC="हेडलाइट बालेर",
             optionD="हर्न बजाएर",
-            correctOptionIndex=1
+            correctOptionIndex=3
         ),
         Question(
-            questionText="दुर्घटना नहोस् भने रातमा पार्किङ गाडी के इशारा गर्नुपर्छ?",
+            questionText="दुर्घटना नहोस् भनेर रातमा पार्किङ गाडी के इशारा गर्नुपर्छ?",
             optionA="रोकेर बस्ने",
             optionB="पार्किङलाइट बाल्ने",
             optionC="लगातार हर्न बजाउने",
             optionD="माथिका सबै",
-            correctOptionIndex=1
+            correctOptionIndex=2
         ),
         Question(
             questionText="एकतर्फी सडकमा दुर्घटना हुने संभावना कहिले हुन्छ?",
@@ -3107,7 +3140,7 @@ fun getSampleQuestions5(): List<Question>{
             optionB="हेडलाइट बाल्दा",
             optionC="हर्न बजाउँदा",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
             questionText="सवारी चालकको मानसिक अवस्था कस्तो हुनु हुँदैन?",
@@ -3115,23 +3148,23 @@ fun getSampleQuestions5(): List<Question>{
             optionB="मादक पदार्थ सेवन गरेको",
             optionC="मनमा तनाव लिएको",
             optionD="माथिका सबै",
-            correctOptionIndex=3
+            correctOptionIndex=4
         ),
         Question(
-            questionText="दुर्घटनाको घाइतेले नविर्सिने अवस्था रहेको भए कस्तो संकेत देखापर्छ?",
+            questionText="दुर्घटनाको घाइतेले नबौरिने अवस्था रहेको भए कस्तो संकेत देखापर्छ?",
             optionA="नाडी चल्दैन",
             optionB="खाना खान्दैन",
             optionC="शरीर चलाउन सक्दैन",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         ),
         Question(
-            questionText="सडकमा मोटरसाइकल बाघको टट्टुजस्तो चलाउँदा के हुन्छ?",
+            questionText="सडकमा मोटरसाइकल बाङ्गो तिङ्गो चलाउँदा के हुन्छ?",
             optionA="दुर्घटनाको संभावना बढ्छ",
             optionB="सिप बढ्छ",
             optionC="चाँडै पुगिन्छ",
             optionD="माथिका सबै",
-            correctOptionIndex=0
+            correctOptionIndex=1
         )
     )
 
@@ -3142,16 +3175,16 @@ fun getSampleQuestions6(): List<Question>{
 
     val quizQuestions6 = listOf(
         Question(
-            questionText = "जेब्रा क्रसमा गाडी पुछा हरियो बत्ती बलेमा के गर्नु पर्छ?",
-            optionA = "सरसर्स अगाडि बढ्ने",
+            questionText = "जेब्रा क्रसमा गाडी पुग्दा हरियो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरासर अगाडि बढ्ने",
             optionB = "सवारी रोक्ने",
             optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
             optionD = "माथिका सबै",
             correctOptionIndex = 1
         ),
         Question(
-            questionText = "जेब्रा क्रसमा गाडी पुछा पहेंलो बत्ती बलेमा के गर्नु पर्छ?",
-            optionA = "सरसर्स अघि बढ्ने",
+            questionText = "जेब्रा क्रसमा गाडी पुग्दा पहेंलो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरासर अघि बढ्ने",
             optionB = "सवारी रोक्ने",
             optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
             optionD = "माथिका सबै",
@@ -3161,13 +3194,13 @@ fun getSampleQuestions6(): List<Question>{
             questionText = "गति शून्य रेखाले के संकेत गर्छ?",
             optionA = "गाडी रोक्ने",
             optionB = "गाडीको गति कम गर्ने",
-            optionC = "गाडी फकाउने",
+            optionC = "गाडी फर्काउने",
             optionD = "गाडी तिब्र गतिमा चलाउने",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
-            questionText = "जेब्रा क्रसमा गाडी पुछा रातो बत्ती बलेमा के गर्नु पर्छ?",
-            optionA = "सरसर्स अघि बढ्ने",
+            questionText = "जेब्रा क्रसमा गाडी पुग्दा रातो बत्ती बलेमा के गर्नु पर्छ?",
+            optionA = "सरासर अघि बढ्ने",
             optionB = "सवारी रोक्ने",
             optionC = "सवारी अगाडि बढाउन तयारी अवस्थामा रहने",
             optionD = "माथिका सबै",
@@ -3178,7 +3211,7 @@ fun getSampleQuestions6(): List<Question>{
             optionA = "गियर परिवर्तन गरेको",
             optionB = "साइड दिएको",
             optionC = "ब्रेक लगाइएको",
-            optionD = "सिफ्ट बढाउन लागेको",
+            optionD = "स्पीड बढाउन लागेको",
             correctOptionIndex = 3
         ),
         Question(
@@ -3187,7 +3220,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "सचेतनामूलक",
             optionC = "प्रतिबन्धात्मक",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "चौकुने (आयात वा वर्गाकार) आकारको ट्राफिक चिन्हले के जनाउँछ?",
@@ -3208,13 +3241,13 @@ fun getSampleQuestions6(): List<Question>{
         Question(
             questionText = "सडकको रेखाङ्कन किन गरिन्छ?",
             optionA = "सवारी सहज बनाउन",
-            optionB = "सडक रात्री पार्न",
+            optionB = "सडक राम्रो पार्न",
             optionC = "जरिवाना गर्न",
             optionD = "माथिका सबै",
             correctOptionIndex = 1
         ),
         Question(
-            questionText = "सडकको रेखाङ्कन गर्न तलकामध्ये कुन रङ्को प्रयोग गर्दैन?",
+            questionText = "सडकको रेखाङ्कन गर्न तलकामध्ये कुन रङ्को प्रयोग गरिँदैन?",
             optionA = "सेतो",
             optionB = "पहेंलो",
             optionC = "रातो",
@@ -3222,7 +3255,7 @@ fun getSampleQuestions6(): List<Question>{
             correctOptionIndex = 3
         ),
         Question(
-            questionText = "जेब्र क्रसिङ्गको रेखाङ्कन गर्न कुन रङ्को प्रयोग गर्दैन?",
+            questionText = "जेब्र क्रसिङ्गको रेखाङ्कन गर्न कुन रङ्को प्रयोग गरिँदैन?",
             optionA = "पहेंलो",
             optionB = "कालो",
             optionC = "सेतो",
@@ -3267,7 +3300,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "सडकमा राखिएको विद्युतिय बत्ती",
             optionC = "ट्राफिक प्रहरी गर्ने संकेत",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "ट्राफिक चिन्हको पालना गर्नु कसको कर्तव्य हो?",
@@ -3275,7 +3308,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "पैदल यात्रीको",
             optionC = "ठूला सवारीको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ट्राफिक संकेत भनेको के हो?",
@@ -3291,15 +3324,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "तीन प्रकारका",
             optionC = "चार प्रकारका",
             optionD = "निश्चित छैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "लेन छुट्याउने संकेत सडकको कुन भागमा कोरिएको हुन्छ?",
             optionA = "दायाँतिरको छेउमा",
             optionB = "बायाँतिरको छेउमा",
             optionC = "सडकको बीचमा",
-            optionD = "जहाँ कोर्ने पनि हुन्छ",
-            correctOptionIndex = 2
+            optionD = "जहाँ कोरे पनि हुन्छ",
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "राजमार्गमा दिशा संकेत गर्न राखिएको बोर्डको रङ कस्तो हुन्छ?",
@@ -3307,7 +3340,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "रातो",
             optionC = "रातो",
             optionD = "कालो",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "लेनलाइन र जेब्रा क्रसिङलाई के पनि भनिन्छ?",
@@ -3323,7 +3356,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "त्रिभुजाकार",
             optionC = "वर्गाकार",
             optionD = "आयताकार",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "चौबाटोमा ट्राफिक लाइट किन राखिन्छ?",
@@ -3331,10 +3364,10 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "ट्राफिक कन्ट्रोल गर्न",
             optionC = "सवारी मोड्न",
             optionD = "सवारी पार्क गर्न",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
-            questionText = "तलकामध्ये सडकमा ट्राफिक कन्ट्रोलले के ले गर्दैन?",
+            questionText = "तलकामध्ये सडकमा ट्राफिक कन्ट्रोल के ले गर्दैन?",
             optionA = "ट्राफिक प्रहरी",
             optionB = "यातायात व्यवस्था विभाग",
             optionC = "सडक रेखा",
@@ -3348,7 +3381,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "आयातकार",
             optionC = "पार्किङ स्थल",
             optionD = "अस्पताल",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_1,
@@ -3364,7 +3397,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "वर्क सप",
             optionC = "घर",
             optionD = "पार्किङ स्थल",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_3,
@@ -3372,7 +3405,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "आवास क्षेत्र",
             optionC = "अस्पताल",
             optionD = "प्राथमिक उपचार",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_4,
@@ -3380,15 +3413,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "एकतर्फी बाटो",
             optionC = "उभिने ठाउँ",
             optionD = "दायाँ मोड",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
-            questionImageId = R.drawable.img_6,
+            questionImageId = R.drawable.img_5,
             optionA = "टेलिफोन",
             optionB = "इन्टरनेट",
             optionC = "टुल",
             optionD = "प्रहरी",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_6,
@@ -3396,7 +3429,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "ट्रक सेवा",
             optionC = "टी-जक्सन",
             optionD = "बाटो समाप्त",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_7,
@@ -3404,7 +3437,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "विद्यालय",
             optionC = "प्रहरी",
             optionD = "वियोगको बाटो",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_8,
@@ -3412,23 +3445,23 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "अस्पताल",
             optionC = "मेसिन",
             optionD = "पेट्रोल पम्प",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_9,
             optionA = "विश्राम स्थल",
             optionB = "रिफ्रेस सेन्टर",
-            optionC = "बस बस्ने ठाउँ",
+            optionC = "बास बस्ने ठाउँ",
             optionD = "अस्पताल",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_10,
             optionA = "विश्राम स्थल",
             optionB = "अस्पताल",
             optionC = "आवास क्षेत्र",
-            optionD = "बस बस्ने ठाउँ",
-            correctOptionIndex = 1
+            optionD = "बास बस्ने ठाउँ",
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_11,
@@ -3444,7 +3477,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "विद्यालय",
             optionC = "केटाकेटी",
             optionD = "भीडभाड हुने क्षेत्र",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_13,
@@ -3460,7 +3493,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बस बिसौनी",
             optionC = "बस पार्क",
             optionD = "पार्किङ स्थल",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_15,
@@ -3468,7 +3501,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "मन्दिर",
             optionC = "वनभोज स्थल",
             optionD = "विद्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_16,
@@ -3476,7 +3509,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "विश्राम स्थल",
             optionC = "पार्किङ स्थल",
             optionD = "विद्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_17,
@@ -3492,15 +3525,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "कच्ची सडक",
             optionC = "सडक",
             optionD = "पार्किङ",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_19,
-            optionA = "कालो पटे सडक",
+            optionA = "कालो पत्रे सडक",
             optionB = "उछिन्ने ठाउँ",
             optionC = "सडकबीचका रेखाहरु",
             optionD = "रोकिने ठाउँ",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_20,
@@ -3508,15 +3541,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "पार्किङ निषेध",
             optionC = "उछिन्न निषेध",
             optionD = "रोकिन निषेध",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_21,
             optionA = "प्रवेश निषेध",
             optionB = "पार्किङ निषेध",
             optionC = "पार्किङ स्थल",
-            optionD = "पलिक निषेध",
-            correctOptionIndex = 1
+            optionD = "पब्लिक निषेध",
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_22,
@@ -3524,7 +3557,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "दायाँ मोड्न निषेध",
             optionC = "पार्किङ स्थल",
             optionD = "रोकिने ठाउँ",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_23,
@@ -3572,7 +3605,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "उछिन्ने ठाउँ",
             optionC = "एकतर्फी बाटो",
             optionD = "दुईतर्फी बाटो",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_29,
@@ -3585,10 +3618,10 @@ fun getSampleQuestions6(): List<Question>{
         Question(
             questionImageId = R.drawable.img_30,
             optionA = "रोक",
-            optionB = "रोक, हेरेर जाऊँ",
+            optionB = "रोक, हेर र जाऊँ",
             optionC = "पार्किङ स्थल",
             optionD = "सिधा मात्र जाऊ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_31,
@@ -3604,7 +3637,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "सिधा मात्र जाऊ",
             optionC = "रोकिने ठाउँ",
             optionD = "अगाडि गएर वायाँ मोड",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_33,
@@ -3612,7 +3645,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "कुनै तिरबाट जाऊ",
             optionC = "अगाडि गएर बायाँ मोड",
             optionD = "गति सीमा समाप्त",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_34,
@@ -3620,7 +3653,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "दायाँ बायाँ सिधा जाऊ",
             optionC = "बायाँ मोड",
             optionD = "दायाँ मोड",
-            correctOptionIndex = 4
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_35,
@@ -3628,7 +3661,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "सानो गोल घुम्ती दायाँबाट आउनेलाई जान देऊ",
             optionC = "घुमेर जाऊ",
             optionD = "दायाँ घुम्ती",
-            correctOptionIndex = 4
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_36,
@@ -3636,7 +3669,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "एक्सल भार सीमा",
             optionC = "सवारी लम्बाई सीमा",
             optionD = "सवारी चौडाई सीमा",
-            correctOptionIndex = 4
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_37,
@@ -3652,15 +3685,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बायाँ च्याप",
             optionC = "बायाँ मोड",
             optionD = "दायाँ मोड",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_39,
             optionA = "एकतर्फी सवारी",
-            optionB = "दुर्इतर्फी सवारी",
+            optionB = "दुईतर्फी सवारी",
             optionC = "सिधा अगाडि बढ",
             optionD = "अगाडि जाऊ",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_40,
@@ -3668,7 +3701,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "पार्किङलाइट बाल्ने",
             optionC = "लगातार हर्न बजाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_41,
@@ -3692,7 +3725,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "ठीक ४.४ मिटरको सवारी हुनुपर्छ",
             optionC = "एक्सल भार सीमा",
             optionD = "सवारी उचाइ सीमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_44,
@@ -3700,7 +3733,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "एक्सल भार सीमा",
             optionC = "सवारी उचाइ सीमा",
             optionD = "सवारी लम्बाइ सीमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_45,
@@ -3716,15 +3749,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "गोलो घुम्तीमा जाउ",
             optionC = "जाने ठाउँ",
             optionD = "जाउ (अस्थाई चिन्ह)",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_47,
             optionA = "वाई-जक्सन",
             optionB = "टी-जक्सन",
-            optionC = "बाँटे समास",
-            optionD = "टर्न टुटी",
-            correctOptionIndex = 1
+            optionC = "बाटो समाप्त",
+            optionD = "टर्न टु टी",
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_48,
@@ -3732,7 +3765,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बाटोमा काम हुँदै",
             optionC = "खतरा",
             optionD = "सुरक्षित ठाउँ",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_49,
@@ -3756,7 +3789,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "दायाँ मोड",
             optionC = "घुम्ती",
             optionD = "गोलो घुम्ती",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_52,
@@ -3764,7 +3797,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "दायाँ पूरा मोड",
             optionC = "बायाँ मोड",
             optionD = "घुम्ती",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_53,
@@ -3780,7 +3813,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "पहाडको उकालो",
             optionC = "बढी उकालो",
             optionD = "उठेको बाटो",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_55,
@@ -3796,7 +3829,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "दुई तिरबाट साँघुरिएको सडक",
             optionC = "साँघुरो बाटो",
             optionD = "एकतर्फी बाटो",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_57,
@@ -3804,23 +3837,23 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बढी उकालो",
             optionC = "नदी किनार",
             optionD = "खतरनाक भीर",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_58,
             optionA = "देब्रे तिरबाट साँघुरिएको सडक",
-            optionB = "उछि्ने ठाउँ",
+            optionB = "उछिन्ने ठाउँ",
             optionC = "दाहिने तिरबाट साँघुरिएको सडक",
             optionD = "जाने ठाउँ",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_59,
             optionA = "एस जक्सन",
-            optionB = "उछि्ने ठाउँ",
+            optionB = "उछिन्ने ठाउँ",
             optionC = "मोड",
             optionD = "दोहोरो मोड पहिलो बायाँ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_60,
@@ -3844,7 +3877,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "उभिने ठाउँ",
             optionC = "पार्किङ स्थल",
             optionD = "जाने ठाउँ",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_63,
@@ -3852,7 +3885,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "प्रहरी पोष्ट",
             optionC = "चौबाटो",
             optionD = "गोल घुम्ती",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_64,
@@ -3860,7 +3893,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "अगाडि उचाई सीमा",
             optionC = "सवारी एक्सल भार सीमा",
             optionD = "सवारी लम्बाई सीमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_65,
@@ -3868,7 +3901,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "चौर तिर सडक",
             optionC = "चौबाटो अगाडि शाखा सडक",
             optionD = "चौबाटो अगाडि मूल सडक",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionImageId = R.drawable.img_66,
@@ -3892,7 +3925,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "संरक्षण क्षेत्र",
             optionC = "पाल्तु जनावर",
             optionD = "जनावर निषेध",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_69,
@@ -3908,7 +3941,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "ओरालो",
             optionC = "उठेको बाटो",
             optionD = "खाल्डा",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_71,
@@ -3916,7 +3949,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "देब्रे तिर जाऊ",
             optionC = "दायाँ शाखा सडक",
             optionD = "अगाडि बढ",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_72,
@@ -3924,7 +3957,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बायाँ मोड",
             optionC = "दायाँ मोड",
             optionD = "अगाडि सिधा जाऊ",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_73,
@@ -3940,7 +3973,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "डेकोरेटिभ लाइट",
             optionC = "ट्राफिक लाइट",
             optionD = "क्याट्स आई",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_75,
@@ -3948,7 +3981,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "घना जंगल",
             optionC = "राष्ट्रिय निकुञ्ज",
             optionD = "बाघ",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_76,
@@ -3956,7 +3989,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "अगाडि बाटोमा पैदल यात्री",
             optionC = "केटाकेटीहरू",
             optionD = "विद्यालय क्षेत्र",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_77,
@@ -3972,7 +4005,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "रेलमार्ग",
             optionC = "रेल अगाडि गेट नभएको",
             optionD = "खतरनाक बाटो",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_79,
@@ -3980,15 +4013,15 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "सडक सरसफाई",
             optionC = "उकालो बाटो",
             optionD = "ओरालो बाटो",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionImageId = R.drawable.img_80,
             optionA = "प्रवेश निषेध",
-            optionB = "पत्ते काट्ने ठाउँ",
+            optionB = "पटके काट्ने ठाउँ",
             optionC = "जाँच चौकी",
             optionD = "तौल पुल",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_81,
@@ -3996,7 +4029,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बालबालिकाहरू",
             optionC = "जेब्राक्रसिङ",
             optionD = "विद्यालय क्षेत्र",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionImageId = R.drawable.img_82,
@@ -4004,7 +4037,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बाँया मोड",
             optionC = "दाँया मोड",
             optionD = "ओरालो बाटो",
-            correctOptionIndex = -1 // Correct index not provided in the screenshot
+            correctOptionIndex = 1 // Correct index not provided in the screenshot
         ),
         Question(
             questionImageId = R.drawable.img_83,
@@ -4012,7 +4045,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "बाँया मोड",
             optionC = "तिखो मोड (अस्थाई बाटो)",
             optionD = "ओरालो बाटो",
-            correctOptionIndex = -1
+            correctOptionIndex = 3
         ),
         Question(
             questionImageId = R.drawable.img_84,
@@ -4020,7 +4053,7 @@ fun getSampleQuestions6(): List<Question>{
             optionB = "वाई-जक्सन",
             optionC = "तिखो मोड",
             optionD = "बाँया तिर तिखो मोड",
-            correctOptionIndex = -1
+            correctOptionIndex = 1
         )
     )
 
