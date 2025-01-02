@@ -47,7 +47,7 @@ fun UltimateGuideScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color.White, RoundedCornerShape(topStartPercent = 12, topEndPercent = 12))
+            .background(color = Color(0xFFEAF3FF), RoundedCornerShape(topStartPercent = 12, topEndPercent = 12))
     ) {
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(top = 24.dp),
@@ -107,7 +107,7 @@ fun ExpandableCard(
         elevation = CardDefaults.cardElevation(2.dp),
         border = BorderStroke(width = 0.5.dp, color = Color(0xFF617AD3) ),
         colors = CardDefaults.cardColors(
-            containerColor = Color.White
+            containerColor = Color(0xFFEAF3FF)
         )
     ) {
         Column {

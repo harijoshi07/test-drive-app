@@ -63,7 +63,9 @@ fun HomeTopBar(scrollBehavior: TopAppBarScrollBehavior, modifier: Modifier = Mod
                 color = Color.White
             )
         },
+        /*
         navigationIcon = {
+
             IconButton(onClick = { /*TODO*/ }) {
                 Icon(
                     imageVector = Icons.Default.Sort,
@@ -82,6 +84,7 @@ fun HomeTopBar(scrollBehavior: TopAppBarScrollBehavior, modifier: Modifier = Mod
                 )
             }
         },
+        */
         scrollBehavior = scrollBehavior,
 
         colors = TopAppBarDefaults.topAppBarColors(
