@@ -50,37 +50,30 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
         ) {
             composable(Screen.Home.route) {
                 HomeScreen(
-                    navigateToCategory = {vehicleType->
-                        navController.navigate(route = "${Screen.Category.route}/$vehicleType")
-                                         },
+                    navigateToCategory = { vehicleType ->
+                        navController.navigate(route = "category/$vehicleType")
+                    },
                     navigateToQuiz = { vehicleType ->
-                        navController.navigate(route = "${Screen.Quiz.route}/$vehicleType")
-                                     },
-                    navigateToUltimateGuide = {navController.navigate(route = Screen.UltimateGuide.route)}
+                        navController.navigate(route = "quiz/$vehicleType")
+                    },
+                    navigateToUltimateGuide = {
+                        navController.navigate(route = Screen.UltimateGuide.route)
+                    }
                 )
             }
-            composable(
-                route = Screen.Category.route,
-                arguments = listOf(
-                    navArgument("vehicleType") { type = NavType.StringType }
-                )
-            ) { backStackEntry ->
+
+            // Modify the Category route
+            composable("category/{vehicleType}") { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 CategoryScreen(
                     navigateToStudy = { categoryTitle ->
                         navController.navigate(route = "study/$vehicleType/$categoryTitle")
-                        //navController.navigate(route = Screen.Study.route + "/$categoryTitle")
                     },
                 )
             }
 
-            composable(
-                route = Screen.Study.route,
-                arguments = listOf(
-                    navArgument("vehicleType") { type = NavType.StringType },
-                    navArgument("categoryTitle") { type = NavType.StringType }
-                )
-            ) { backStackEntry ->
+            // Modify the Study route
+            composable("study/{vehicleType}/{categoryTitle}") { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 val categoryTitle = backStackEntry.arguments?.getString("categoryTitle") ?: ""
                 val questions = if (vehicleType == "bike") {
@@ -91,12 +84,8 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                 StudyScreen(questions = questions)
             }
 
-            composable(
-                route = Screen.Quiz.route,
-                arguments = listOf(
-                    navArgument("vehicleType") { type = NavType.StringType }
-                )
-            ) { backStackEntry ->
+            // Modify the Quiz route
+            composable("quiz/{vehicleType}") { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 val quizQuestions = if (vehicleType == "bike") {
                     viewModel.getBikeQuizQuestions()
