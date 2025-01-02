@@ -1,6 +1,12 @@
 package com.example.drivinglicenseexamapp.ui.screen.home_screen
 
 import androidx.annotation.DrawableRes
+import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.animation.togetherWith
+import androidx.compose.animation.with
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -32,10 +38,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
-
 import androidx.compose.runtime.*
 import com.example.drivinglicenseexamapp.data.VehicleType
 
+@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun HomeScreen(
     navigateToCategory: (String) -> Unit,
@@ -47,7 +53,6 @@ fun HomeScreen(
     val buttonColor = Color(0xFF617AD3) // Consistent blue for buttons
     val buttonTextColor = Color.White // White text for buttons
 
-    // State to track the selected mode
     var selectedMode by remember { mutableStateOf("Study Mode") }
 
     Column(
@@ -60,7 +65,6 @@ fun HomeScreen(
             .padding(horizontal = 32.dp, vertical = 8.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        // Header Buttons
         Spacer(Modifier.height(4.dp))
 
         Box(
@@ -93,61 +97,78 @@ fun HomeScreen(
             }
         }
 
-        // Cards
-        HomeScreenCard(
-            title = "Bike - Scooter",
-            subtitle = "Category A - K",
-            icon = R.drawable.bike0,
-            backgroundColor = cardBackgroundColor,
-            onClick = {
-                if (selectedMode == "Study Mode") navigateToCategory(VehicleType.BIKE)
-                else navigateToQuiz(VehicleType.BIKE)
+        // Animated content with slide animation
+        AnimatedContent(
+            targetState = selectedMode,
+            transitionSpec = {
+                if (targetState == "Study Mode") {
+                    slideInHorizontally { -it } with slideOutHorizontally { it }
+                } else {
+                    slideInHorizontally { it } with slideOutHorizontally { -it }
+                }
             }
-        )
-        HomeScreenCard(
-            title = "Car",
-            subtitle = "Category B",
-            icon = R.drawable.car1,
-            backgroundColor = cardBackgroundColor,
-            onClick = {
-                if (selectedMode == "Study Mode") navigateToCategory(VehicleType.CAR)
-                else navigateToQuiz(VehicleType.CAR)
-            }
-        )
-
-        // Ultimate Guide Section
-        Card(
-            colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
-            shape = RoundedCornerShape(12.dp),
-            border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
-            modifier = Modifier.clickable { }
-        ) {
+        ) { mode ->
             Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center,
-                modifier = Modifier.padding(12.dp)
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+                modifier = Modifier.fillMaxWidth()
             ) {
-                Text(
-                    text = "YOUR ULTIMATE GUIDE:",
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = Color.Black, modifier = Modifier.padding(bottom = 8.dp)
+                // Vehicle cards
+                HomeScreenCard(
+                    title = "Bike - Scooter",
+                    subtitle = "Category A - K",
+                    icon = R.drawable.bike0,
+                    backgroundColor = cardBackgroundColor,
+                    onClick = {
+                        if (mode == "Study Mode") navigateToCategory(VehicleType.BIKE)
+                        else navigateToQuiz(VehicleType.BIKE)
+                    }
                 )
-                Text(
-                    text = "from filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
-                    fontSize = 14.sp,
-                    color = Color.Black,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.padding(bottom = 16.dp)
+                HomeScreenCard(
+                    title = "Car",
+                    subtitle = "Category B",
+                    icon = R.drawable.car1,
+                    backgroundColor = cardBackgroundColor,
+                    onClick = {
+                        if (mode == "Study Mode") navigateToCategory(VehicleType.CAR)
+                        else navigateToQuiz(VehicleType.CAR)
+                    }
                 )
-                Button(
-                    onClick = navigateToUltimateGuide,
-                    colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
+
+                Card(
+                    colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
+                    shape = RoundedCornerShape(12.dp),
+                    border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+                    modifier = Modifier.clickable { }
                 ) {
-                    Text(
-                        text = "Let's Start",
-                        color = Color.White
-                    )
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center,
+                        modifier = Modifier.padding(12.dp)
+                    ) {
+                        Text(
+                            text = "YOUR ULTIMATE GUIDE:",
+                            fontSize = 16.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.Black,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                        Text(
+                            text = "from filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
+                            fontSize = 14.sp,
+                            color = Color.Black,
+                            textAlign = TextAlign.Center,
+                            modifier = Modifier.padding(bottom = 16.dp)
+                        )
+                        Button(
+                            onClick = navigateToUltimateGuide,
+                            colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
+                        ) {
+                            Text(
+                                text = "Let's Start",
+                                color = Color.White
+                            )
+                        }
+                    }
                 }
             }
         }

@@ -50,11 +50,12 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
         ) {
             composable(Screen.Home.route) {
                 HomeScreen(
-                    navigateToCategory = { vehicleType ->
-                        navController.navigate(route = "category/$vehicleType")
+                    navigateToCategory = {
+                        //navController.navigate(route = "category/$vehicleType")
+                        navController.navigate(route = Screen.Category.route)
                     },
-                    navigateToQuiz = { vehicleType ->
-                        navController.navigate(route = "quiz/$vehicleType")
+                    navigateToQuiz = {
+                        navController.navigate(route = Screen.Quiz.route)
                     },
                     navigateToUltimateGuide = {
                         navController.navigate(route = Screen.UltimateGuide.route)
@@ -63,7 +64,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             }
 
             // Modify the Category route
-            composable("category/{vehicleType}") { backStackEntry ->
+            composable(Screen.Category.route) { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 CategoryScreen(
                     navigateToStudy = { categoryTitle ->
@@ -73,7 +74,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             }
 
             // Modify the Study route
-            composable("study/{vehicleType}/{categoryTitle}") { backStackEntry ->
+            composable(Screen.Study.route) { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 val categoryTitle = backStackEntry.arguments?.getString("categoryTitle") ?: ""
                 val questions = if (vehicleType == "bike") {
@@ -85,7 +86,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
             }
 
             // Modify the Quiz route
-            composable("quiz/{vehicleType}") { backStackEntry ->
+            composable(Screen.Quiz.route) { backStackEntry ->
                 val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 val quizQuestions = if (vehicleType == "bike") {
                     viewModel.getBikeQuizQuestions()
