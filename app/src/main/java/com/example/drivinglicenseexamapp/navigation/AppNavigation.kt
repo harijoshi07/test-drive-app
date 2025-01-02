@@ -50,12 +50,13 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
         ) {
             composable(Screen.Home.route) {
                 HomeScreen(
-                    navigateToCategory = {
-                        //navController.navigate(route = "category/$vehicleType")
-                        navController.navigate(route = Screen.Category.route)
+                    navigateToCategory = { vehicleType ->
+                        navController.navigate(route = "category/$vehicleType")
+                        //navController.navigate(route = Screen.Category.route)
                     },
-                    navigateToQuiz = {
-                        navController.navigate(route = Screen.Quiz.route)
+                    navigateToQuiz = { vehicleType ->
+                        navController.navigate(route = "quiz/$vehicleType")
+                        //navController.navigate(route = Screen.Quiz.route)
                     },
                     navigateToUltimateGuide = {
                         navController.navigate(route = Screen.UltimateGuide.route)
