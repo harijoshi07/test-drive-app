@@ -64,12 +64,12 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
 
             composable(Screen.Study.route) { backStackEntry ->
                 val categoryTitle = backStackEntry.arguments?.getString("categoryTitle") ?: ""
-                val questions = viewModel.getQuestionsByCategory(categoryTitle)
-                StudyScreen(questions = questions)
+                val bikeQuestions = viewModel.getBikeQuestionsByCategory(categoryTitle)
+                StudyScreen(questions = bikeQuestions)
             }
 
             composable(Screen.Quiz.route) {
-                val quizQuestions = viewModel.getQuizQuestions()
+                val quizQuestions = viewModel.getBikeQuizQuestions()
                 ExamModeScreen(
                     questions = quizQuestions,
                     navigateToResult = { questions, selectedAnswers ->

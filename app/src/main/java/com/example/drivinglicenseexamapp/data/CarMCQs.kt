@@ -1,8 +1,10 @@
 package com.example.drivinglicenseexamapp.data
 
-fun getSampleQuestions1() {
 
-    val quizQuestions1 = listOf(
+
+fun getCarQuestionsA(): List<Question> {
+
+    val quizQuestionsA = listOf(
         Question(
             questionText = "जेब्रा क्रसिङ केका लागि प्रयोग गरिन्छ?",
             optionA = "उभिन",
@@ -1048,8 +1050,11 @@ fun getSampleQuestions1() {
 
     )
 
+    return quizQuestionsA
+}
+fun getCarQuestionsB(): List<Question> {
 
-    val quizQuestions2 = listOf(
+    val quizQuestionsB = listOf(
         Question(
             questionText = "सवारी चालक अनुमति पत्र हराएमा कति अवधिभित्र सूचना गरिसक्नु पर्छ?",
             optionA = "७ दिन",
@@ -1775,7 +1780,11 @@ fun getSampleQuestions1() {
         )
     )
 
-    val quizQuestions3 = listOf(
+    return quizQuestionsB
+}
+fun getCarQuestionsC(): List<Question> {
+
+    val quizQuestionsC = listOf(
         Question(
             questionText = "आफ्नैले चलाउने सवारी चलाउनु पुर्व सवारीको अवस्था ठीक छ / छैन भन्ने कर्तव्य कसको हो?",
             optionA = "ट्राफिक प्रहरीको",
@@ -2362,7 +2371,11 @@ fun getSampleQuestions1() {
         )
     )
 
-    val quizQuestions4 = listOf(
+    return quizQuestionsC
+}
+fun getCarQuestionsD(): List<Question>{
+
+    val quizQuestionsD = listOf(
         Question(
             questionText = "सवारी प्रदूषण भन्नाले के बुझिन्छ?",
             optionA = "इन्जिनमा राखिने मोबिल",
@@ -2605,7 +2618,13 @@ fun getSampleQuestions1() {
         )
     )
 
-    val quizQuestions5 = listOf(
+    return quizQuestionsD
+
+}
+
+fun getCarQuestionsE(): List<Question> {
+
+    val quizQuestionsE = listOf(
         Question(
             questionText = "सडक सुरक्षा भन्नाले केलाई जनाउँछ?",
             optionA = "सवारी साधन चालकले होशियारी अपनाउनु",
@@ -3088,97 +3107,8 @@ fun getSampleQuestions1() {
         )
     )
 
-    data class Question(
-        val questionText: String,
-        val optionA: String,
-        val optionB: String,
-        val optionC: String,
-        val optionD: String,
-        val correctOptionIndex: Int
-    )
-
-    val quizQuestions6 = listOf(
-        Question(
-            questionText = "जेब्रा क्रसङमा कसलाई पहिलो प्राथमिकता दिनु पर्छ ?",
-            optionA = "पुरुषहरूलाई",
-            optionB = "महिलाहरूलाई",
-            optionC = "बालबालिकाहरूलाई",
-            optionD = "पैदल यात्रुहरूलाई",
-            correctOptionIndex = 3
-        ),
-        Question(
-            questionText = "अगाडिभन्दा अगाडिको गाडीको स्पिड कम हुँदै गएको कसरी थाहा हुन्छ ?",
-            optionA = "ब्रेक लाइटबाट",
-            optionB = "चालकको इशाराबाट",
-            optionC = "साइलेन्सरमा धुवाँ कम भएबाट",
-            optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
-        ),
-        Question(
-            questionText = "स्कुल पार गर्दा कसलाई प्राथमिकता दिनु पर्छ ?",
-            optionA = "स्कुलका विद्यार्थीहरूलाई",
-            optionB = "शारीरिक अपाङ्गता भएका व्यक्तिहरूलाई",
-            optionC = "ज्येष्ठ नागरिकहरूलाई",
-            optionD = "माथिका सबै",
-            correctOptionIndex = 0
-        ),
-        Question(
-            questionText = "स्कुलमा सवारी चलाउँदा कस्तो साधनलाई पहिलो प्राथमिकता दिनु पर्छ ?",
-            optionA = "शव वाहन",
-            optionB = "दमकल",
-            optionC = "एम्बुलेन्स",
-            optionD = "माथिका सबै",
-            correctOptionIndex = 2
-        ),
-        Question(
-            questionText = "अगाडिको सवारी साधनलाई ओभरटेक गर्न कसरी गर्नु पर्छ ?",
-            optionA = "हेड लाइट बालेर",
-            optionB = "हर्न बजाएर",
-            optionC = "साइड लाइट बालेर",
-            optionD = "माथिका सबै",
-            correctOptionIndex = 1
-        ),
-        Question(
-            questionText = "नेपालमा कुन साइडबाट सवारी चलाइन्छ ?",
-            optionA = "दायाँ साइडबाट",
-            optionB = "बायाँ साइडबाट",
-            optionC = "जुन पनि हो त्यही साइडबाट",
-            optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 1
-        ),
-        Question(
-            questionText = "कुन स्पिडमा तुलनात्मक रूपमा इन्धनको खपत कम हुन्छ ?",
-            optionA = "स्लो स्पिडमा",
-            optionB = "मध्यम स्पिडमा",
-            optionC = "हाई स्पिडमा",
-            optionD = "स्लो र मध्यम स्पिडमा",
-            correctOptionIndex = 1
-        ),
-        Question(
-            questionText = "स्कुलमा सवारी चलाउँदा कस्तो सवारी साधनलाई पहिलो प्राथमिकता दिनु पर्दैन ?",
-            optionA = "कार",
-            optionB = "मोटरसाइकल",
-            optionC = "ट्रक",
-            optionD = "माथिका सबै",
-            correctOptionIndex = 2
-        ),
-        Question(
-            questionText = "पछाडिको सवारी साधनलाई अगाडि जान दिन कसरी गर्नु पर्छ ?",
-            optionA = "हातले इशारा दिने",
-            optionB = "साइडलाइट बालिदिने",
-            optionC = "क र ख दुबै",
-            optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
-        ),
-        Question(
-            questionText = "नेपालमा कुन साइडबाट सवारी चलाउँदा कार्यालय हुन्छ ?",
-            optionA = "दायाँ साइडबाट",
-            optionB = "बायाँ साइडबाट",
-            optionC = "क र ख दुबै",
-            optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
-        ),
-        // Add the remaining 380 questions here...
-    )
-
+    return quizQuestionsE
 }
+
+
+
