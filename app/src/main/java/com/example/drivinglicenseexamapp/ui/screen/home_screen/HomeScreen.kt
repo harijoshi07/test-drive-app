@@ -34,11 +34,12 @@ import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
 
 import androidx.compose.runtime.*
+import com.example.drivinglicenseexamapp.data.VehicleType
 
 @Composable
 fun HomeScreen(
-    navigateToCategory: () -> Unit,
-    navigateToQuiz: () -> Unit,
+    navigateToCategory: (String) -> Unit,
+    navigateToQuiz: (String) -> Unit,
     navigateToUltimateGuide: () -> Unit,
 ) {
     val backgroundColor = Color(0xFFEAF3FF) // Light theme background
@@ -99,8 +100,8 @@ fun HomeScreen(
             icon = R.drawable.bike0,
             backgroundColor = cardBackgroundColor,
             onClick = {
-                if (selectedMode == "Study Mode") navigateToCategory()
-                else navigateToQuiz()
+                if (selectedMode == "Study Mode") navigateToCategory(VehicleType.BIKE)
+                else navigateToQuiz(VehicleType.BIKE)
             }
         )
         HomeScreenCard(
@@ -109,8 +110,8 @@ fun HomeScreen(
             icon = R.drawable.car1,
             backgroundColor = cardBackgroundColor,
             onClick = {
-                if (selectedMode == "Study Mode") navigateToCategory()
-                else navigateToQuiz()
+                if (selectedMode == "Study Mode") navigateToCategory(VehicleType.CAR)
+                else navigateToQuiz(VehicleType.CAR)
             }
         )
 

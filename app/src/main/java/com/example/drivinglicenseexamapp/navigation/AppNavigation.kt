@@ -10,10 +10,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.example.drivinglicenseexamapp.viewmodel.QuestionViewModel
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.TopBar
@@ -48,28 +50,59 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
         ) {
             composable(Screen.Home.route) {
                 HomeScreen(
-                    navigateToCategory = { navController.navigate(route = Screen.Category.route) },
-                    navigateToQuiz = { navController.navigate(route = Screen.Quiz.route) },
+                    navigateToCategory = {vehicleType->
+                        navController.navigate(route = "${Screen.Category.route}/$vehicleType")
+                                         },
+                    navigateToQuiz = { vehicleType ->
+                        navController.navigate(route = "${Screen.Quiz.route}/$vehicleType")
+                                     },
                     navigateToUltimateGuide = {navController.navigate(route = Screen.UltimateGuide.route)}
                 )
             }
-            composable(Screen.Category.route) {
+            composable(
+                route = Screen.Category.route,
+                arguments = listOf(
+                    navArgument("vehicleType") { type = NavType.StringType }
+                )
+            ) { backStackEntry ->
+                val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 CategoryScreen(
                     navigateToStudy = { categoryTitle ->
-                        navController.navigate(route = "study/$categoryTitle")
+                        navController.navigate(route = "study/$vehicleType/$categoryTitle")
                         //navController.navigate(route = Screen.Study.route + "/$categoryTitle")
                     },
                 )
             }
 
-            composable(Screen.Study.route) { backStackEntry ->
+            composable(
+                route = Screen.Study.route,
+                arguments = listOf(
+                    navArgument("vehicleType") { type = NavType.StringType },
+                    navArgument("categoryTitle") { type = NavType.StringType }
+                )
+            ) { backStackEntry ->
+                val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
                 val categoryTitle = backStackEntry.arguments?.getString("categoryTitle") ?: ""
-                val bikeQuestions = viewModel.getBikeQuestionsByCategory(categoryTitle)
-                StudyScreen(questions = bikeQuestions)
+                val questions = if (vehicleType == "bike") {
+                    viewModel.getBikeQuestionsByCategory(categoryTitle)
+                } else {
+                    viewModel.getCarQuestionsByCategory(categoryTitle)
+                }
+                StudyScreen(questions = questions)
             }
 
-            composable(Screen.Quiz.route) {
-                val quizQuestions = viewModel.getBikeQuizQuestions()
+            composable(
+                route = Screen.Quiz.route,
+                arguments = listOf(
+                    navArgument("vehicleType") { type = NavType.StringType }
+                )
+            ) { backStackEntry ->
+                val vehicleType = backStackEntry.arguments?.getString("vehicleType") ?: "bike"
+                val quizQuestions = if (vehicleType == "bike") {
+                    viewModel.getBikeQuizQuestions()
+                } else {
+                    viewModel.getCarQuizQuestions()
+                }
                 ExamModeScreen(
                     questions = quizQuestions,
                     navigateToResult = { questions, selectedAnswers ->
