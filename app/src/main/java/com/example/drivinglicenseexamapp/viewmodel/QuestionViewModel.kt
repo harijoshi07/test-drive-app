@@ -2,27 +2,27 @@ package com.example.drivinglicenseexamapp.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.drivinglicenseexamapp.data.Question
+import com.example.drivinglicenseexamapp.data.getBikeQuestionsA
+import com.example.drivinglicenseexamapp.data.getBikeQuestionsB
+import com.example.drivinglicenseexamapp.data.getBikeQuestionsC
+import com.example.drivinglicenseexamapp.data.getBikeQuestionsD
+import com.example.drivinglicenseexamapp.data.getBikeQuestionsE
 import com.example.drivinglicenseexamapp.data.getCarQuestionsA
 import com.example.drivinglicenseexamapp.data.getCarQuestionsB
 import com.example.drivinglicenseexamapp.data.getCarQuestionsC
 import com.example.drivinglicenseexamapp.data.getCarQuestionsD
 import com.example.drivinglicenseexamapp.data.getCarQuestionsE
-import com.example.drivinglicenseexamapp.data.getSampleQuestions
-import com.example.drivinglicenseexamapp.data.getSampleQuestions2
-import com.example.drivinglicenseexamapp.data.getSampleQuestions3
-import com.example.drivinglicenseexamapp.data.getSampleQuestions4
-import com.example.drivinglicenseexamapp.data.getSampleQuestions5
-import com.example.drivinglicenseexamapp.data.getSampleQuestions6
+import com.example.drivinglicenseexamapp.data.getCommonQuestions
 
 class QuestionViewModel: ViewModel(){
 
     private val bikeCategoryQuestions = mapOf(
-        "सवारी सञ्चालन" to getSampleQuestions(),
-        "सवारी कानुन" to getSampleQuestions2(),
-        "प्राविधिक ज्ञान" to getSampleQuestions3(),
-        "वातावरण प्रदूषण" to getSampleQuestions4(),
-        "दुर्घटना सचेतना" to getSampleQuestions5(),
-        "ट्राफिक संकेत" to getSampleQuestions6()
+        "सवारी सञ्चालन" to getBikeQuestionsA(),
+        "सवारी कानुन" to getBikeQuestionsB(),
+        "प्राविधिक ज्ञान" to getBikeQuestionsC(),
+        "वातावरण प्रदूषण" to getBikeQuestionsD(),
+        "दुर्घटना सचेतना" to getBikeQuestionsE(),
+        "ट्राफिक संकेत" to getCommonQuestions()
     )
 
     // Get all questions by category
@@ -58,7 +58,7 @@ class QuestionViewModel: ViewModel(){
         "प्राविधिक ज्ञान" to getCarQuestionsC(),
         "वातावरण प्रदूषण" to getCarQuestionsD(),
         "दुर्घटना सचेतना" to getCarQuestionsE(),
-        "ट्राफिक संकेत" to getSampleQuestions6()
+        "ट्राफिक संकेत" to getCommonQuestions()
     )
 
 

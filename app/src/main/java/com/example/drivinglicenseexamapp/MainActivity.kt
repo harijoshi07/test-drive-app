@@ -6,13 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.drivinglicenseexamapp.data.Question
-import com.example.drivinglicenseexamapp.data.getSampleQuestions
 import com.example.drivinglicenseexamapp.navigation.AppNavigation
 import com.example.drivinglicenseexamapp.ui.theme.DrivingLicenseExamAppTheme
 
 class MainActivity : ComponentActivity() {
-
-    private var questions: List<Question> = getSampleQuestions()
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -23,7 +20,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             DrivingLicenseExamAppTheme {
                 AppNavigation()
-               // TestScreen()
             }
         }
     }
