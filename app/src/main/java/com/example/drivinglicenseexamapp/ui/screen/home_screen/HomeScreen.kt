@@ -134,42 +134,7 @@ fun HomeScreen(
                     }
                 )
 
-                Card(
-                    colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
-                    shape = RoundedCornerShape(12.dp),
-                    border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
-                    modifier = Modifier.clickable { }
-                ) {
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.Center,
-                        modifier = Modifier.padding(12.dp)
-                    ) {
-                        Text(
-                            text = "YOUR ULTIMATE GUIDE:",
-                            fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = Color.Black,
-                            modifier = Modifier.padding(bottom = 8.dp)
-                        )
-                        Text(
-                            text = "from filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
-                            fontSize = 14.sp,
-                            color = Color.Black,
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.padding(bottom = 16.dp)
-                        )
-                        Button(
-                            onClick = navigateToUltimateGuide,
-                            colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
-                        ) {
-                            Text(
-                                text = "Let's Start",
-                                color = Color.White
-                            )
-                        }
-                    }
-                }
+                UltimateGuideCard(navigateToUltimateGuide = navigateToUltimateGuide)
             }
         }
     }
@@ -243,8 +208,8 @@ fun HomeScreenCard(
                 contentDescription = title,
                 tint = Color.Unspecified,
                 modifier = Modifier
-                    .height(160.dp)
-                    .width(260.dp)
+                    //.height(160.dp)
+                    //.width(260.dp)
                     .align(Alignment.CenterHorizontally)
             )
         }
@@ -254,8 +219,55 @@ fun HomeScreenCard(
 
 }
 
+
+@Composable
+fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
+
+    val cardBackgroundColor = Color(0xFFDAEAFF) // Blueish card color
+    val buttonColor = Color(0xFF617AD3) // Consistent blue for buttons
+
+
+    Card(
+        colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
+        shape = RoundedCornerShape(12.dp),
+        border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+        modifier = Modifier.clickable { }
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.padding(12.dp)
+        ) {
+            Text(
+                text = "YOUR ULTIMATE GUIDE:",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+            Text(
+                text = "from filling the form and preparing for the exam to getting your license in hand, all explained step by step.",
+                fontSize = 14.sp,
+                color = Color.Black,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 16.dp)
+            )
+            Button(
+                onClick = navigateToUltimateGuide,
+                colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
+            ) {
+                Text(
+                    text = "Let's Start",
+                    color = Color.White
+                )
+            }
+        }
+    }
+    
+}
+
 @Preview(showBackground = true)
 @Composable
-private fun PreviewTestScreen() {
+private fun PreviewHomeScreen() {
     HomeScreen({}, {}, {})
 }

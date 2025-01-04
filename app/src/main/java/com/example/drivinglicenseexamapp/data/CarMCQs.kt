@@ -1071,7 +1071,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "तीन महिना",
             optionC = "पाँच महिना",
             optionD = "सात महिना",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
 
         Question(
@@ -1080,7 +1080,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१७ वर्ष",
             optionC = "१८ वर्ष",
             optionD = "२० वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "चालकले पालन गर्नु पर्ने शर्तहरु कति पटक भन्दा बढी उल्लंघन गरेमा चालक अनुमति पत्र निलम्बन हुन्छ?",
@@ -1088,7 +1088,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "चार पटक",
             optionC = "पाँच पटक",
             optionD = "छ पटक",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "कार/जिपको सवारी चालक अनुमति पत्र लिएको कति वर्ष पछि ठूला सवारी साधनको सवारी चालक अनुमति पत्र लिन सकिन्छ?",
@@ -1096,7 +1096,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२ वर्ष",
             optionC = "३ वर्ष",
             optionD = "४ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी साधनको नामसारी कुन कार्यालयले गर्छ?",
@@ -1104,7 +1104,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "जिल्ला प्रहरी कार्यालयले",
             optionC = "यातायात व्यवस्था कार्यालयले",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मजौला सवारीको सवारी चालक अनुमति पत्र नविकरण गर्दा कति दस्तूर लाग्छ?",
@@ -1112,7 +1112,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "दुई हजार",
             optionC = "दुई हजार पाँच सय",
             optionD = "तीन हजार",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र कति-कति वर्षमा नविकरण गर्नु पर्छ?",
@@ -1120,7 +1120,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३-३ वर्ष",
             optionC = "२-२ वर्ष",
             optionD = "७-७ वर्ष",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "जिपको चालक अनुमति पत्रको लागि कति शुल्क लाग्ने व्यवस्था रहेको छ?",
@@ -1128,7 +1128,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "सात सय",
             optionC = "दुई हजार",
             optionD = "एक हजार पाँच",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "चालकको ठेगाना बदलिएमा कति अवधिभित्र कार्यालयमा सूचना गर्नु पर्छ?",
@@ -1136,7 +1136,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "पन्ध्र दिन भित्र",
             optionC = "एक महिना भित्र",
             optionD = "पैतालिस दिन भित्र",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सार्वजनिक सवारी साधनमा महिलाको लागि कति सिट आरक्षित गरिएको छ?",
@@ -1152,7 +1152,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२ महिनाभित्र",
             optionC = "३ महिनाभित्र",
             optionD = "४ महिनाभित्र",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "लामो दुरीमा सञ्चालन हुने सार्वजनिक सवारी साधनको चालकले कति घण्टा पछि पालो फेर्न पर्छ?",
@@ -1176,7 +1176,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ वर्ष",
             optionC = "५ वर्ष",
             optionD = "७ वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रमा ठुला सवारी थप गर्दा कति दस्तुर लाग्छ?",
@@ -1192,7 +1192,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "रु. ५००",
             optionC = "रु. ३००",
             optionD = "रु. ४००",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "कति वर्ष पुराना भाडाका सवारी साधन सञ्चालन गर्न पाइँदैन?",
@@ -1200,7 +1200,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१५ वर्ष",
             optionC = "२० वर्ष",
             optionD = "२५ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "मोटर साइकलको चालक अनुमति पत्र नवीकरण गर्दा कति दस्तुर लाग्छ?",
@@ -1208,7 +1208,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "दुई हजार",
             optionC = "दुई हजार पाँच सय",
             optionD = "तीन हजार",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "तेस्रो पक्ष बीमा कति रकमको गर्नुपर्ने व्यवस्था रहेको छ?",
@@ -1216,7 +1216,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ लाख",
             optionC = "४ लाख",
             optionD = "५ लाख",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "लामो दूरीमा चल्ने यात्रुवाहक सार्वजनिक सवारी साधनले कति घण्टा पछि विश्राम गर्नु पर्छ?",
@@ -1224,7 +1224,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "प्रत्येक ५ घण्टामा",
             optionC = "प्रत्येक २ घण्टामा",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रको बहाल अवधि कति वर्षको हुने व्यवस्था रहेको छ?",
@@ -1232,7 +1232,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ वर्ष",
             optionC = "५ वर्ष",
             optionD = "१० वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "स्थानीय बाटोमा चल्ने यात्रुबाहक ठूला सार्वजनिक सवारीमा अशक्त व्यक्तिका लागि कति सिट सुरक्षित गरिएको छ?",
@@ -1248,7 +1248,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "४ महिना",
             optionC = "६ महिना",
             optionD = "८ महिना",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ठूला सवारीको सवारी चालक अनुमति पत्र नवीकरण गर्दा कति दस्तुर लाग्छ?",
@@ -1256,7 +1256,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "दुई हजार",
             optionC = "दुई हजार पाँच सय",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "म्याद सकिएको कति समयपछि सवारी चालक अनुमति पत्र नवीकरण गर्दा जरिवाना लाग्छ?",
@@ -1264,7 +1264,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "तीन महिना",
             optionC = "पाँच महिना",
             optionD = "सात महिना",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "बाटो इजाजत र नामसारी गर्नको लागि निवेदन फाराममा कतिको टिकट टाँस गर्नुपर्ने व्यवस्था छ?",
@@ -1272,7 +1272,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "दश रुपैयाँ",
             optionC = "दुई रुपैयाँको",
             optionD = "एक रुपैयाँको",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी दर्ता प्रमाण पत्र हराएको वा अन्य कुनै कारणबाट नासिएमा सो भएको कति दिन भित्र प्रतिलिपिका लागि निवेदन दिनु पर्छ?",
@@ -1280,7 +1280,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "९ दिन भित्र",
             optionC = "१५ दिन भित्र",
             optionD = "३० दिन भित्र",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "प्रदूषण पास स्टिकर नभएको सवारी साधन नियमित सडकमा लगिएमा के सजाय हुन्छ?",
@@ -1288,7 +1288,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "सवारी जफत",
             optionC = "भविष्यमा सवारी चलाउन प्रतिबन्ध",
             optionD = "चालकलाई जरिवाना",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र नवीकरण गर्ने समय एक वर्ष पार भएको अवस्थामा नियमअनुसार कति जरिवाना थप हुन्छ?",
@@ -1296,7 +1296,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "पचास प्रतिशत",
             optionC = "तीस प्रतिशत",
             optionD = "एक सय प्रतिशत",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी तथा यातायात व्यवस्था ऐन अनुसार ठूलो सवारीको चालक अनुमति पत्र प्राप्त गर्न कति उमेर पुगेको हुनुपर्छ?",
@@ -1304,7 +1304,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१८ वर्ष",
             optionC = "२१ वर्ष",
             optionD = "२५ वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "निजी सवारी साधनको प्रदूषण जाँच कति कति अवधिमा गरिन्छ?",
@@ -1312,7 +1312,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६/६ महिनामा",
             optionC = "१/१ वर्षमा",
             optionD = "२/२ वर्षमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "भन्सार तिरी ल्याएको मितिले कति दिन भित्र सवारी साधन दर्ता गराइसक्नु पर्छ?",
@@ -1320,7 +1320,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१५ दिनभित्र",
             optionC = "२० दिनभित्र",
             optionD = "२५ दिनभित्र",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "तौलको आधारमा ठूलो सवारी भन्नाले कति वजन भएको सवारीलाई बुझिन्छ?",
@@ -1336,7 +1336,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१ टनदेखि ४ टनसम्म",
             optionC = "४ टनदेखि १० टनसम्म",
             optionD = "१ टन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "तौलको आधारमा साना सवारी भन्नाले कति वजन भएको सवारीलाई बुझिन्छ?",
@@ -1352,7 +1352,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "वि.सं. २०४९",
             optionC = "वि.सं. २०५४",
             optionD = "वि.सं. २०५०",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "नेपालमा हाल सवारी प्रदूषण मापदण्ड ऐन कुन लागू भएको छ?",
@@ -1360,7 +1360,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "नेपाल सवारी प्रदूषण मापदण्ड, २०६०",
             optionC = "नेपाल सवारी प्रदूषण मापदण्ड, २०६५",
             optionD = "नेपाल प्रदूषण मापदण्ड, २०६९",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दर्ता प्रमाणपत्र कति अवधिमा नवीकरण गराउनुपर्छ?",
@@ -1368,7 +1368,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१ वर्षमा",
             optionC = "२ वर्षमा",
             optionD = "४ वर्षमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको म्याद सकिए पछि जरीवाना तिरेर कति वर्षसम्म नवीकरण गर्न पाइन्छ?",
@@ -1376,7 +1376,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ वर्ष",
             optionC = "२ वर्ष",
             optionD = "७ वर्ष",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र प्राप्त गर्नका लागि प्रयोगात्मक (ट्रायल) पास गरेको मितिले कति समय भित्र सवारी चालक दस्तुर (लाइसेन्स फि पेमेंट) बुझाइसक्नुपर्दछ?",
@@ -1384,7 +1384,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "५ वर्ष भित्र",
             optionC = "१५ दिन भित्र",
             optionD = "९० दिन भित्र",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको प्रतिलिपि दस्तुर कति हो?",
@@ -1392,7 +1392,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "पाँच सय",
             optionC = "एक हजार",
             optionD = "एक हजार पाँच सय",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्र खारेज गर्ने सक्ने अवस्था देहायका मध्ये कुन हो वा हुन्?",
@@ -1400,7 +1400,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "चालकको मृत्यु भएमा",
             optionC = "स्वेच्छाले खारेज गर्न चाहेमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको लिखित परीक्षा केन्द्रमा अनियमितता गरी निष्काशित गरिएको व्यक्तिलाई कति अवधिसम्म यस्तो परीक्षामा सामेल गराइँदैन?",
@@ -1408,7 +1408,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२ महिना",
             optionC = "३ महिना",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "अस्थायी सवारी दर्ताको प्रमाणपत्र बढीमा कति समय अवधिसम्म मान्य हुन्छ?",
@@ -1416,7 +1416,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ महिना",
             optionC = "६ महिना",
             optionD = "१ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "२५० किलोमिटर भन्दा बढी दूरी भएको बाटोलाई कुन बाटो भनिन्छ?",
@@ -1424,7 +1424,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "स्थानीय बाटो",
             optionC = "छोटो बाटो",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "२१ वर्ष पुगेको व्यक्ति कुन सवारी चलाउन योग्य मानिन्छ?",
@@ -1432,7 +1432,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "मझौला",
             optionC = "ठूला",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्र प्राप्त नगरी सवारी साधन चलाउँदा कति रुपैयाँ जरिवाना हुने व्यवस्था छ ?",
@@ -1440,7 +1440,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "रु. ४०० मात्र",
             optionC = "रु. ५०० देखि रु २००० सम्म",
             optionD = "रु. १०० सम्म",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रको परीक्षण काल कति समय रहने व्यवस्था छ ?",
@@ -1448,7 +1448,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१ वर्ष",
             optionC = "३ महिना",
             optionD = "१८ महिना",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी चालक अनुमति पत्रमा वर्ग थप गर्दा थप गरिएको मिति कति वर्षले बढ्छ ?",
@@ -1456,7 +1456,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "३ महिना",
             optionC = "बढ्दैन",
             optionD = "१८ महिना",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "बढीमा कति अवधिका लागि पटके बाटो इजाजत दिन सकिने व्यवस्था छ ?",
@@ -1464,7 +1464,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "७ दिन",
             optionC = "५ दिन",
             optionD = "एक महिना",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "एक पटक बाटो इजाजत लिएपछि उक्त इजाजत कति अवधिका लागि मान्य हुन्छ ?",
@@ -1480,7 +1480,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६ दिन",
             optionC = "१५ दिन",
             optionD = "१ वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "म्याद नाघिसकेको एक महिनासम्ममा बाटो इजाजत नवीकरण गर्नु परेमा अतिरिक्त कति प्रतिशत दस्तुर लाग्छ?",
@@ -1488,7 +1488,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२५ प्रतिशत",
             optionC = "१०० प्रतिशत",
             optionD = "अतिरिक्त शुल्क लाग्दैन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "जाँचपास गरेको कति दिन भित्र बाटोको इजाजतपत्र लिनु सक्नु पर्छ?",
@@ -1496,7 +1496,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६० दिन भित्र",
             optionC = "१० दिन भित्र",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक अनुमतिपत्रको लिखित परीक्षा उत्तीर्ण गर्न कम्तिमा कति प्रतिशत अंक प्राप्त गर्नु पर्ने हुन्छ?",
@@ -1504,7 +1504,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६० प्रतिशत",
             optionC = "८० प्रतिशत",
             optionD = "७० प्रतिशत",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "चलिरहेको सवारी मार्ग परिवर्तन गरी अपहरण गर्नेलाई कस्तो सजाय हुन्छ?",
@@ -1512,7 +1512,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "सवारी जफत",
             optionC = "देश निकाला",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "खारेज भएको सवारी चालक अनुमति पत्र कति दिन भित्र अधिकार प्राप्त अधिकारी समक्ष फिर्ता बुझाउनुपर्छ?",
@@ -1528,7 +1528,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "५ हजार देखि १५ हजार जरिवाना",
             optionC = "सवारी जफत",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "यात्रिवाहक सवारी चालक तथा अन्य कर्मचारीको बीमा रकम कति तोकिएको छ?",
@@ -1536,7 +1536,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "रु. २,००,०००",
             optionC = "रु. ३,००,०००",
             optionD = "रु. ६,००,०००",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "स्थानीय बाटो भन्नाले कति किलोमिटर लामो बाटोलाई बुझिन्छ?",
@@ -1544,7 +1544,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "५० किलोमिटरसम्मको",
             optionC = "२५ किलोमिटरसम्मको",
             optionD = "२५० किलोमिटरभन्दा लामो",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सार्वजनिक सवारीमा जेष्ठ नागरिकलाई भाडादरमा कति प्रतिशत छुट दिने व्यवस्था छ?",
@@ -1552,7 +1552,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "५० प्रतिशत",
             optionC = "१५ प्रतिशत",
             optionD = "२० प्रतिशत",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "उत्पादन भएको कति वर्ष पूरा भएका सवारीलाई निजी तथा अन्य नम्बरमा दर्ता गर्ने गरी हेरेर दर्ता गरिँदैन?",
@@ -1568,7 +1568,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१५ वर्ष",
             optionC = "७ वर्ष",
             optionD = "५ वर्ष",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "लामो बाटो भन्नाले कति किलोमिटर दूरीको सडकलाई बुझिन्छ?",
@@ -1576,7 +1576,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२५० कि.मि. भन्दा लामो बाटो",
             optionC = "२५ कि.मि. भन्दा छोटो बाटो",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "मध्यम बाटो भन्नाले कति किलोमिटर लामो सडकलाई बुझिन्छ?",
@@ -1584,7 +1584,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१०० देखि २५० कि.मि. लामो सडक",
             optionC = "२५ कि.मि. भन्दा छोटो सडक",
             optionD = "२५ देखि १०० कि.मि. लामो सडक",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "छोटो बाटो भन्नाले कति किलोमिटर लामो सडकलाई बुझिन्छ?",
@@ -1592,7 +1592,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१०० देखि २५० कि.मि. लामो सडक",
             optionC = "२५ कि.मि. भन्दा छोटो सडक",
             optionD = "२५ देखि १०० कि.मि. लामो सडक",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "अस्थायी दर्ताको प्रमाणपत्र एक पटक वा पटक/पटक गरी बढीमा कति बहाल अवधि रहेको हुन्छ?",
@@ -1600,7 +1600,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६ महिना",
             optionC = "१४ महिना",
             optionD = "५ वर्ष",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "विदेशमा दर्ता भएको सवारी बढीमा कति अवधिका लागि नेपालमा चलाउन अनुमति प्रदान गर्न सकिन्छ?",
@@ -1616,7 +1616,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "रु. ५०००",
             optionC = "दर्ता गर्दा लाग्ने जति",
             optionD = "रु. २५००",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "दर्ताको प्रमाणपत्र स्थगित गरेर अधिकार प्राप्त अधिकारीले आदेश दिएको कति दिनभित्र सवारी दर्ताको प्रमाण पत्र बुझाउनुपर्दछ?",
@@ -1632,7 +1632,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "प्रयोगात्मक",
             optionC = "माथिका दुबै",
             optionD = "कुनै पनि परीक्षा दिनु पर्दैन",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षा उत्तीर्ण हुन न्यूनतम कति प्रतिशत अंक प्राप्त गर्नुपर्छ?",
@@ -1640,7 +1640,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "६० प्रतिशत",
             optionC = "७० प्रतिशत",
             optionD = "८० प्रतिशत",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा यू टर्न गर्दा तोकिएको रेखा छोप्दा के हुन्छ?",
@@ -1656,7 +1656,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२० अंक",
             optionC = "१५ अंक",
             optionD = "२४ अंक",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा कति पटकसम्म स्टार्ट बन्द हुँदा परीक्षाको मौका दिइन्छ?",
@@ -1664,7 +1664,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "२ पटक",
             optionC = "३ पटक",
             optionD = "४ पटक",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा सिटबेल्टको प्रयोग नगरी सवारी चलाउन सुरु गर्दा कति अंक घट्छ?",
@@ -1672,7 +1672,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "४ अंक",
             optionC = "अंक नै घट्दैन",
             optionD = "अयोग्य घोषणा गरिन्छ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "वर्ग ख (कार/जिप/डेलिभरी भ्यान) को सवारी चालक अनुमति पत्रको प्रयोगात्मक परीक्षामा ग्यारेज पार्किङ टेष्ट गर्दा प्रयोग हुने ग्यारेज ट्र्याकको चौडाई कति हुन्छ?",
@@ -1696,7 +1696,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "१४ मिटर",
             optionC = "१६ मिटर",
             optionD = "२० मिटर",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "एक पटक लिखित परीक्षा पास गरिसकेपछि बढीमा कति अवधिसम्म ट्रायल परीक्षा दिन पाइन्छ?",
@@ -1704,7 +1704,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "९ महिनासम्म",
             optionC = "१२ महिनासम्म",
             optionD = "१८ महिनासम्म",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "एक पटक लिखित परीक्षा उतीर्ण गरिसकेपछि बढीमा कति पटकसम्म ट्रायल परीक्षा दिन पाइन्छ?",
@@ -1720,7 +1720,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "बाटो",
             optionC = "पेटी",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "निजी सवारीले सवारी साधन कर कहिलेसम्म बुझाउनुपर्छ?",
@@ -1728,7 +1728,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "चैत मसान्त",
             optionC = "असोज मसान्त",
             optionD = "म्याद समाप्त भएको ३ महिना भित्र",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "खारेज भएको अनुमतिपत्र कति दिन भित्र फिर्ता बुझाउनुपर्छ?",
@@ -1736,7 +1736,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "पन्ध्र दिनभित्र",
             optionC = "तीस दिनभित्र",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "पर्यटक सवारी साधनलाई कुन सवारी साधन सरह मानिन्छ?",
@@ -1760,7 +1760,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "५० वर्ष",
             optionC = "६० वर्ष",
             optionD = "४५ वर्ष",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी परीक्षण कार्यालयमा मझौला र साना सवारी साधनको जाँचपास प्रमाणपत्रको दरखास्त दस्तुर कति लाग्छ?",
@@ -1776,7 +1776,7 @@ fun getCarQuestionsB(): List<Question> {
             optionB = "सवारी चालक अनुमति पत्र प्राप्त व्यक्ति",
             optionC = "यातायात व्यवसायी कम्पनीमा काम गर्ने व्यक्ति",
             optionD = "संघ संस्थामा काम गर्ने व्यक्ति",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         )
     )
 
@@ -1792,7 +1792,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "मेकानिकल इन्जिनियरको",
             optionC = "सवारी चालकको",
             optionD = "यातायात व्यवस्था कार्यालयको",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "अकस्मात सवारी रोक्न के गर्न पर्छ?",
@@ -1800,7 +1800,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "हर्न बजाउने",
             optionC = "ट्राफिक प्रहरीलाई सोध्ने",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "इन्जिन भित्र पानी कहाँबाट पस्न सक्छ?",
@@ -1816,7 +1816,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "सवारीको तापक्रम नाप्ने",
             optionC = "सवारीको फ्यूल नाप्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कस्तो अवस्थामा ब्रेक लाइट बल्छ?",
@@ -1824,7 +1824,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "एक्सिलेटर दबाउँदा",
             optionC = "फुटब्रेक लगाउँदा",
             optionD = "हर्न बजाउँदा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "स्पार्क प्लगको काम के हो?",
@@ -1832,7 +1832,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिनमा पानीको मात्रा पुर्याउने",
             optionC = "इन्जिनमा मोबिल पुर्याउने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "फोरह्विल ड्राइभ सवारी साधन भन्नाले कस्तो सवारीलाई जनाउँछ?",
@@ -1840,7 +1840,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "चारवटै चक्कामा इन्जिन पावर भएको सवारी",
             optionC = "छोटो दुरीमा सज्चालन हुने सवारी",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हर्न तलकामध्ये कुन शक्तिले बज्छ?",
@@ -1848,7 +1848,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "हावाको प्रेसर",
             optionC = "ब्रेक",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "इन्जिनको पार्टपुर्जालाई चिल्लो बनाउने काम केले गर्छ?",
@@ -1856,7 +1856,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डिजल",
             optionC = "मोबिल",
             optionD = "पानी",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "कार्बोरेटरमा इन्धनको मात्रा बढाउने यन्त्रलाई के भनिन्छ?",
@@ -1864,7 +1864,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "क्लच",
             optionC = "ब्याट्री",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मास्टर सिलिण्डरले के काम गर्छ?",
@@ -1872,7 +1872,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "उकालो चढ्न मद्दत गर्छ",
             optionC = "ब्याक गर्न मद्दत गर्छ",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कार्बोरेटर कुन इन्जिनमा हुन्छ?",
@@ -1880,7 +1880,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डिजल इन्जिनमा",
             optionC = "विद्युतिय इन्जिनमा",
             optionD = "माथिका सबैमा",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "गाडीको गति बढाउने मुख्य दुई यन्त्रहरु के के हुन्?",
@@ -1888,7 +1888,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "एक्सिलेटर र स्टेरिङ",
             optionC = "गियर र एक्सिलेटर",
             optionD = "फ्यान बेल्ट र एक्सिलेटर",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ड्यास बोर्ड मिट्समा रहेको आयल प्रेसर मिटरको रातो बत्ती बल्दा के गर्नु पर्छ?",
@@ -1896,7 +1896,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिन बन्द गर्नुपर्छ",
             optionC = "ब्रेक लगाउनुपर्छ",
             optionD = "हर्न बजाउनुपर्छ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "रेडिएटरमा के राखिन्छ?",
@@ -1904,7 +1904,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डिजल",
             optionC = "पानी",
             optionD = "एसिड",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "इन्जिन स्टार्ट गर्दा कुन गियरमा राखी गर्नु पर्छ?",
@@ -1912,7 +1912,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "२ गियरमा",
             optionC = "३ गियरमा",
             optionD = "न्यूट्रलमा",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गाडीको इन्जिन स्टार्ट गर्दा कालो धुँवा आएमा के गर्न पर्दछ?",
@@ -1920,7 +1920,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "साइलेन्सर पाइप झिकेर फाल्ने",
             optionC = "इन्जिन मर्मतको लागि वर्कसपमा लाने",
             optionD = "इन्धन थप्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ब्याट्रीको शक्ति नाप्ने मिटरको नाम के हो?",
@@ -1928,7 +1928,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "स्पिडो मिटर",
             optionC = "हाइड्रो मिटर",
             optionD = "एम्पियर मिटर",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गाडी ब्याक गर्दा कुन गियर प्रयोग गर्नु पर्छ?",
@@ -1952,7 +1952,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डाइनामो",
             optionC = "क र ख दुबै",
             optionD = "क र ख दुबै होइनन्",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गियर बक्सको मुख्य काम के हो?",
@@ -2000,7 +2000,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिनलाई तताउनु",
             optionC = "इन्जिनको स्पिड घटाउन बढाउन मद्दत गर्नु",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चलाउनु अघी चालकले चेक गर्नु पर्ने के हो?",
@@ -2008,7 +2008,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "चक्काहरु",
             optionC = "गाडीको रङ",
             optionD = "ब्रेक",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "डिफरेन्सलबाट गियर आयल थोपा चुहिन थालेपछि के गर्नुपर्छ?",
@@ -2016,7 +2016,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "कसरी चुहिएको हो मर्मत गरी हाल्ने",
             optionC = "आवाज नआउन्जेलसम्म चलाइराख्ने",
             optionD = "तातो नहुन्जेलसम्म चलाइ राख्ने",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारीको चक्कालाई कसले नियन्त्रण गर्छ?",
@@ -2024,7 +2024,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ब्रेक",
             optionC = "बडी",
             optionD = "व्याट्री",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "रिभर्स लाइट कति बेला बालिन्छ?",
@@ -2032,7 +2032,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ह्याण्ड ब्रेक लगाउँदा",
             optionC = "एक्सिलेटर थिच्दा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "डिजल इन्जिनको सिलिन्डरभित्र केलाई कम्प्रेस गरिन्छ?",
@@ -2040,7 +2040,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ईन्धनलाई",
             optionC = "हावालाई",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "एक्कासी फुट ब्रेक लाग्न कम भएमा के चेक गर्नु पर्छ?",
@@ -2048,7 +2048,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ब्रेक आयल लेभल चेक गर्ने",
             optionC = "मास्टर सिलिन्डर चेक गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "जाडो मौसममा इन्जिन स्टार्ट नभए स्टार्ट गर्न के गर्नुपर्छ?",
@@ -2056,7 +2056,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "मोबिलमा पानी थप गर्नुपर्छ",
             optionC = "इन्धन थप गर्नु पर्छ",
             optionD = "चोक प्रयोग गर्नुपर्छ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारीमा भएको ब्याट्री कसरी चार्ज हुन्छ?",
@@ -2064,7 +2064,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "गाडीको इन्धनबाट",
             optionC = "गाडीको डाइनामोबाट",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "डिप स्टिकको काम के हो?",
@@ -2072,7 +2072,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "पानीको मात्रा चेक गर्ने",
             optionC = "तेलको मात्रा ठिक गर्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "एक्सिलेटरको काम के हो?",
@@ -2080,7 +2080,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "तेल बन्द गर्ने",
             optionC = "स्पीड अनुसार तेलको मात्रा दिने",
             optionD = "धुँवा धेरै फाल्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "डिफरेन्सियल काम के हो?",
@@ -2088,7 +2088,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "चक्कामा हावा भर्ने",
             optionC = "चक्काको पङ्क्चर टाल्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "गाडीको एक्सलको मुख्य काम के हो?",
@@ -2096,7 +2096,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "गाडीको लोड थाम्ने",
             optionC = "मोशन चक्कासम्म पुर्याउने",
             optionD = "फोर ह्विल्ड लगाउने",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "वाईपर भनेको के हो?",
@@ -2104,7 +2104,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "गाडी रोक्ने यन्त्र",
             optionC = "गाडी पुछ्ने टावेल",
             optionD = "सिसा सफा गर्ने यन्त्र",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "चालु इन्जिनमा विद्यु‍त उत्पादन गर्ने यन्त्रको नाम के हो?",
@@ -2112,7 +2112,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "चार्जिङ डायनामो",
             optionC = "ड्राइसेल",
             optionD = "टर्चलाइट",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "पेट्रोल इन्जिनलाई अर्को शब्दमा के भनिन्छ?",
@@ -2120,7 +2120,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "हाइड्रोलिक इन्जिन",
             optionC = "ग्यासोलिन इन्जिन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ह्याण्ड ब्रेक कुन अवस्थामा लगाउनु घातकजनक मानिन्छ?",
@@ -2128,7 +2128,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ओरालोमा",
             optionC = "बढि स्पीड भएको अवस्थामा",
             optionD = "घुम्तीहरूमा",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "स्टेरिङले कहाँ काम गर्छ?",
@@ -2136,7 +2136,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "पछाडिको चक्कामा",
             optionC = "गियरमा",
             optionD = "इन्जिनमा",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीमा ब्रेकले कहाँ काम गर्छ?",
@@ -2144,7 +2144,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "स्टेरिङमा",
             optionC = "चक्कामा",
             optionD = "गियरमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "ब्रेकमा कुन सिस्टम जडित हुन्छ?",
@@ -2160,7 +2160,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डिस्टिल्वाटर हाल्ने",
             optionC = "मिनरलवाटर",
             optionD = "तौरीको तेल",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "चोक लिभर कहिले बन्द गर्नु पर्छ?",
@@ -2168,7 +2168,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "कुनै पनि बेला",
             optionC = "इन्जिन स्टार्ट भएपछि",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी चलाउँदा कालो धुवाँ आएमा के गर्नु पर्छ?",
@@ -2176,7 +2176,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिन मर्मत गर्नु पर्छ",
             optionC = "साइलेंसर पाइप बन्द गर्नु पर्छ",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "गाडी गुडेको गति मापन गर्ने यन्त्र तलका मध्ये कुन होइन?",
@@ -2184,7 +2184,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "थर्मो मिटर",
             optionC = "हेक्टोमिटर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ब्याट्री ओभर चार्ज हुनबाट केले बचाउँछ?",
@@ -2192,7 +2192,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "कट आउट",
             optionC = "एयर कुलर",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "इग्निशन स्विच केसँग सम्बन्धित छ?",
@@ -2208,7 +2208,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "दायाँ तिर",
             optionC = "बायाँ तिर",
             optionD = "टक्क अडिन्छ",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "स्टेरिङ बक्समा कुन आयल राखिन्छ?",
@@ -2216,7 +2216,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "मोटर आयल",
             optionC = "स्टेरिङ आयल",
             optionD = "ग्रीस",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "इन्जिनमा विद्युत्को मुख्य स्रोत के हो?",
@@ -2224,7 +2224,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ब्याट्री",
             optionC = "मोटर",
             optionD = "डिजेल",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "तलका मध्ये के कारणले चलिरहेको गाडीको इन्जिन बन्द हुँदैन?",
@@ -2232,7 +2232,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिन सही अवस्थामा रहेमा",
             optionC = "इन्धन नसकिएमा",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालक प्रशिक्षण केन्द्रमा प्रयोग गरिने चार पाङ्ग्रे सवारी साधनको क्षमता कति तोकिएको छ?",
@@ -2240,7 +2240,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "७९८ सि.सि.",
             optionC = "७९७ सि.सि.",
             optionD = "७९५ सि.सि.",
-            correctOptionIndex = 2
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारी चालक प्रशिक्षण केन्द्रमा प्रयोग गरिने विद्युतीय तीन पाङ्ग्रे सवारी साधनको विद्युतीय क्षमता कति तोकिएको छ?",
@@ -2248,7 +2248,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "८०० वाट",
             optionC = "९०० वाट",
             optionD = "७०० वाट",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "गाडीको चक्का घुमाउने काम के ले गर्छ?",
@@ -2256,7 +2256,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "गियरले",
             optionC = "डिफ्रेन्सियलले",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "रेडिएटरमा तलका मध्ये के राखिदैन?",
@@ -2264,7 +2264,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "डिजेल",
             optionC = "एसिड",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "इन्जिनको शक्ति के ले नियन्त्रण गर्छ?",
@@ -2272,7 +2272,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ब्रेकले",
             optionC = "स्टेरिङले",
             optionD = "कलचले",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "सवारीको इन्जिनमा करेन्ट दिने काम के ले गर्छ?",
@@ -2280,7 +2280,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "क्लचले",
             optionC = "स्टेरिङले",
             optionD = "स्पार्क प्लगले",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "डाईनामोको काम के हो?",
@@ -2288,7 +2288,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "रेडिएटरको पानी चिसो पार्ने",
             optionC = "ब्याट्री चार्ज गर्ने",
             optionD = "डाईनामोको काम नै छैन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "इन्जिनको पार्टपुर्जालाई तलका मध्ये के ले चिल्लो बनाउँछ?",
@@ -2296,7 +2296,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "मोबिल",
             optionC = "स्टेरिङ आयल",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "फ्युल नाप्न तलका मध्ये कुन प्रयोग गरिदैन?",
@@ -2304,7 +2304,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "थर्ममिटर",
             optionC = "टेलिस्कोप",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "तलका मध्ये ब्रेकको काम कुन होईन?",
@@ -2312,7 +2312,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "गाडीलाई मोड्ने",
             optionC = "गाडीलाई ब्याक गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चलाउनु पूर्व के गर्नु पर्छ?",
@@ -2320,7 +2320,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ट्राफिकलाई खबर गर्ने",
             optionC = "मेकानिकल इन्जिनियरलाई खबर गर्ने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "फ्यानलाई घुमाउने काम के ले गर्छ?",
@@ -2328,7 +2328,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "क्लचले",
             optionC = "फ्यान बेल्टले",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "गाडीमा फ्युलको मात्रा हेर्ने के हेर्नु पर्छ?",
@@ -2336,7 +2336,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "स्पीडोमिटर",
             optionC = "थर्ममिटर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "एक्सिलेटरको मुख्य काम के होइन ?",
@@ -2344,7 +2344,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "तेल बन्द गर्ने काम",
             optionC = "प्रदूषण कम गर्ने काम",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "स्टेरिङले कहाँ काम गर्दैन?",
@@ -2352,35 +2352,35 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "इन्जिनमा",
             optionC = "ब्रेकमा",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),Question(
             questionText = "ब्रेकले केमा काम गर्दैन?",
             optionA = "इन्जिनमा",
             optionB = "गियरमा",
             optionC = "स्टेरिङमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),Question(
             questionText = "सवारी साधनमा बिजुलीको मुख्य स्रोत कुन हो?",
             optionA = "इन्धन",
             optionB = "इन्जिन",
             optionC = "डायनामो",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),Question(
             questionText = "मोबिललाई विभिन्न पार्टपुर्जामा पुर्याउने काम के ले गर्छ?",
             optionA = "चोकले",
             optionB = "आयल पम्पले",
             optionC = "काबुरेटरले",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),Question(
             questionText = "इन्जिनमा कुन तेल हालिन्छ?",
             optionA = "मट्टितेल तेल",
             optionB = "ब्रेक आयल",
             optionC = "इन्जिन आयल",
             optionD = "डिजेल आयल",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),Question(
             questionText = "डिजेल इन्जिन स्टार्ट हुन के को आवश्यकता पर्छ?",
             optionA = "डिजेल र हावा",
@@ -2395,7 +2395,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "क्लच",
             optionC = "फुटब्रेक",
             optionD = "ह्यान्ड ब्रेक",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी साधनमा सि.सि. भनेको के हो?",
@@ -2403,7 +2403,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "ब्रेकको क्षमता",
             optionC = "गियर बक्सको क्षमता",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "वर्कशपको कार्य तलकामध्ये कुन हो?",
@@ -2411,7 +2411,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "सवारीको फिनिसिङ गर्ने",
             optionC = "सवारीको बडी बनाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ड्राइभिङ प्रशिक्षण केन्द्रको कार्य तलकामध्ये कुन हो?",
@@ -2419,7 +2419,7 @@ fun getCarQuestionsC(): List<Question> {
             optionB = "लाइसेन्स फाराम दर्ता गराई दिने",
             optionC = "ट्रायल परीक्षामा सिकाउने",
             optionD = "सवारी साधन चलाउन प्रशिक्षण दिने",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         )
     )
 
@@ -2435,7 +2435,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "सवारीमा राखिने इन्धन",
             optionC = "सवारी भित्रको फोहोर",
             optionD = "सवारीबाट निस्कने धुवाँ",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी साधनबाट हुने प्रदूषणमा सवारीको कुन भागले प्रभाव पार्छ?",
@@ -2443,7 +2443,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "गियर बक्सले",
             optionC = "इन्धनले",
             optionD = "इन्जिनको अवस्थाले",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सबैभन्दा कम प्रदूषण गर्ने इन्जिन कुन हो?",
@@ -2451,7 +2451,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "पेट्रोल इन्जिन",
             optionC = "विद्युत इन्जिन",
             optionD = "कोइला इन्जिन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "हर्नको कारणले कस्तो प्रदूषण हुने गर्छ?",
@@ -2459,7 +2459,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "माटोको प्रदूषण",
             optionC = "पानीको प्रदूषण",
             optionD = "ध्वनि प्रदूषण",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "टु-स्ट्रोक र फोर-स्ट्रोक इन्जिनका सवारी साधनमध्ये कुनले वातावरण प्रदूषण बढी गराउँछ?",
@@ -2467,7 +2467,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "फोर-स्ट्रोकले",
             optionC = "क र ख दुबै",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "प्रदूषणमुक्त सहर बनाउनलाई कुन गाडी सञ्चालनमा ल्याउदा उपयुक्त हुन्छ?",
@@ -2475,7 +2475,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "डिजेल",
             optionC = "पेट्रोल",
             optionD = "ग्यास",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "विद्युतबाट सञ्चालित सवारी साधनको प्रदूषण कहाँ परीक्षण हुन्छ?",
@@ -2483,7 +2483,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "विद्युत प्राधिकरण",
             optionC = "यातायात व्यवस्था कार्यालय",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कस्तो क्षेत्रमा हर्न बजाउन हुँदैन?",
@@ -2491,7 +2491,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "ट्राफिक जाम भएको क्षेत्र",
             optionC = "विद्यालय र अस्पताल नजिक",
             optionD = "नारा जुलुस भएको ठाउँमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी साधनको धुवाँ कहाँबाट बाहिर निस्कन्छ?",
@@ -2499,7 +2499,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "इन्जिन",
             optionC = "गियर",
             optionD = "एक्सल",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "हाल कुन सवारी प्रदूषण मापदण्ड लागू भएको हो?",
@@ -2507,7 +2507,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "वि.सं. २०४९",
             optionC = "वि.सं. २०७९",
             optionD = "वि.सं. २०५६",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारीको प्रदूषण जाँचपास किन गरिन्छ?",
@@ -2515,7 +2515,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "सवारी दुर्घटनाबाट बचाउन",
             optionC = "क र ख दुबै",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारीको प्रदूषण जाँचपास कसले गर्छ?",
@@ -2523,7 +2523,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "यातायात व्यवस्था कार्यालयले",
             optionC = "ट्राफिक प्रहरी कार्यालयले",
             optionD = "क र ख दुबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "निम्नमध्ये कुन प्रकारको साधनमा सवारी प्रदूषण मापदण्ड, २०६९ लागू हुँदैन?",
@@ -2531,7 +2531,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "ठूला बसहरु",
             optionC = "डोजर लोडर जस्ता संयन्त्रहरु",
             optionD = "सबैलाई लागू हुन्छ",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "प्रदूषण पास स्टिकर नभएको सवारीसाधन निषेधित क्षेत्रमा चलाएमा के हुन्छ?",
@@ -2539,7 +2539,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "सवारी जफत",
             optionC = "कैद",
             optionD = "क र ख दुबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कुन सवारी साधनको प्रदूषण परीक्षण गर्नु पर्दैन?",
@@ -2547,7 +2547,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "विद्युतबाट चल्ने",
             optionC = "डिजेलबाट चल्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारीको प्रदूषण जाँचपास कसले गर्दैन?",
@@ -2563,7 +2563,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "बडीको",
             optionC = "धुँवाको",
             optionD = "इन्धनको",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी साधनको जाँचपासको काम कसले गर्छ?",
@@ -2571,7 +2571,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "यातायात व्यवस्था विभागले",
             optionC = "ट्राफिक प्रहरी कार्यालयले",
             optionD = "यातायात व्यवस्था कार्यालयले",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सफा टेम्पोमा कुन रङको स्टिकर टाँसिएको हुन्छ?",
@@ -2579,7 +2579,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "रातो",
             optionC = "हरियो",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारीको धुवाँका कारण के प्रदूषण हुन्छ?",
@@ -2587,7 +2587,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "माटोको प्रदूषण",
             optionC = "पानीको प्रदूषण",
             optionD = "ध्वनीको प्रदूषण",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कुन इन्धनबाट बढी प्रदूषण हुन्छ?",
@@ -2595,7 +2595,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "डिजेल",
             optionC = "पेट्रोल",
             optionD = "ग्यास",
-            correctOptionIndex = 1
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "जाँचपास प्रमाणपत्र कस्ता सवारीलाई आवश्यक हुन्छ?",
@@ -2603,7 +2603,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "भाडाका सवारी",
             optionC = "सरकारी सवारी",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "मोटरसाइकलको प्रदूषण जाँच कहाँ गराउनु पर्छ?",
@@ -2611,7 +2611,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "ग्यारेज",
             optionC = "वर्कसप",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "प्रदूषण स्टिकर कस्तो रङको हुन्छ?",
@@ -2619,7 +2619,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "निलो",
             optionC = "पहेंलो",
             optionD = "रातो",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "प्रदूषण जाँच नगरी सवारी चलाए के हुन्छ?",
@@ -2635,7 +2635,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "१/१ वर्षमा",
             optionC = "२/२ वर्षमा",
             optionD = "३/३ महिनामा",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी साधनमा टाँसिने हरियो स्टिकरले के लाई संकेत गर्छ?",
@@ -2643,7 +2643,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "सवारी साधन प्रदूषणरहित छ",
             optionC = "क र ख दुबै",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "तलका मध्ये कुन सवारीले धुवाँ फाल्दैन?",
@@ -2667,7 +2667,7 @@ fun getCarQuestionsD(): List<Question> {
             optionB = "वीरगन्ज बजारमा",
             optionC = "विराटनगर उपमहानगरपालिकामा",
             optionD = "नेपाल भर",
-            correctOptionIndex = 4
+            correctOptionIndex = 1
         )
     )
 
@@ -2684,7 +2684,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "सवारी नियमको पालना गर्नु",
             optionC = "सडकमा गुड्ने सवारी साधनलाई महत्व दिनु",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारीलाई मोड्दा कुन लाइट बाल्नु पर्छ?",
@@ -2692,7 +2692,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "हेड लाइट",
             optionC = "ब्रेक लाइट",
             optionD = "साइड लाइट",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "रातो ट्राफिक लाइटको अर्थ के हो?",
@@ -2700,7 +2700,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "सवारी साधन रोक्ने संकेत",
             optionC = "सुरक्षित हुने संकेत",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "हर्नको प्रयोग कुन बेला गर्नु पर्छ?",
@@ -2708,7 +2708,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "हर्न बजाउँदै नबजाउने",
             optionC = "धेरै भिड भएको ठाउँमा बजाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कस्तो अवस्थामा सवारी साधन रोक्नु पर्छ?",
@@ -2716,7 +2716,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "जेब्रा क्रसिङमा मानिस ओहोर दोहोर गरेको ठाउँमा",
             optionC = "ट्राफिक प्रहरीले रोक्न संकेत गरेको बेला",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "जेब्रा क्रसिङ सडकको कुन भागमा राखिन्छ?",
@@ -2724,7 +2724,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "सबै चोकमा",
             optionC = "चोक बाहेक अन्यत्र",
             optionD = "माथिका सबै",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कस्तो ठाउँमा सवारीको गति कम गर्नु पर्छ?",
@@ -2732,7 +2732,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "बाक्लो बस्ती भएको ठाउँ",
             optionC = "चौबाटो",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "तिव्र गतिमा सवारी चलाउँदा के हुन्छ?",
@@ -2740,7 +2740,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "छिटो गन्तव्यमा पुगिन्छ",
             optionC = "दुर्घटना हुने सम्भावना हुन्छ",
             optionD = "सवारी पुरानो हुन्छ",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "जेब्रा क्रसिङ केका लागि बनाइएको हुन्छ?",
@@ -2748,7 +2748,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "जनावरले सडक पार गर्न",
             optionC = "सवारी साधन रोक्न",
             optionD = "पैदल यात्रीले सडक पार गर्न",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "विद्यालय तथा अस्पताल अगाडि सवारी चलाउँदा के गर्नु हुँदैन?",
@@ -2756,7 +2756,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "तीव्र गतिमा चलाउन हुँदैन",
             optionC = "ओभरटेक गर्नु हुँदैन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "बाक्लो बस्ती भएको इलाकामा प्रति घण्टा कति गतिमा सवारी चलाउन पर्छ?",
@@ -2772,7 +2772,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "नजिकका बासिन्दालाई",
             optionC = "घाइतेका आफन्तलाई",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "मानिसले बाटो काट्न लागेको समयमा आफ्नो सवारीलाई के गर्नु पर्छ?",
@@ -2780,7 +2780,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "सवारीको गति बढाउने",
             optionC = "सवारी फर्काउने",
             optionD = "सवारीको गति कम गरी बाटो काट्न दिने",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चलाउँदा सिट बेल्टको प्रयोग किन गरिन्छ?",
@@ -2788,7 +2788,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "ट्राफिक प्रहरीको कारवाहीबाट बच्न",
             optionC = "दुर्घटना भए कम क्षति होस् भनेर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "बाटोमा टायर पङ्चर भएमा के गर्नु हुन्छ?",
@@ -2796,7 +2796,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "गाडी छेउ लगाएर छोडेर जाने",
             optionC = "स्पेयर टायर प्रयोग गरी पङ्चर टाल्ने",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी साधन बायाँ मोड्दा के गर्नु पर्दछ?",
@@ -2804,7 +2804,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "दायाँ साइड लाइट बालेर मोड्ने",
             optionC = "बायाँ साइड लाइट बालेर मोड्ने",
             optionD = "बेस्सरी हर्न बजाउने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सुरक्षाका दृष्टिले कस्तो समयमा यात्रा नगर्नु राम्रो मानिन्छ?",
@@ -2812,7 +2812,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "बाक्लो हिँड्दै गरेको समयमा",
             optionC = "बाक्लो कुहिरो लागेको समयमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "बाटोमा गुडिरहेको सवारीको गति पत्ता लगाउँदा प्रहरीले प्रयोग गर्ने साधन कुन हो?",
@@ -2820,7 +2820,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "रेस गन",
             optionC = "स्पिड गन",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "रातो ट्राफिक लाइटको अर्थ के हो?",
@@ -2828,7 +2828,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "सवारी साधन रोक्ने संकेत",
             optionC = "जाने संकेत",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "उछिन्ने (ओभरटेक गर्ने) कार्य गर्दा कस्तो प्रकारले गर्नु पर्दछ?",
@@ -2836,7 +2836,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "हर्न बजाएर",
             optionC = "सिधा बाटो र सुरक्षित भएमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गोलो घुम्तीमा कताबाट आउने सवारी साधनलाई पहिलो प्राथमिकता दिनु पर्दछ?",
@@ -2844,7 +2844,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "बायाँबाट आउनेलाई",
             optionC = "पछाडिबाट आउनेलाई",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "ओभरटेक गर्दा कुन साइडबाट गर्नुपर्छ?",
@@ -2852,7 +2852,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "दायाँबाट",
             optionC = "दुवै साइडबाट",
             optionD = "कुनै साइडबाट पनि होइन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "दुर्घटनामा परेको कसतो घाइतेलाई क्रियाशील अक्सिजन दिनु पर्दछ?",
@@ -2860,7 +2860,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "रगत बगिरहेको",
             optionC = "बेहोस अवस्थामा रहेको",
             optionD = "होसमा रहेको",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी दुर्घटना हुँदा कसलाई सूचना दिनु पर्दछ?",
@@ -2868,7 +2868,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "नजिकका बासिन्दालाई",
             optionC = "घाइतेका आफन्तलाई",
             optionD = "सडक यात्रीलाई",
-            correctOptionIndex = 0
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "ओभरटेक गर्दा अगाडिको सवारीलाई कसरी संकेत दिनु पर्दछ?",
@@ -2876,7 +2876,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "हर्न बजाएर",
             optionC = "साइड लाइट बालेर",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "दिनभन्दा रातमा किन दुर्घटनाको सम्भावना बढी हुन्छ?",
@@ -2884,7 +2884,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "बढी सवारी गुड्ने हुनाले",
             optionC = "यात्रुहरूले मादक पदार्थ सेवन गर्नाले",
             optionD = "माथिका कुनै पनि होइनन्",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "कस्तो ठाउँमा सवारीको गति कम गर्नु पर्दैन?",
@@ -2892,7 +2892,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "स्कूल क्षेत्रमा",
             optionC = "चोकबाटोमा",
             optionD = "खुल्ला बाटोमा",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चलाउँदा के गर्नु हुँदैन?",
@@ -2900,7 +2900,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "मादक पदार्थ सेवन गर्नु हुँदैन",
             optionC = "यात्रुसँग झगडा गर्नु हुँदैन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "रातको समयमा गाडी पार्क गर्दा बालिने लाइट कुन हो?",
@@ -2908,7 +2908,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "साइड लाइट",
             optionC = "पार्किङ लाइट",
             optionD = "कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "पछाडि आएको सवारीले ओभरटेक गर्न लाग्दा के गर्नुपर्छ?",
@@ -2916,7 +2916,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "आफ्नो सवारी स्लो गरी साइड दिने",
             optionC = "हर्न बजाउने",
             optionD = "केही नगर्ने",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "बढी उकालोमा सवारी चलाउँदा कुन गियरमा सवारी चलाउन पर्दछ?",
@@ -2924,7 +2924,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "दुई गियरमा",
             optionC = "तीन गियरमा",
             optionD = "चार गियरमा",
-            correctOptionIndex = 0
+            correctOptionIndex = 1
         ),
         Question(
             questionText = "लुकिङ् ग्लास कुन ठाउँबाट हेर्नु पर्छ?",
@@ -2932,7 +2932,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "व्याक गर्दा",
             optionC = "दायाँबायाँ मोड्दा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "आफ्नो सवारीभन्दा पछाडिको सवारीले ओभरटेक गर्ने क्रममा के गर्न हुँदैन?",
@@ -2940,7 +2940,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "गति बढाउन",
             optionC = "हर्न बजाउन",
             optionD = "ख र ग",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चलाउँदा चालकको अवस्था कस्तो हुन जरुरी छ?",
@@ -2948,7 +2948,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "लागू पदार्थ सेवन नगरेको",
             optionC = "जुत्ता लगाएको",
             optionD = "रातभर नसुतेको",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारीको यान्त्रिक अवस्था ठीक नभएमा सवारी चालकले सर्वप्रथम कसलाई जानकारी गराउन पर्छ?",
@@ -2956,7 +2956,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "नजिकको प्रहरी कार्यालय",
             optionC = "सवारी धनी वा व्यवस्थापक",
             optionD = "जिल्ला प्रशासन कार्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी रोक्दा कस्तो ठाउँमा रोक्नु पर्दछ?",
@@ -2964,7 +2964,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "भीडभाड भएको ठाउँमा",
             optionC = "पार्किङ लेखिएको ठाउँमा",
             optionD = "सडकको बीचमा",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "साइड रोडबाट मेन रोडमा प्रवेश गर्दा चालकले के गर्नुपर्छ?",
@@ -2972,7 +2972,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "मेनरोडको बीचमा गाडी रोक्ने",
             optionC = "सिग्नल दिएर सुरक्षित गतिमा प्रवेश गर्ने",
             optionD = "सिग्नल नदिइ प्रवेश गर्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सवारी ब्याक गर्दा के गर्नुपर्छ?",
@@ -2980,7 +2980,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "रियरभ्यु मिररद्वारा पछाडि सवारी/पदयात्री छ कि छैन हेर्ने",
             optionC = "गाडी रोकि झरेर पछाडि हेर्ने",
             optionD = "हर्न बजाउने",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "तपाईं आफ्नो सवारी स्टार्ट गर्नु भन्दा पहिले के गर्नुहुन्छ?",
@@ -2988,7 +2988,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "गियर चेक गर्नु",
             optionC = "ब्रेक तथा इन्डिकेटर लाइट चेक गर्नु",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "कस्तो अवस्थामा ह्यान्ड ब्रेक लगाउनु उपयुक्त हुन्छ?",
@@ -2996,7 +2996,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "गाडी रोकेर राख्दा",
             optionC = "गाडी रोक्न लग्दा",
             optionD = "छिटो रोक्नु पर्दा",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "सवारी दुर्घटना हुनुको कारण के हो?",
@@ -3004,7 +3004,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "मेसिनको गल्ती",
             optionC = "सडकको दुरावस्था",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "एकतर्फी बाटोमा अचानक लेन बदल्दा कुन गाडीसँग दुर्घटना हुने सम्भावना हुन्छ?",
@@ -3012,7 +3012,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "दायाँबाट आएको गाडीसँग",
             optionC = "बायाँबाट आएको गाडीसँग",
             optionD = "पछाडिबाट आएको गाडीसँग",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "गाडी ब्याक गर्दा के गर्नुपर्छ?",
@@ -3020,7 +3020,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "साईड मिरर हेर्ने",
             optionC = "एक्सिलेटर दबाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी चालकको अवस्था देहायक मध्ये कस्तो हुनु जरुरी हुन्छ?",
@@ -3028,7 +3028,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "नशा नगरेको",
             optionC = "मदिरा सेवन नगरेको",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "हतार भएको समयमा सवारी कसरी चलाउनु पर्छ?",
@@ -3036,7 +3036,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "ब्रेक लाइट बाल्दै, हात हल्लाउँदै चलाउने",
             optionC = "इमरजेन्सी लाइट बालि सुरक्षित गतिमा चलाउने",
             optionD = "जसरी भए पनि छिटो पुग्ने उपाय खोज्ने",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "टर्निङमा गाडी चलाउँदा कसरी चलाउनु पर्छ?",
@@ -3044,7 +3044,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "स्पीड कम गर्ने",
             optionC = "टर्निङ अगाडि नै २–३ पटक हर्न बजाउने",
             optionD = "माथिका सबै",
-            correctOptionIndex = 3
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी दुर्घटना हुँदा पीडित पक्षलाई क्षतिपूर्ति भराई दिने कर्तव्य कसको हो?",
@@ -3052,7 +3052,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "प्रमुख जिल्ला अधिकारी",
             optionC = "ट्राफिक प्रहरी",
             optionD = "यातायात व्यवस्था कार्यालय",
-            correctOptionIndex = 0
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "मादक पदार्थ सेवन गरी सवारी चलाउँदा के हुन्छ?",
@@ -3060,7 +3060,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "जरिवाना हुन्छ",
             optionC = "माथिका दुबै",
             optionD = "रमाइलो हुन्छ",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "सिटबेल्ट किन प्रयोग गर्नु पर्छ?",
@@ -3068,7 +3068,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "जरिवानाबाट बच्न",
             optionC = "सुरक्षित यात्राको लागि",
             optionD = "माथिका कुनै पनि होइन",
-            correctOptionIndex = 2
+            correctOptionIndex = 3
         ),
         Question(
             questionText = "दुर्घटनामा घाइते भएका व्यक्तिलाई सर्वप्रथम के गर्नु पर्छ?",
@@ -3076,7 +3076,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "प्राथमिक उपचार गर्नु पर्छ",
             optionC = "भिडबाट अलग गर्नु पर्छ",
             optionD = "केही गर्नु पर्दैन",
-            correctOptionIndex = 1
+            correctOptionIndex = 2
         ),
         Question(
             questionText = "दुर्घटनामा परेको घाइतेलाई तुरुन्त कुनै खानेकुरा खान दिन हुन्छ कि हुँदैन?",
@@ -3100,7 +3100,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "ट्राफिक प्रहरी अटिन",
             optionC = "सवारी साधन उभिन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 1
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारी साधन दायाँ मोड्दा के गर्नुपर्छ?",
@@ -3140,7 +3140,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "इन्जिन सञ्चालन सहज पार्न",
             optionC = "सवारी तीव्र गतिमा चलाउन",
             optionD = "माथिका सबै",
-            correctOptionIndex = 2
+            correctOptionIndex = 4
         ),
         Question(
             questionText = "सवारीबाट निस्कने कालो धुँवाले के संकेत गर्दछ?",
@@ -3156,7 +3156,7 @@ fun getCarQuestionsE(): List<Question> {
             optionB = "बढी स्पीडमा",
             optionC = "मोडमा",
             optionD = "माथिका सबै",
-            correctOptionIndex = 4
+            correctOptionIndex = 1
         )
     )
 
