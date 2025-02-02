@@ -25,6 +25,8 @@ import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 @Composable
 fun ExamModeScreen(
@@ -39,7 +41,7 @@ fun ExamModeScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color(0xFFEAF3FF))
+            .background(color = LightBackgroundColor)
     ) {
         Column(
             modifier = Modifier
@@ -71,7 +73,7 @@ fun ExamModeScreen(
                     onClick = {
                         navigateToResult(randomQuestions, selectedAnswers.toList())
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF617AD3)),
+                    colors = ButtonDefaults.buttonColors(containerColor = ButtonColor),
                     shape = RoundedCornerShape(16.dp),
                     modifier = Modifier
                         .fillMaxWidth()
@@ -92,7 +94,7 @@ fun ExamModeScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(56.dp),
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF617AD3)),
+                    colors = ButtonDefaults.buttonColors(containerColor = ButtonColor),
                     shape = RoundedCornerShape(16.dp),
                 ) {
                     Text(

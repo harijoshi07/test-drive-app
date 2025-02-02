@@ -24,6 +24,7 @@ import com.example.drivinglicenseexamapp.ui.screen.exam_mode_screen.ResultScreen
 import com.example.drivinglicenseexamapp.ui.screen.home_screen.HomeScreen
 import com.example.drivinglicenseexamapp.ui.screen.study_mode_screen.CategoryScreen
 import com.example.drivinglicenseexamapp.ui.screen.study_mode_screen.StudyScreen
+import com.example.drivinglicenseexamapp.ui.theme.BlueBackgroundColor
 
 @Composable
 fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
@@ -40,8 +41,8 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
 
             )
         },
-        containerColor = Color(0xFF617AD3)
-        //containerColor = Color(0xFFEAF3FF)
+        containerColor = BlueBackgroundColor
+        //containerColor = LightBackgroundColor
     ) { innerPadding ->
         NavHost(
             navController = navController,

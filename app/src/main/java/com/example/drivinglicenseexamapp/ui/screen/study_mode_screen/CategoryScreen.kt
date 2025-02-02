@@ -28,6 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.data.Category
 import com.example.drivinglicenseexamapp.data.itemCategory
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.CategoryCardColor
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 
 @Composable
@@ -40,7 +43,7 @@ fun CategoryScreen(
             .fillMaxSize()
             .padding(top = 10.dp),
         shape = RoundedCornerShape(topStartPercent = 8, topEndPercent = 8),
-        color = Color(0xFFEAF3FF)
+        color = LightBackgroundColor
     ) {
 
         LazyVerticalGrid(
@@ -61,8 +64,7 @@ fun CategoryCardItem(items: Category,navigateToStudy:()->Unit) {
 
     Card(
         colors = CardDefaults.cardColors(
-            //containerColor = Color(0x338E8FF3) //more vibrant & purple
-            containerColor = Color(0xFFEAF3FF) //bluish
+            containerColor = LightBackgroundColor //bluish
         ),
         modifier = Modifier
             .fillMaxWidth()
@@ -70,20 +72,20 @@ fun CategoryCardItem(items: Category,navigateToStudy:()->Unit) {
             .size(164.dp)
             .clickable {navigateToStudy() },
         shape = RoundedCornerShape(12),
-        border = BorderStroke(width = 1.dp, color = Color(0xFF617AD3))
+        border = BorderStroke(width = 1.dp, color = ButtonColor)
     ) {
 
         Card(
             colors = CardDefaults.cardColors(
-                containerColor = Color(0x338E8FF3),
-                contentColor = Color(0x338E8FF3)
+                containerColor = CategoryCardColor,
+                contentColor = CategoryCardColor
             ),
             modifier = Modifier
                 .fillMaxWidth()
                 .size(112.dp),
             shape = RoundedCornerShape(bottomStartPercent = 8, bottomEndPercent = 8),
 
-            border = BorderStroke(width = 1.dp, color = Color(0xFF617AD3))
+            border = BorderStroke(width = 1.dp, color = ButtonColor)
         ) {
             Image(
                 painter = painterResource(id = items.painterId),

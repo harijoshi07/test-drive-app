@@ -24,6 +24,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
 import com.example.drivinglicenseexamapp.data.Mode
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorCorrect
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorIncorrect
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorLightBlue
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorUnselected
 
 @Composable
 fun QuestionComponent(
@@ -106,15 +111,15 @@ fun AnswerComponent(
     val backgroundColor =
         if (mode == Mode.QUIZ_MODE) {
             when {
-                isSelected -> Color(0xFF617AD3)
-                else -> Color(0xFFEAF3FF)
+                isSelected -> ButtonColor
+                else -> ButtonColorUnselected
             }
         } else {
             when {
-                showCorrectAnswer && isSelected && isCorrect -> Color(0xFFC7E9A7) // Green for correct selection
-                showCorrectAnswer && isSelected && !isCorrect -> Color(0xFFEB8080) // Red for incorrect selection
-                showCorrectAnswer && isCorrect -> Color(0xFFC7E9A7) // Green for correct answer
-                else -> Color(0xFFEAF3FF) // Transparent gray for unselected answers
+                showCorrectAnswer && isSelected && isCorrect -> ButtonColorCorrect // Green for correct selection
+                showCorrectAnswer && isSelected && !isCorrect -> ButtonColorIncorrect // Red for incorrect selection
+                showCorrectAnswer && isCorrect -> ButtonColorCorrect // Green for correct answer
+                else -> ButtonColorUnselected // Transparent gray for unselected answers
             }
         }
 
@@ -128,7 +133,7 @@ fun AnswerComponent(
             .height(64.dp),
         colors = ButtonDefaults.buttonColors(containerColor = backgroundColor),
         shape = RoundedCornerShape(8.dp),
-        border = BorderStroke(width = 1.dp, color = Color(0xFF83BCFF))
+        border = BorderStroke(width = 1.dp, color = ButtonColorLightBlue)
 
     ) {
         Text(

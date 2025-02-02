@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavBackStackEntry
 import com.example.drivinglicenseexamapp.data.topBarTitle
 import com.example.drivinglicenseexamapp.navigation.Screen
+import com.example.drivinglicenseexamapp.ui.theme.BlueBackgroundColor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -88,8 +89,8 @@ fun HomeTopBar(scrollBehavior: TopAppBarScrollBehavior, modifier: Modifier = Mod
         scrollBehavior = scrollBehavior,
 
         colors = TopAppBarDefaults.topAppBarColors(
-            containerColor = Color(0xFF617AD3)
-            //containerColor = Color(0xFFEAF3FF)
+            containerColor = BlueBackgroundColor
+            //containerColor = LightBackgroundColor
         )
     )
 }
@@ -125,7 +126,7 @@ fun GeneralTopBar(
         scrollBehavior = scrollBehavior,
 
         colors = TopAppBarDefaults.topAppBarColors(
-            containerColor = Color(0xFF617AD3)
+            containerColor = BlueBackgroundColor
         )
     )
 

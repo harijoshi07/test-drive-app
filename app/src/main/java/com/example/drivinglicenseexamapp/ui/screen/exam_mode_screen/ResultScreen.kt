@@ -28,6 +28,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
+import com.example.drivinglicenseexamapp.ui.theme.BlueBackgroundColor
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorLightBlue
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 
 @Composable
@@ -39,11 +43,11 @@ fun ResultScreen(
     navigateToAnswer: () -> Unit, // Add navigation to AnswerScreen
 ) {
     Column(
-        modifier = Modifier.background(color = Color(0xFF617AD3))
+        modifier = Modifier.background(color = BlueBackgroundColor)
     ) {
         Card(
             colors = CardDefaults.cardColors(
-                containerColor =  Color(0xFFEAF3FF)
+                containerColor =  LightBackgroundColor
             ),
             modifier = Modifier
                 .fillMaxSize()
@@ -63,7 +67,7 @@ fun ResultScreen(
                             .padding(horizontal = 16.dp)
                             .height(50.dp),
                         colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF617AD3)
+                            containerColor = ButtonColor
                         ),
                         shape = RoundedCornerShape(16.dp)
                     ) {
@@ -73,7 +77,7 @@ fun ResultScreen(
                     Button(
                         onClick = navigateToHome,
                         colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF617AD3)
+                            containerColor = ButtonColor
                         ),
                         shape = RoundedCornerShape(16.dp),
                         modifier = Modifier
@@ -106,7 +110,7 @@ fun BoxResult(
     Column(modifier = Modifier.padding(16.dp)) {
         Card(
             colors = CardDefaults.cardColors(
-                containerColor = Color(0xFF617AD3)
+                containerColor = BlueBackgroundColor
             ),
             modifier = Modifier
                 .fillMaxWidth()
@@ -130,7 +134,7 @@ fun BoxResult(
                 Button(
                     onClick = navigateToQuiz,
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFF83BCFF)
+                        containerColor = ButtonColorLightBlue
                     ),
                     modifier = Modifier
                         .fillMaxWidth()

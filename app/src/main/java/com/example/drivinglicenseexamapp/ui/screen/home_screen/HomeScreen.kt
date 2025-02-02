@@ -40,6 +40,10 @@ import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
 import androidx.compose.runtime.*
 import com.example.drivinglicenseexamapp.data.VehicleType
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColorUnselected
+import com.example.drivinglicenseexamapp.ui.theme.CardColor
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
@@ -48,10 +52,6 @@ fun HomeScreen(
     navigateToQuiz: (String) -> Unit,
     navigateToUltimateGuide: () -> Unit,
 ) {
-    val backgroundColor = Color(0xFFEAF3FF) // Light theme background
-    val cardBackgroundColor = Color(0xFFDAEAFF) // Blueish card color
-    val buttonColor = Color(0xFF617AD3) // Consistent blue for buttons
-    val buttonTextColor = Color.White // White text for buttons
 
     var selectedMode by remember { mutableStateOf("Study Mode") }
 
@@ -59,7 +59,7 @@ fun HomeScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(
-                backgroundColor,
+                LightBackgroundColor,
                 shape = RoundedCornerShape(topStartPercent = 8, topEndPercent = 8)
             )
             .padding(horizontal = 32.dp, vertical = 8.dp),
@@ -70,7 +70,7 @@ fun HomeScreen(
         Box(
             modifier = Modifier
                 .background(
-                    color = Color(0xFFDAEAFF),
+                    color = CardColor,
                     shape = RoundedCornerShape(12.dp)
                 )
         ) {
@@ -82,17 +82,11 @@ fun HomeScreen(
                     text = "Study Mode",
                     isSelected = selectedMode == "Study Mode",
                     onClick = { selectedMode = "Study Mode" },
-                    selectedColor = buttonColor,
-                    deselectedColor = backgroundColor,
-                    textColor = buttonTextColor
                 )
                 HomeScreenButton(
                     text = "Exam Mode",
                     isSelected = selectedMode == "Exam Mode",
                     onClick = { selectedMode = "Exam Mode" },
-                    selectedColor = buttonColor,
-                    deselectedColor = backgroundColor,
-                    textColor = buttonTextColor
                 )
             }
         }
@@ -117,7 +111,6 @@ fun HomeScreen(
                     title = "Bike - Scooter",
                     subtitle = "Category A - K",
                     icon = R.drawable.bike0,
-                    backgroundColor = cardBackgroundColor,
                     onClick = {
                         if (mode == "Study Mode") navigateToCategory(VehicleType.BIKE)
                         else navigateToQuiz(VehicleType.BIKE)
@@ -127,7 +120,6 @@ fun HomeScreen(
                     title = "Car",
                     subtitle = "Category B",
                     icon = R.drawable.car1,
-                    backgroundColor = cardBackgroundColor,
                     onClick = {
                         if (mode == "Study Mode") navigateToCategory(VehicleType.CAR)
                         else navigateToQuiz(VehicleType.CAR)
@@ -146,14 +138,11 @@ fun HomeScreenButton(
     text: String,
     isSelected: Boolean,
     onClick: () -> Unit,
-    selectedColor: Color,
-    deselectedColor: Color,
-    textColor: Color
 ) {
     Button(
         onClick = onClick,
         colors = ButtonDefaults.buttonColors(
-            containerColor = if (isSelected) selectedColor else deselectedColor
+            containerColor = if (isSelected) ButtonColor else ButtonColorUnselected
         ),
         shape = RoundedCornerShape(16.dp),
         modifier = Modifier
@@ -161,7 +150,7 @@ fun HomeScreenButton(
     ) {
         Text(
             text = text,
-            color = if (isSelected) textColor else selectedColor
+            color = if (isSelected) Color.White else ButtonColor
         )
     }
 }
@@ -171,13 +160,12 @@ fun HomeScreenCard(
     title: String,
     subtitle: String,
     @DrawableRes icon: Int,
-    backgroundColor: Color,
     onClick: () -> Unit
 ) {
     Card(
         onClick = onClick, // Use onClick here for better integration
-        colors = CardDefaults.cardColors(containerColor = backgroundColor),
-        border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+        colors = CardDefaults.cardColors(containerColor = CardColor),
+        border = BorderStroke(width = 0.25.dp, color = ButtonColor),
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier
             .fillMaxWidth()
@@ -208,9 +196,9 @@ fun HomeScreenCard(
                 contentDescription = title,
                 tint = Color.Unspecified,
                 modifier = Modifier
-                    //.height(160.dp)
-                    //.width(260.dp)
-                    .align(Alignment.CenterHorizontally)
+                    .height(160.dp)
+                    .width(260.dp)
+                    //.align(Alignment.CenterHorizontally)
             )
         }
 
@@ -223,14 +211,12 @@ fun HomeScreenCard(
 @Composable
 fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
 
-    val cardBackgroundColor = Color(0xFFDAEAFF) // Blueish card color
-    val buttonColor = Color(0xFF617AD3) // Consistent blue for buttons
 
 
     Card(
-        colors = CardDefaults.cardColors(containerColor = cardBackgroundColor),
+        colors = CardDefaults.cardColors(containerColor = CardColor),
         shape = RoundedCornerShape(12.dp),
-        border = BorderStroke(width = 0.25.dp, color = Color(0xFF617AD3)),
+        border = BorderStroke(width = 0.25.dp, color = ButtonColor),
         modifier = Modifier.clickable { }
     ) {
         Column(
@@ -254,7 +240,7 @@ fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
             )
             Button(
                 onClick = navigateToUltimateGuide,
-                colors = ButtonDefaults.buttonColors(containerColor = buttonColor)
+                colors = ButtonDefaults.buttonColors(containerColor = ButtonColor)
             ) {
                 Text(
                     text = "Let's Start",

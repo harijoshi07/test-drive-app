@@ -38,6 +38,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.data.phases
+import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 
 @Composable
@@ -47,7 +49,7 @@ fun UltimateGuideScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color(0xFFEAF3FF), RoundedCornerShape(topStartPercent = 12, topEndPercent = 12))
+            .background(color = LightBackgroundColor, RoundedCornerShape(topStartPercent = 12, topEndPercent = 12))
     ) {
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(top = 24.dp),
@@ -105,9 +107,9 @@ fun ExpandableCard(
             .padding(8.dp),
         shape = RoundedCornerShape(8.dp),
         elevation = CardDefaults.cardElevation(2.dp),
-        border = BorderStroke(width = 0.5.dp, color = Color(0xFF617AD3) ),
+        border = BorderStroke(width = 0.5.dp, color = ButtonColor ),
         colors = CardDefaults.cardColors(
-            containerColor = Color(0xFFEAF3FF)
+            containerColor = LightBackgroundColor
         )
     ) {
         Column {
@@ -123,7 +125,7 @@ fun ExpandableCard(
                     imageVector = icon,
                     contentDescription = null,
                     modifier = Modifier.size(40.dp),
-                    tint = Color(0xFF617AD3)
+                    tint = ButtonColor
                 )
 
                 Spacer(modifier = Modifier.width(16.dp))
@@ -148,7 +150,7 @@ fun ExpandableCard(
                 Icon(
                     imageVector = if (isExpanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
                     contentDescription = if (isExpanded) "Collapse" else "Expand",
-                    tint = Color(0xFF617AD3)
+                    tint = ButtonColor
                 )
             }
 

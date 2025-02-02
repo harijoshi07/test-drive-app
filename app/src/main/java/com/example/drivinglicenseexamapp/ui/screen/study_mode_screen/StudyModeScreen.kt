@@ -12,6 +12,7 @@ import com.example.drivinglicenseexamapp.R
 import com.example.drivinglicenseexamapp.data.Mode
 import com.example.drivinglicenseexamapp.data.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
+import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 
 
 @Composable
@@ -23,7 +24,7 @@ fun StudyScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color(0xFFEAF3FF))
+            .background(color = LightBackgroundColor)
     ) {
         Column(
             modifier = Modifier
