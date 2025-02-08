@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp.data
+package com.example.drivinglicenseexamapp.data.model
 
 import com.example.drivinglicenseexamapp.R
 

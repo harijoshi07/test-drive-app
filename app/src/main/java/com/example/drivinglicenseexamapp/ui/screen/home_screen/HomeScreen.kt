@@ -20,7 +20,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -39,7 +41,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.drivinglicenseexamapp.R
 import androidx.compose.runtime.*
-import com.example.drivinglicenseexamapp.data.VehicleType
+import com.example.drivinglicenseexamapp.data.constants.VehicleType
 import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
 import com.example.drivinglicenseexamapp.ui.theme.ButtonColorUnselected
 import com.example.drivinglicenseexamapp.ui.theme.CardColor
@@ -54,6 +56,7 @@ fun HomeScreen(
 ) {
 
     var selectedMode by remember { mutableStateOf("Study Mode") }
+    val state = rememberScrollState()
 
     Column(
         modifier = Modifier
@@ -62,7 +65,8 @@ fun HomeScreen(
                 LightBackgroundColor,
                 shape = RoundedCornerShape(topStartPercent = 8, topEndPercent = 8)
             )
-            .padding(horizontal = 32.dp, vertical = 8.dp),
+            .padding(horizontal = 32.dp)
+            .verticalScroll(state),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Spacer(Modifier.height(4.dp))
@@ -214,7 +218,7 @@ fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
         colors = CardDefaults.cardColors(containerColor = CardColor),
         shape = RoundedCornerShape(12.dp),
         border = BorderStroke(width = 0.25.dp, color = ButtonColor),
-        modifier = Modifier.clickable { }
+        onClick = navigateToUltimateGuide
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -249,7 +253,7 @@ fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
 
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, heightDp = 800)
 @Composable
 private fun PreviewHomeScreen() {
     HomeScreen({}, {}, {})

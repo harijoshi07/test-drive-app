@@ -11,7 +11,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -42,12 +44,15 @@ fun ResultScreen(
     navigateToHome: () -> Unit,
     navigateToAnswer: () -> Unit,
 ) {
+
+    val state = rememberScrollState()
+
     Column(
         modifier = Modifier.background(color = BlueBackgroundColor)
     ) {
         Card(
             colors = CardDefaults.cardColors(
-                containerColor =  LightBackgroundColor
+                containerColor = LightBackgroundColor
             ),
             modifier = Modifier
                 .fillMaxSize()
@@ -55,7 +60,9 @@ fun ResultScreen(
         ) {
             Column(
                 verticalArrangement = Arrangement.SpaceBetween,
-                modifier = Modifier.fillMaxSize()
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(state)
             ) {
                 BoxResult(correctAnswer, size, navigateToQuiz)
 
@@ -71,7 +78,12 @@ fun ResultScreen(
                         ),
                         shape = RoundedCornerShape(16.dp)
                     ) {
-                        Text(text = "Show Answer", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White)
+                        Text(
+                            text = "Show Answer",
+                            fontSize = 24.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White
+                        )
                     }
 
                     Button(
@@ -97,7 +109,6 @@ fun ResultScreen(
         }
     }
 }
-
 
 
 @Composable
@@ -136,6 +147,7 @@ fun BoxResult(
                     colors = ButtonDefaults.buttonColors(
                         containerColor = ButtonColorLightBlue
                     ),
+                    shape = RoundedCornerShape(16.dp),
                     modifier = Modifier
                         .fillMaxWidth()
                         .size(50.dp)
@@ -202,7 +214,7 @@ fun TextResult(
 @Composable
 private fun QuizResultScreenPreview() {
 
-    ResultScreen( correctAnswer = 1, size = 5,  {}, {},{})
+    ResultScreen(correctAnswer = 1, size = 5, {}, {}, {})
     //BoxResult()
     //TextResult(title = "title", value = "value")
 

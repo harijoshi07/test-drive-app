@@ -22,8 +22,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.drivinglicenseexamapp.data.Question
-import com.example.drivinglicenseexamapp.data.Mode
+import com.example.drivinglicenseexamapp.data.constants.Mode
+import com.example.drivinglicenseexamapp.data.model.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 import com.example.drivinglicenseexamapp.ui.theme.ButtonColor
 import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor

@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp.data
+package com.example.drivinglicenseexamapp.data.constants
 
 import com.example.drivinglicenseexamapp.navigation.Screen
 

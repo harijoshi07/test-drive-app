@@ -1,18 +1,18 @@
 package com.example.drivinglicenseexamapp.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.example.drivinglicenseexamapp.data.Question
-import com.example.drivinglicenseexamapp.data.getBikeQuestionsA
-import com.example.drivinglicenseexamapp.data.getBikeQuestionsB
-import com.example.drivinglicenseexamapp.data.getBikeQuestionsC
-import com.example.drivinglicenseexamapp.data.getBikeQuestionsD
-import com.example.drivinglicenseexamapp.data.getBikeQuestionsE
-import com.example.drivinglicenseexamapp.data.getCarQuestionsA
-import com.example.drivinglicenseexamapp.data.getCarQuestionsB
-import com.example.drivinglicenseexamapp.data.getCarQuestionsC
-import com.example.drivinglicenseexamapp.data.getCarQuestionsD
-import com.example.drivinglicenseexamapp.data.getCarQuestionsE
-import com.example.drivinglicenseexamapp.data.getCommonQuestions
+import com.example.drivinglicenseexamapp.data.model.Question
+import com.example.drivinglicenseexamapp.data.questions.getBikeQuestionsA
+import com.example.drivinglicenseexamapp.data.questions.getBikeQuestionsB
+import com.example.drivinglicenseexamapp.data.questions.getBikeQuestionsC
+import com.example.drivinglicenseexamapp.data.questions.getBikeQuestionsD
+import com.example.drivinglicenseexamapp.data.questions.getBikeQuestionsE
+import com.example.drivinglicenseexamapp.data.questions.getCarQuestionsA
+import com.example.drivinglicenseexamapp.data.questions.getCarQuestionsB
+import com.example.drivinglicenseexamapp.data.questions.getCarQuestionsC
+import com.example.drivinglicenseexamapp.data.questions.getCarQuestionsD
+import com.example.drivinglicenseexamapp.data.questions.getCarQuestionsE
+import com.example.drivinglicenseexamapp.data.questions.getCommonQuestions
 
 class QuestionViewModel: ViewModel(){
 
@@ -25,13 +25,13 @@ class QuestionViewModel: ViewModel(){
         "ट्राफिक संकेत" to getCommonQuestions()
     )
 
-    // Get all questions by category
+    // Get list of questions by category
     fun getBikeQuestionsByCategory(categoryTitle: String): List<Question> {
         return bikeCategoryQuestions[categoryTitle] ?: emptyList()
     }
 
     fun getBikeQuizQuestions(): List<Question> {
-        // Specify the number of questions from each category
+
         val questionDistribution = mapOf(
             "सवारी सञ्चालन" to 6,
             "सवारी कानुन" to 5,
@@ -41,7 +41,7 @@ class QuestionViewModel: ViewModel(){
             "ट्राफिक संकेत" to 6
         )
 
-        // Collect and shuffle questions from each category
+        // Collect and shuffle questions
         return questionDistribution.flatMap { (category, count) ->
             bikeCategoryQuestions[category]
                 ?.shuffled()
@@ -70,7 +70,7 @@ class QuestionViewModel: ViewModel(){
 
 
     fun getCarQuizQuestions(): List<Question> {
-        // Specify the number of questions from each category
+
         val questionDistribution = mapOf(
             "सवारी सञ्चालन" to 6,
             "सवारी कानुन" to 5,
@@ -80,7 +80,7 @@ class QuestionViewModel: ViewModel(){
             "ट्राफिक संकेत" to 6
         )
 
-        // Collect and shuffle questions from each category
+        // Collect and shuffle questions
         return questionDistribution.flatMap { (category, count) ->
             carCategoryQuestions[category]
                 ?.shuffled()

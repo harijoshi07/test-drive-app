@@ -1,4 +1,6 @@
-package com.example.drivinglicenseexamapp.data
+package com.example.drivinglicenseexamapp.data.questions
+
+import com.example.drivinglicenseexamapp.data.model.Question
 
 
 fun getCarQuestionsA(): List<Question> {
@@ -2353,35 +2355,35 @@ fun getCarQuestionsC(): List<Question> {
             optionC = "ब्रेकमा",
             optionD = "कुनै पनि होइन",
             correctOptionIndex = 4
-        ),Question(
+        ), Question(
             questionText = "ब्रेकले केमा काम गर्दैन?",
             optionA = "इन्जिनमा",
             optionB = "गियरमा",
             optionC = "स्टेरिङमा",
             optionD = "माथिका सबै",
             correctOptionIndex = 4
-        ),Question(
+        ), Question(
             questionText = "सवारी साधनमा बिजुलीको मुख्य स्रोत कुन हो?",
             optionA = "इन्धन",
             optionB = "इन्जिन",
             optionC = "डायनामो",
             optionD = "कुनै पनि होइन",
             correctOptionIndex = 4
-        ),Question(
+        ), Question(
             questionText = "मोबिललाई विभिन्न पार्टपुर्जामा पुर्याउने काम के ले गर्छ?",
             optionA = "चोकले",
             optionB = "आयल पम्पले",
             optionC = "काबुरेटरले",
             optionD = "माथिका सबै",
             correctOptionIndex = 2
-        ),Question(
+        ), Question(
             questionText = "इन्जिनमा कुन तेल हालिन्छ?",
             optionA = "मट्टितेल तेल",
             optionB = "ब्रेक आयल",
             optionC = "इन्जिन आयल",
             optionD = "डिजेल आयल",
             correctOptionIndex = 3
-        ),Question(
+        ), Question(
             questionText = "डिजेल इन्जिन स्टार्ट हुन के को आवश्यकता पर्छ?",
             optionA = "डिजेल र हावा",
             optionB = "स्पार्क प्लग",

@@ -1,6 +1,6 @@
-package com.example.drivinglicenseexamapp.data
+package com.example.drivinglicenseexamapp.data.questions
 
-import com.example.drivinglicenseexamapp.R
+import com.example.drivinglicenseexamapp.data.model.Question
 
 fun getBikeQuestionsA(): List<Question> {
 

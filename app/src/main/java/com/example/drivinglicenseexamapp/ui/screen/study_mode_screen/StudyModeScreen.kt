@@ -5,12 +5,11 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.drivinglicenseexamapp.R
-import com.example.drivinglicenseexamapp.data.Mode
-import com.example.drivinglicenseexamapp.data.Question
+import com.example.drivinglicenseexamapp.data.constants.Mode
+import com.example.drivinglicenseexamapp.data.model.Question
 import com.example.drivinglicenseexamapp.ui.component.QuestionComponent
 import com.example.drivinglicenseexamapp.ui.theme.LightBackgroundColor
 

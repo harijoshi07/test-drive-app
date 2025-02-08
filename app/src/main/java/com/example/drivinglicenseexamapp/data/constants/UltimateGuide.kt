@@ -1,4 +1,4 @@
-package com.example.drivinglicenseexamapp.data
+package com.example.drivinglicenseexamapp.data.constants
 
 data class Phase(val title: String, val subtitle: String, val steps: List<Pair<String, List<String>?>>)
 
