@@ -169,10 +169,10 @@ fun HomeScreenCard(
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier
             .fillMaxWidth()
-            .padding(4.dp) // Add padding outside the card to prevent overlap
+            .padding(4.dp)
     ) {
         Column(
-            modifier = Modifier.padding(16.dp), // Only padding here
+            modifier = Modifier.padding(16.dp),
         ) {
             Column {
                 Text(
@@ -198,7 +198,6 @@ fun HomeScreenCard(
                 modifier = Modifier
                     .height(160.dp)
                     .width(260.dp)
-                    //.align(Alignment.CenterHorizontally)
             )
         }
 
@@ -210,8 +209,6 @@ fun HomeScreenCard(
 
 @Composable
 fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
-
-
 
     Card(
         colors = CardDefaults.cardColors(containerColor = CardColor),
@@ -249,7 +246,7 @@ fun UltimateGuideCard(navigateToUltimateGuide: () -> Unit) {
             }
         }
     }
-    
+
 }
 
 @Preview(showBackground = true)

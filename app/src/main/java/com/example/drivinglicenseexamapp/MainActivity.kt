@@ -20,6 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DrivingLicenseExamAppTheme {
                 AppNavigation()
+                //TestScreen()
             }
         }
     }
