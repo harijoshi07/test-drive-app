@@ -40,7 +40,7 @@ fun ResultScreen(
     size: Int,
     navigateToQuiz: () -> Unit,
     navigateToHome: () -> Unit,
-    navigateToAnswer: () -> Unit, // Add navigation to AnswerScreen
+    navigateToAnswer: () -> Unit,
 ) {
     Column(
         modifier = Modifier.background(color = BlueBackgroundColor)
@@ -59,9 +59,9 @@ fun ResultScreen(
             ) {
                 BoxResult(correctAnswer, size, navigateToQuiz)
 
-                Column {
+                Column(verticalArrangement = Arrangement.Bottom) {
                     Button(
-                        onClick = navigateToAnswer, // Navigate to AnswerScreen
+                        onClick = navigateToAnswer,
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(horizontal = 16.dp)

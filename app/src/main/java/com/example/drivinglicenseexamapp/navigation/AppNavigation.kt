@@ -118,7 +118,7 @@ fun AppNavigation(viewModel: QuestionViewModel = viewModel()) {
                     ?.get<List<Int?>>("selectedAnswers") ?: emptyList()
 
                 val correctCount = questions.indices.count {
-                    selectedAnswers.getOrNull(it) == questions[it].correctOptionIndex
+                    selectedAnswers.getOrNull(it) == (questions[it].correctOptionIndex - 1)
                 }
 
                 ResultScreen(

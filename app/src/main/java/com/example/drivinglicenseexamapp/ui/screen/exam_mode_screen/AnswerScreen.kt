@@ -43,7 +43,7 @@ fun AnswerScreen(
                     val selectedAnswer = selectedAnswers.getOrNull(index)
 
                     if (question != null && selectedAnswer != null) {
-                        val isCorrect = selectedAnswer == question.correctOptionIndex
+                        val isCorrect = selectedAnswer == question.correctOptionIndex - 1
 
                         QuestionComponent(
                             questionNumber = index + 1,
@@ -55,7 +55,7 @@ fun AnswerScreen(
                                 question.optionD
                             ),
                             selectedAnswer = selectedAnswer,
-                            correctAnswer = question.correctOptionIndex,
+                            correctAnswer = question.correctOptionIndex - 1,
                             onAnswerSelected = {}, // No selection allowed in results
                             mode = Mode.RESULT_MODE
                         )
